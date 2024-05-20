@@ -3,6 +3,7 @@ import NavMenu from "@/components/NavMenu/page";
 import Image from "next/image";
 
 export default function Home() {
+  //coment
   return (
     <main className="flex flex-col items-center">
       <header className="w-full">
