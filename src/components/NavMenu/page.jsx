@@ -27,7 +27,7 @@ export default function NavMenu(props) {
             <span className="mt-1">
               <RiGraduationCapLine />
             </span>
-            Teacher Resources
+            <a href="/TeacherResourses">Teacher Resources</a>
           </li>
           <li className="bg-[#006cb7] text-xs font-bold text-white py-2 px-4 hover:bg-[#00528c] cursor-pointer">
             REQUEST A MEETING
