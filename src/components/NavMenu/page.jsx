@@ -1,29 +1,49 @@
+"use client";
 import Image from "next/image";
 import { RiGraduationCapLine } from "react-icons/ri";
 import { RiSearchLine } from "react-icons/ri";
 import { BsCart3 } from "react-icons/bs";
+import { useState, useEffect } from "react";
+import { IoMdMenu } from "react-icons/io";
+import { IoMdClose } from "react-icons/io";
+import SubMenuNav from "../SubMenuNav/page";
+import MenuResponsive from "../MenuResponsive/page";
 
 export default function NavMenu(props) {
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [menuResp, setMenuResp] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      setIsScrolled(currentScrollY > 44);
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <nav className="w-full h-20 bg-[#f5f5f5] justify-center flex text-sm">
-      <div className="h-full w-10/12 flex justify-between">
-        <ul className="h-full flex gap-9 justify-center items-center ">
-          <li className="cursor-pointer">
+    <nav
+      className={`w-full h-20 bg-[#f5f5f5] justify-center flex text-sm font-[cerapro] z-50 ${isScrolled ? "fixed top-0" : "relative"}`}
+    >
+      <div className="h-full w-10/12 flex justify-between z-40">
+        <div className="flex flex-row items-center gap-6">
+          <a href="/" className="cursor-pointer">
             <Image
               src="/img/legoEducation.svg"
               width={110}
               height={27}
               alt="Lego education Logo"
             />
-          </li>
-          <li className="hover:text-[#4f6cbd] cursor-pointer">
-            Pre-K & Kindergarten
-          </li>
-          <li className="hover:text-[#4f6cbd] cursor-pointer">Elementary</li>
-          <li className="hover:text-[#4f6cbd] cursor-pointer">Middle</li>
-        </ul>
+          </a>
+          <div className="hidden lg:flex">
+            <SubMenuNav />
+          </div>
+        </div>
         <ul className="flex gap-5 items-center">
-          <li className="flex gap-2 hover:text-[#4f6cbd] cursor-pointer">
+          <li className="hidden sm:flex gap-2 hover:text-[#4f6cbd] cursor-pointer">
             <span className="mt-1">
               <RiGraduationCapLine />
             </span>
@@ -38,8 +58,15 @@ export default function NavMenu(props) {
           <li className="text-xl hover:text-[#4f6cbd] cursor-pointer">
             <BsCart3 />
           </li>
+          <li
+            onClick={() => setMenuResp(!menuResp)}
+            className="block lg:hidden text-2xl hover:text-[#4f6cbd] cursor-pointer"
+          >
+            {menuResp ? <IoMdClose /> : <IoMdMenu />}
+          </li>
         </ul>
       </div>
+      {menuResp && <MenuResponsive />}
     </nav>
   );
 }

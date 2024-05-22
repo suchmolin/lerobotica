@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    @font-face {
-      font-family: 'cerapro';
-      font-style: normal;
-      font-weight: 400;
-      font-display: swap;
-      src: url(/fonts/CeraPro-Regular.ttf) format('ttf');
-    }
+  @font-face {
+    font-family: 'cerapro';
+    src: url('/fonts/CeraPro-Regular.ttf');
   }
+
+.customShadow{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.zfull{
+  z-index: 100;
+}

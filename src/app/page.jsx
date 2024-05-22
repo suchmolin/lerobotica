@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Home() {
   //coment
   return (
-    <main className="flex flex-col items-center">
+    <main className="flex flex-col items-center font-[cerapro]">
       <header className="w-full">
         <NavLang />
         <NavMenu />
