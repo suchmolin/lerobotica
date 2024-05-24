@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { RiGraduationCapLine } from "react-icons/ri";
+
 import { RiSearchLine } from "react-icons/ri";
 import { BsCart3 } from "react-icons/bs";
 import { useState, useEffect } from "react";
@@ -8,6 +8,8 @@ import { IoMdMenu } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
 import SubMenuNav from "../SubMenuNav/page";
 import MenuResponsive from "../MenuResponsive/page";
+import TeacherResoursesButton from "../TeacherResoursesButton/page";
+import RequestMeetingButton from "../RequestMeetingButton/page";
 
 export default function NavMenu(props) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -42,15 +44,12 @@ export default function NavMenu(props) {
             <SubMenuNav />
           </div>
         </div>
-        <ul className="flex gap-5 items-center">
+        <ul className="flex gap-4 items-center">
           <li className="hidden sm:flex gap-2 hover:text-[#4f6cbd] cursor-pointer">
-            <span className="mt-1">
-              <RiGraduationCapLine />
-            </span>
-            <a href="/TeacherResourses">Teacher Resources</a>
+            <TeacherResoursesButton />
           </li>
-          <li className="bg-[#006cb7] text-xs font-bold text-white py-2 px-4 hover:bg-[#00528c] cursor-pointer">
-            REQUEST A MEETING
+          <li className="hidden sm:block">
+            <RequestMeetingButton />
           </li>
           <li className="text-2xl hover:text-[#4f6cbd] cursor-pointer">
             <RiSearchLine />

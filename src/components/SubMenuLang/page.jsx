@@ -1,7 +1,7 @@
 import Image from "next/image";
 const SubMenuLang = () => {
   return (
-    <ul className="flex gap-3 lg:gap-7 h-fit lg:h-full w-10/12 text-sm flex-col lg:flex-row lg:items-center lg:justify-end pl-8 lg:pl-0 mt-3 lg:mt-0">
+    <ul className="flex gap-3 lg:gap-7 h-fit lg:h-full w-10/12 text-sm flex-col lg:flex-row lg:items-center lg:justify-end mt-3 lg:mt-0">
       <li className="hover:text-[#4f6cbd] cursor-pointer">Our Story</li>
       <li className="hover:text-[#4f6cbd] cursor-pointer">Blog</li>
       <li className="hover:text-[#4f6cbd] cursor-pointer">Support</li>

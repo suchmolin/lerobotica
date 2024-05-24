@@ -32,7 +32,7 @@ export default function LessonCard(props) {
             <p className="text-md mt-5 font-light">{item.description}</p>
             <div className="absolute bottom-10">
               <p className="text-sm mt-20">{item.categories}</p>
-              <div className="flex flex-row gap-7 font-light mt-3 text-md">
+              <div className="flex flex-row gap-2 font-light mt-3 text-sm">
                 <p>{item.duration}</p>
                 <p>{item.level}</p>
                 <p>{item.grade}</p>
