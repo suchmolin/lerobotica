@@ -1,7 +1,7 @@
 import Image from "next/image";
 import SubMenuLang from "../SubMenuLang/page";
 import SubMenuNav from "../SubMenuNav/page";
-import TeacherResourcesButton from "../TeacherResoursesButton/page";
+import TeacherResourcesButton from "../TeacherResourcesButton/page";
 import RequestMeetingButton from "../RequestMeetingButton/page";
 const MenuResponsive = () => {
   return (

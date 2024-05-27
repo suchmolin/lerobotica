@@ -2,16 +2,9 @@ import { Fragment, useEffect, useState } from "react";
 import { Combobox, Transition } from "@headlessui/react";
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
 
-const people = [
-  { id: 1, name: "Wade Cooper" },
-  { id: 2, name: "Arlene Mccoy" },
-  { id: 3, name: "Devon Webb" },
-  { id: 4, name: "Tom Cook" },
-  { id: 5, name: "Tanya Fox" },
-  { id: 6, name: "Hellen Schmidt" },
-];
-
-export default function MultiSelect() {
+export default function MultiSelect(props) {
+  const { data, placeHolder, state, seter } = props;
+  const people = data;
   const [selectedPeople, setSelectedPeople] = useState([]);
   const [query, setQuery] = useState("");
 
@@ -25,19 +18,16 @@ export default function MultiSelect() {
             .includes(query.toLowerCase().replace(/\s+/g, ""))
         );
 
-  useEffect(() => {
-    console.log(selectedPeople);
-  }, [selectedPeople]);
   return (
-    <Combobox value={selectedPeople} onChange={setSelectedPeople} multiple>
+    <Combobox value={state} onChange={seter} multiple>
       <div className="relative cursor-pointer">
-        <div className="relative w-full cursor-pointer overflow-hidden rounded-lg bg-white text-left shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-[#00528c] sm:text-sm">
+        <div className="relative w-full cursor-pointer overflow-hidden rounded-lg bg-white text-left shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-[#00528c] md:text-xs">
           <Combobox.Input
-            className="w-full border-none py-2 pl-3 pr-10 text-sm leading-5 text-gray-900 focus:ring-0"
+            className="w-full border-none py-2 pl-3 pr-28 text-sm leading-5 text-gray-900 focus:ring-0"
             displayValue={(people) =>
               people.map((person) => person.name).join(", ")
             }
-            placeholder="Select people..."
+            placeholder={placeHolder}
             disabled
           />
           <Combobox.Button className="absolute inset-y-0 right-0 flex items-center pr-2">

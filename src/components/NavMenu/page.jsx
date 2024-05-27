@@ -8,7 +8,7 @@ import { IoMdMenu } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
 import SubMenuNav from "../SubMenuNav/page";
 import MenuResponsive from "../MenuResponsive/page";
-import TeacherResoursesButton from "../TeacherResoursesButton/page";
+import TeacherResourcesButton from "../TeacherResourcesButton/page";
 import RequestMeetingButton from "../RequestMeetingButton/page";
 
 export default function NavMenu(props) {
@@ -46,7 +46,7 @@ export default function NavMenu(props) {
         </div>
         <ul className="flex gap-4 items-center">
           <li className="hidden sm:flex gap-2 hover:text-[#4f6cbd] cursor-pointer">
-            <TeacherResoursesButton />
+            <TeacherResourcesButton />
           </li>
           <li className="hidden sm:block">
             <RequestMeetingButton />

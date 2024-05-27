@@ -5,7 +5,7 @@ const TeacherResourcesButton = () => {
       <span className="mt-1">
         <RiGraduationCapLine />
       </span>
-      <a href="/TeacherResourses">Teacher Resources</a>
+      <a href="/TeacherResources">Teacher Resources</a>
     </div>
   );
 };
