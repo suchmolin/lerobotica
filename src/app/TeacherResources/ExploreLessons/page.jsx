@@ -120,9 +120,6 @@ export default function ExploreLessons(props) {
         setCount={setCount}
         dataLength={showLessons.length}
       />
-      <a href="/TeacherResources/ExploreLessons/El monstruo de la ira de Jeesun">
-        Testing lesson info
-      </a>
     </div>
   );
 }
