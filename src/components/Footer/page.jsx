@@ -18,11 +18,11 @@ const Footer = () => {
 
         <div className="w-full lg:w-10/12 h-[400px] sm:h-[300px] bg-[#ffd500] text-center text-black lg:rounded-t-xl flex flex-col justify-center items-center">
           <h2 className="text-2xl sm:text-4xl font-bold w-10/12 md:w-6/12 py-2">
-            Bring LEGO® Education to your school or district
+            Trae a Lerobotica a tu escuela o distrito
           </h2>
           <p className="text-lg">
-            Our team of experts is here to help find the solution that fits your
-            students’ needs.
+            Nuestro equipo de expertos está aquí para ayudarte a encontrar la
+            solución que se adapte a las necesidades de tus estudiantes.
           </p>
           <div className="py-2 mt-4">
             <RequestMeetingButton />

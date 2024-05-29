@@ -16,10 +16,10 @@ const TeacherResourcesCards = () => {
             <div className="w-full p-4">
               <HiOutlineLightBulb className="text-4xl text-yellow-500 mb-3" />
               <h3 className="text-2xl font-bold text-gray-800 font-[cerapro]">
-                Explore Lessons
+                Explorar Lecciones
               </h3>
               <p className="text-gray-600 font-[cerapro] mb-10">
-                Ready to use materials for your classroom.
+                Listo para usar materiales para tu salón de clases.
               </p>
             </div>
           </a>

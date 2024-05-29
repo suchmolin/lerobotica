@@ -12,6 +12,7 @@ export default function ExploreLessons(props) {
   const [count, setCount] = useState(12);
   const [selectedProducts, setSelectedProducts] = useState([]);
   const [selectedEtapas, setSelectedEtapas] = useState([]);
+  const [search, setSearch] = useState("");
   const [filter1, setFilter1] = useState([]);
   const [filter2, setFilter2] = useState([]);
 
@@ -48,18 +49,33 @@ export default function ExploreLessons(props) {
   useEffect(() => {
     const filterData = data.filter((lesson) => {
       if (selectedProducts.length === 0 && selectedEtapas.length === 0) {
-        return lesson;
+        if (
+          lesson.title.toLowerCase().includes(search.toLowerCase()) ||
+          search === ""
+        ) {
+          return lesson;
+        }
       }
       if (selectedProducts.length > 0 && selectedEtapas.length === 0) {
         if (
           selectedProducts.some((product) => product.name === lesson.subtitle)
         ) {
-          return lesson;
+          if (
+            lesson.title.toLowerCase().includes(search.toLowerCase()) ||
+            search === ""
+          ) {
+            return lesson;
+          }
         }
       }
       if (selectedEtapas.length > 0 && selectedProducts.length === 0) {
         if (selectedEtapas.some((etapa) => etapa.name === lesson.grade)) {
-          return lesson;
+          if (
+            lesson.title.toLowerCase().includes(search.toLowerCase()) ||
+            search === ""
+          ) {
+            return lesson;
+          }
         }
       }
       if (selectedProducts.length > 0 && selectedEtapas.length > 0) {
@@ -69,13 +85,18 @@ export default function ExploreLessons(props) {
           ) &&
           selectedEtapas.some((etapa) => etapa.name === lesson.grade)
         ) {
-          return lesson;
+          if (
+            lesson.title.toLowerCase().includes(search.toLowerCase()) ||
+            search === ""
+          ) {
+            return lesson;
+          }
         }
       }
     });
     setShowLessons(filterData);
     setCount(12);
-  }, [selectedProducts, selectedEtapas]);
+  }, [selectedProducts, selectedEtapas, search]);
 
   return (
     <div className="font-[cerapro]">
@@ -88,6 +109,8 @@ export default function ExploreLessons(props) {
         setSelectedProducts={setSelectedProducts}
         filter1={filter1}
         filter2={filter2}
+        search={search}
+        setSearch={setSearch}
       />
       <div className="m-3 flex flex-row gap-3 sm:gap-8 flex-wrap justify-center items-center">
         <LessonCard count={count} data={showLessons} />
@@ -97,6 +120,9 @@ export default function ExploreLessons(props) {
         setCount={setCount}
         dataLength={showLessons.length}
       />
+      <a href="/TeacherResources/ExploreLessons/El monstruo de la ira de Jeesun">
+        Testing lesson info
+      </a>
     </div>
   );
 }

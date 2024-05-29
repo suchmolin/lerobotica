@@ -1,11 +1,12 @@
 import { Fragment, useEffect, useState } from "react";
 import { Combobox, Transition } from "@headlessui/react";
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
+import { IoIosClose } from "react-icons/io";
 
 export default function MultiSelect(props) {
   const { data, placeHolder, state, seter } = props;
   const people = data;
-  const [selectedPeople, setSelectedPeople] = useState([]);
+
   const [query, setQuery] = useState("");
 
   const filteredPeople =
@@ -21,21 +22,33 @@ export default function MultiSelect(props) {
   return (
     <Combobox value={state} onChange={seter} multiple>
       <div className="relative cursor-pointer">
-        <div className="relative w-full cursor-pointer overflow-hidden rounded-lg bg-white text-left shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-[#00528c] md:text-xs">
-          <Combobox.Input
-            className="w-full border-none py-2 pl-3 pr-28 text-sm leading-5 text-gray-900 focus:ring-0"
-            displayValue={(people) =>
-              people.map((person) => person.name).join(", ")
-            }
-            placeholder={placeHolder}
-            disabled
-          />
-          <Combobox.Button className="absolute inset-y-0 right-0 flex items-center pr-2">
-            <ChevronUpDownIcon
-              className="h-5 w-5 text-gray-400"
-              aria-hidden="true"
+        <div className="flex relative w-full cursor-pointer overflow-hidden rounded-lg bg-white text-left shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-[#00528c] md:text-xs">
+          <Combobox.Button className="">
+            <Combobox.Input
+              className="w-full border-none py-2 pl-3 mr-36 pr-10 text-sm leading-5 text-gray-900 focus:ring-0 cursor-pointer focus:outline-none"
+              displayValue={(people) =>
+                people.map((person) => person.name).join(", ")
+              }
+              placeholder={placeHolder}
+              readOnly
             />
+            <div className="absolute inset-y-0 right-0 flex items-center pr-2">
+              {state.length === 0 && (
+                <ChevronUpDownIcon
+                  className="h-5 w-5 text-gray-400"
+                  aria-hidden="true"
+                />
+              )}
+            </div>
           </Combobox.Button>
+          {state.length > 0 && (
+            <span
+              onClick={() => seter([])}
+              className="text-2xl text-gray-400 z-10 flex items-center"
+            >
+              <IoIosClose />
+            </span>
+          )}
         </div>
         <Transition
           as={Fragment}
@@ -63,7 +76,7 @@ export default function MultiSelect(props) {
                   {({ selected, active }) => (
                     <>
                       <span
-                        className={`block truncate ${
+                        className={`block truncat ${
                           selected ? "font-medium" : "font-normal"
                         }`}
                       >

@@ -9,8 +9,9 @@ const ButtonLessonsSection = (porps) => {
       >
         Load More
       </button>
-      <p className="mt-2 font-light text-sm">
-        Showing {count} of {dataLength}
+      <p className="mt-2 font-light text-sm text-gray-500">
+        Mostrando <span className="text-black">{count}</span> de{" "}
+        <span className="text-black">{dataLength}</span>
       </p>
     </div>
   );

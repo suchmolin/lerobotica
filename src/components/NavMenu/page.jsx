@@ -28,14 +28,15 @@ export default function NavMenu(props) {
 
   return (
     <nav
+      translate="no"
       className={`w-full h-20 bg-[#f5f5f5] justify-center flex text-sm font-[cerapro] z-50 ${isScrolled ? "fixed top-0" : "relative"}`}
     >
       <div className="h-full w-10/12 flex justify-between z-40">
         <div className="flex flex-row items-center gap-6">
           <a href="/" className="cursor-pointer">
             <Image
-              src="/img/legoEducation.svg"
-              width={110}
+              src="/img/Logo-Lerobotica-RGB.png"
+              width={30}
               height={27}
               alt="Lego education Logo"
             />
