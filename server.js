@@ -7,7 +7,7 @@ const hostname =
   process.env.NODE_ENV !== "production"
     ? "localhost"
     : "tailwind.techfortified.com";
-const port = process.env.PORT || 4789;
+const port = process.env.PORT || 8080;
 // when using middleware `hostname` and `port` must be provided below
 const app = next({ dev, hostname, port });
 const handle = app.getRequestHandler();
