@@ -1,16 +1,16 @@
-const { createServer } = require("http");
-const { parse } = require("url");
-const next = require("next");
+import { createServer } from "http";
+import { parse } from "url";
+import next from "next";
 
 const dev = process.env.NODE_ENV !== "production";
-const hostname =
-  process.env.NODE_ENV !== "production"
-    ? "localhost"
-    : "tailwind.techfortified.com";
-const port = process.env.PORT || 8080;
+const hostname = "0.0.0.0";
+const port = process.env.PORT || 3000;
 // when using middleware `hostname` and `port` must be provided below
 const app = next({ dev, hostname, port });
-const handle = app.getRequestHandler();
+
+app.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
 
 app.prepare().then(() => {
   createServer(async (req, res) => {

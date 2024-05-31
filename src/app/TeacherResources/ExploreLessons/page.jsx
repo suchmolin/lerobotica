@@ -15,10 +15,14 @@ export default function ExploreLessons(props) {
   const [search, setSearch] = useState("");
   const [filter1, setFilter1] = useState([]);
   const [filter2, setFilter2] = useState([]);
+  const [filter3, setFilter3] = useState([]);
+  const [filter4, setFilter4] = useState([]);
 
   useEffect(() => {
     const products = [];
     const etapas = [];
+    const edad = [];
+    const lapso = [];
 
     data.forEach((lesson) => {
       if (!products.some((item) => item.name === lesson.subtitle)) {
@@ -41,9 +45,31 @@ export default function ExploreLessons(props) {
           etapas.push({ id: lesson.grade, name: lesson.grade });
         }
       }
+
+      //nuevo hacer que los filtros aparezcan solo si el anterior fue selecionado (ejemplo si se selecciona preescolar, aparece 3 años - 4 años - 5 años) y cuando se seleccione la edad aparece el lapso al lado
+      /*if (!etapas.some((item) => item.name === lesson.edad)) {
+        if (
+          selectedProducts.length === 0 ||
+          (selectedProducts.length > 0 &&
+            selectedProducts.some((prod) => prod.name === lesson.subtitle))
+        ) {
+          etapas.push({ id: lesson.grade, name: lesson.grade });
+        }
+      }
+      if (!etapas.some((item) => item.name === lesson.grade)) {
+        if (
+          selectedProducts.length === 0 ||
+          (selectedProducts.length > 0 &&
+            selectedProducts.some((prod) => prod.name === lesson.subtitle))
+        ) {
+          etapas.push({ id: lesson.grade, name: lesson.grade });
+        }
+      }*/
     });
     setFilter1(products);
     setFilter2(etapas);
+    setFilter3(edad);
+    setFilter4(lapso);
   }, [selectedProducts, selectedEtapas]);
 
   useEffect(() => {
@@ -109,6 +135,8 @@ export default function ExploreLessons(props) {
         setSelectedProducts={setSelectedProducts}
         filter1={filter1}
         filter2={filter2}
+        filter3={filter3}
+        filter4={filter4}
         search={search}
         setSearch={setSearch}
       />
