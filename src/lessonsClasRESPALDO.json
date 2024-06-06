@@ -1090,7 +1090,9 @@
     "level": "Avanzado",
     "grade": "Preescolar 3 - 5",
     "urlImg": "/img/lessonsImg/Swing.webp",
-    "id": "981005f2-00d5-424f-a02a-8f1fffcc1dbf"
+    "id": "981005f2-00d5-424f-a02a-8f1fffcc1dbf",
+    "edad" : "5 años",
+    "lapso" : "Lapso 1"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/1bcb4460-152d-4721-a2a2-3052aef7795a",
@@ -1403,9 +1405,7 @@
     "level": "Principiante",
     "grade": "Preescolar 3 - 5",
     "urlImg": "/img/lessonsImg/AdditionalPreschoolMakerLessons.webp",
-    "id": "e223f4ed-40f3-48b3-8d84-c03e37d9d535",
-    "edad" : "5 años",
-    "lapso" : "Lapso 1"
+    "id": "e223f4ed-40f3-48b3-8d84-c03e37d9d535"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/14c5a0af-86ba-4431-b55a-4b4287109726",
@@ -3304,7 +3304,7 @@
     "urlImg": "/img/lessonsImg/TheGuidedMission.webp",
     "id": "1b928c89-58fb-4d3f-9052-5ef89afb1190",
     "edad" : "8 años",
-    "lapso" : "Lapso 1"
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/e0b97742-83f1-428b-becd-467bfd709e2a",
@@ -3332,7 +3332,9 @@
     "level": "Principiante",
     "grade": "Primaria Baja 6 - 8",
     "urlImg": "/img/lessonsImg/DesignforYou.webp",
-    "id": "90c35de3-cf87-4f1f-a416-1c5c8f079bb2"
+    "id": "90c35de3-cf87-4f1f-a416-1c5c8f079bb2",
+    "edad" : "8 años",
+    "lapso" : "Lapso 1"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/6d4ef103-796d-4354-9035-18ef0c23bc10",
@@ -3427,7 +3429,7 @@
   {
     "redir": "/TeacherResources/ExploreLessons/fd492212-cbe7-4ae0-b531-57210c27ae87",
     "catTitle": "Listo para la competición (Lección 7)",
-    "title": "Es momento de una actualización",
+    "title": "Momento de una actualización",
     "subtitle": "Juego SPIKE™ Prime",
     "description": "Construir herramientas motorizadas que puedan ayudar a resolver las tareas de la competencia.",
     "categories": "STEAM, Ingeniería, Informática",
@@ -3435,7 +3437,9 @@
     "level": "Avanzado",
     "grade": "Primaria Baja 6 - 8",
     "urlImg": "/img/lessonsImg/TimeforanUpgrade.webp",
-    "id": "fd492212-cbe7-4ae0-b531-57210c27ae87"
+    "id": "fd492212-cbe7-4ae0-b531-57210c27ae87",
+    "edad" : "8 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/c33e24b9-a9a8-4dbd-a778-5262f8fdfd48",
@@ -3493,9 +3497,7 @@
     "level": "Principiante",
     "grade": "Primaria Baja 6 - 8",
     "urlImg": "/img/lessonsImg/TrainingCamp2PlayingwithObjects.webp",
-    "id": "95401960-bb55-48d3-b5ff-faa55b0bdf00",
-    "edad" : "8 años",
-    "lapso" : "Lapso 2"
+    "id": "95401960-bb55-48d3-b5ff-faa55b0bdf00"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/95401960-bb55-48d3-b5ff-faa55b0bdf00",
@@ -3538,9 +3540,7 @@
     "level": "Principiante",
     "grade": "Primaria Baja 6 - 8",
     "urlImg": "/img/lessonsImg/TrainingCamp1DrivingAround.webp",
-    "id": "cf55255f-9e4b-4c4f-82cb-5e86e97c214c",
-    "edad" : "8 años",
-    "lapso" : "Lapso 2"
+    "id": "cf55255f-9e4b-4c4f-82cb-5e86e97c214c"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/cf55255f-9e4b-4c4f-82cb-5e86e97c214c",
@@ -4406,7 +4406,9 @@
     "level": "Principiante",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": null,
-    "id": "00682837-402e-4b3b-92f5-9fa1baee79be"
+    "id": "00682837-402e-4b3b-92f5-9fa1baee79be",
+    "edad" : "9 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/c68b7d0d-aae7-4085-93a0-ae2456428f52",
@@ -4689,7 +4691,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": null,
-    "id": "2c43b82b-08ea-4b6a-a7a6-33f77fc43da2"
+    "id": "2c43b82b-08ea-4b6a-a7a6-33f77fc43da2",
+    "edad" : "9 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/d215d11f-a789-4868-8666-c02668b75445",
@@ -5275,7 +5279,7 @@
     "urlImg": "/img/lessonsImg/AssembleYourCrew.webp",
     "id": "94178ea7-bd3e-40af-98d8-4983ca9f7a5a",
     "edad" : "11 años",
-    "lapso" : "Lapso 2"
+    "lapso" : "Lapso 3"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/2f45821e-13f0-4629-a444-a4dfcafbc18f",
@@ -5290,7 +5294,7 @@
     "urlImg": "/img/lessonsImg/FreetheMSLRobot.webp",
     "id": "2f45821e-13f0-4629-a444-a4dfcafbc18f",
     "edad" : "11 años",
-    "lapso" : "Lapso 2"
+    "lapso" : "Lapso 3"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/7337cc26-2bad-4666-b4f5-566741ee9c82",
@@ -5305,7 +5309,7 @@
     "urlImg": "/img/lessonsImg/ActivateCommunications.webp",
     "id": "7337cc26-2bad-4666-b4f5-566741ee9c82",
     "edad" : "11 años",
-    "lapso" : "Lapso 2"
+    "lapso" : "Lapso 3"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/65d3c2f1-a67a-478d-82f4-8a6cb880b299",
@@ -5320,7 +5324,7 @@
     "urlImg": "/img/lessonsImg/LaunchtheSatellite.webp",
     "id": "65d3c2f1-a67a-478d-82f4-8a6cb880b299",
     "edad" : "11 años",
-    "lapso" : "Lapso 2"
+    "lapso" : "Lapso 3"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/8090239a-103e-4148-95cc-3be88f8c451c",
@@ -5335,7 +5339,7 @@
     "urlImg": "/img/lessonsImg/GetReadytoGotoMars.webp",
     "id": "8090239a-103e-4148-95cc-3be88f8c451c",
     "edad" : "11 años",
-    "lapso" : "Lapso 2"
+    "lapso" : "Lapso 3"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/ab7ca2fc-eeda-40c8-876d-8797b1b02181",
@@ -5348,7 +5352,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/InitiateLaunch.webp",
-    "id": "ab7ca2fc-eeda-40c8-876d-8797b1b02181"
+    "id": "ab7ca2fc-eeda-40c8-876d-8797b1b02181",
+    "edad" : "11 años",
+    "lapso" : "Lapso 3"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/a9de900e-e85f-47e6-882e-57a1d2d83f4f",
@@ -5363,7 +5369,7 @@
     "urlImg": "/img/lessonsImg/SecurethePowerSupply.webp",
     "id": "a9de900e-e85f-47e6-882e-57a1d2d83f4f",
     "edad" : "11 años",
-    "lapso" : "Lapso 2"
+    "lapso" : "Lapso 3"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/ed0845fe-f223-43fa-80e1-47a3834928c3",
@@ -5378,7 +5384,7 @@
     "urlImg": "/img/lessonsImg/ReturntheRockSamples.webp",
     "id": "ed0845fe-f223-43fa-80e1-47a3834928c3",
     "edad" : "11 años",
-    "lapso" : "Lapso 2"
+    "lapso" : "Lapso 3"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/e283424a-1fd2-4f53-aabd-affb265818b0",
@@ -5404,7 +5410,9 @@
     "level": "Avanzado",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/AutonomousIntersection.webp",
-    "id": "d7008c31-f46a-4ec0-befa-1015a4ba0f25"
+    "id": "d7008c31-f46a-4ec0-befa-1015a4ba0f25",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/b46222d9-88c7-4628-9e64-26a3998626a9",
@@ -5417,7 +5425,9 @@
     "level": "Avanzado",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/UnlockingaCar.webp",
-    "id": "b46222d9-88c7-4628-9e64-26a3998626a9"
+    "id": "b46222d9-88c7-4628-9e64-26a3998626a9",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/2e7621fd-9cd8-4d9a-b898-7898b4544343",
@@ -5430,7 +5440,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/AutomaticHeadlights.webp",
-    "id": "2e7621fd-9cd8-4d9a-b898-7898b4544343"
+    "id": "2e7621fd-9cd8-4d9a-b898-7898b4544343",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/8c6ef5ad-5387-42ed-8457-d98d8d8d249f",
@@ -5443,7 +5455,9 @@
     "level": "Principiante",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/AutonomousParking.webp",
-    "id": "8c6ef5ad-5387-42ed-8457-d98d8d8d249f"
+    "id": "8c6ef5ad-5387-42ed-8457-d98d8d8d249f",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/95e66efc-e544-4626-8f14-764703a58bd5",
@@ -5482,7 +5496,9 @@
     "level": "Avanzado",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/CruiseControl.webp",
-    "id": "6a0afdf8-5620-4bc1-879b-e4ea61155b3d"
+    "id": "6a0afdf8-5620-4bc1-879b-e4ea61155b3d",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/01a1f03d-bdd3-4c55-a6d3-a6629bc354f0",
@@ -5658,7 +5674,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/TurnUsingSensor.webp",
-    "id": "2a762860-d31e-4842-b07c-5be29fd00e6d"
+    "id": "2a762860-d31e-4842-b07c-5be29fd00e6d",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/7332d333-dc1a-4aeb-ad68-cdbeec00f447",
@@ -5686,7 +5704,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/AccelerationofGravity.webp",
-    "id": "62d5820e-da09-4d04-a17c-16a00b12ce63"
+    "id": "62d5820e-da09-4d04-a17c-16a00b12ce63",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/58ce89fe-2856-4cb1-821b-39c51f04459e",
@@ -5759,7 +5779,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/MakeaSystemThatSortsColors.webp",
-    "id": "3d266e7d-c40e-4baf-a408-8d57c5566559"
+    "id": "3d266e7d-c40e-4baf-a408-8d57c5566559",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/31a5819f-51fd-44b8-b477-bc4f109ade12",
@@ -5813,7 +5835,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/MakeaSystemThatManufactures.webp",
-    "id": "892e803f-9b4f-4846-b30c-bc65b00a446e"
+    "id": "892e803f-9b4f-4846-b30c-bc65b00a446e",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/8571a16c-8c1b-42b3-b2a5-dbb36bbdb2cb",
@@ -5826,7 +5850,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/MakeaSystemThatMovesaBall.webp",
-    "id": "8571a16c-8c1b-42b3-b2a5-dbb36bbdb2cb"
+    "id": "8571a16c-8c1b-42b3-b2a5-dbb36bbdb2cb",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/d3d71974-22e6-46fc-9fed-47bc1aa0b8a9",
@@ -5839,7 +5865,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/MakeItSmarterandHealthier.webp",
-    "id": "d3d71974-22e6-46fc-9fed-47bc1aa0b8a9"
+    "id": "d3d71974-22e6-46fc-9fed-47bc1aa0b8a9",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/c308bef5-3777-4eef-a1a0-cf0216789689",
@@ -5852,7 +5880,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/MakeItSmarterWithCommunication.webp",
-    "id": "c308bef5-3777-4eef-a1a0-cf0216789689"
+    "id": "c308bef5-3777-4eef-a1a0-cf0216789689",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/ca8da075-7d62-4566-afb3-c3d2a31c5188",
@@ -5904,7 +5934,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/MakeItSmarterWithaSensor.webp",
-    "id": "3b3754a2-fbee-4420-8e6b-1b566d9c8bcf"
+    "id": "3b3754a2-fbee-4420-8e6b-1b566d9c8bcf",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/fefd8e8a-15c7-4890-8e0e-523ea5d29940",
@@ -5956,7 +5988,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/Switch.webp",
-    "id": "2afd5851-3223-442b-bc2f-7d4a0f983048"
+    "id": "2afd5851-3223-442b-bc2f-7d4a0f983048",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/e072b474-009e-43a1-9857-16d10c39e999",
@@ -5969,7 +6003,9 @@
     "level": "Principiante",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/StraightMove .webp",
-    "id": "e072b474-009e-43a1-9857-16d10c39e999"
+    "id": "e072b474-009e-43a1-9857-16d10c39e999",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/f74be3fe-36ba-4478-be85-e699b1ff5976",
@@ -5982,7 +6018,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/MakeItMoveAndDisplaySpeed.webp",
-    "id": "f74be3fe-36ba-4478-be85-e699b1ff5976"
+    "id": "f74be3fe-36ba-4478-be85-e699b1ff5976",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/af835aae-cfd7-4a46-a4b1-84eedfd64181",
@@ -5995,7 +6033,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/MakeItMoveWithWheels.webp",
-    "id": "af835aae-cfd7-4a46-a4b1-84eedfd64181"
+    "id": "af835aae-cfd7-4a46-a4b1-84eedfd64181",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/eaeec01d-05c3-4e37-95df-576509272685",
@@ -6008,7 +6048,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/MakeItSmarterandAdaptable.webp",
-    "id": "eaeec01d-05c3-4e37-95df-576509272685"
+    "id": "eaeec01d-05c3-4e37-95df-576509272685",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/6ce9efed-9b56-420f-8e21-04ab8565c59b",
@@ -6750,9 +6792,7 @@
     "level": "Avanzado",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/StampingLetters.webp",
-    "id": "56ec91d9-4479-4cb7-b297-a222b1b575f3",
-    "edad" : "9 años",
-    "lapso" : "Lapso 2"
+    "id": "56ec91d9-4479-4cb7-b297-a222b1b575f3"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/9bb0a1a0-6057-47a5-9ebe-3e5b0c62e02a",
@@ -6780,9 +6820,7 @@
     "level": "Intermedio",
     "grade": "Primaria Baja 6 - 8",
     "urlImg": "/img/lessonsImg/Beaten.webp",
-    "id": "acbe84e4-de90-40c5-96cd-42466dc5fc2b",
-    "edad" : "8 años",
-    "lapso" : "Lapso 2"
+    "id": "acbe84e4-de90-40c5-96cd-42466dc5fc2b"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/acbe84e4-de90-40c5-96cd-42466dc5fc2b",
@@ -6795,9 +6833,7 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/Beaten.webp",
-    "id": "acbe84e4-de90-40c5-96cd-42466dc5fc2b",
-    "edad" : "9 años",
-    "lapso" : "Lapso 2"
+    "id": "acbe84e4-de90-40c5-96cd-42466dc5fc2b"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/1035061a-171a-4cb2-ab60-96626b3ecff7",

@@ -1090,7 +1090,9 @@
     "level": "Avanzado",
     "grade": "Preescolar 3 - 5",
     "urlImg": "/img/lessonsImg/Swing.webp",
-    "id": "981005f2-00d5-424f-a02a-8f1fffcc1dbf"
+    "id": "981005f2-00d5-424f-a02a-8f1fffcc1dbf",
+    "edad" : "5 años",
+    "lapso" : "Lapso 1"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/1bcb4460-152d-4721-a2a2-3052aef7795a",
@@ -1391,21 +1393,6 @@
     "id": "8fd3aa3c-8f1a-4c62-9abd-2a4477a11b0c",
     "edad" : "5 años",
     "lapso" : "Lapso 2"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/e223f4ed-40f3-48b3-8d84-c03e37d9d535",
-    "catTitle": "STEAM Park Maker (Lección 3)",
-    "title": "Lecciones adicionales de preescolar Maker",
-    "subtitle": "Parque VAPOR",
-    "description": "7 actividades pequeñas para Maker en preescolar con STEAM Park. Utilice el proceso de diseño de Maker para probar una o más de las lecciones que se enumeran a continuación.",
-    "categories": "Creador",
-    "duration": "0-30 min.",
-    "level": "Principiante",
-    "grade": "Preescolar 3 - 5",
-    "urlImg": "/img/lessonsImg/AdditionalPreschoolMakerLessons.webp",
-    "id": "e223f4ed-40f3-48b3-8d84-c03e37d9d535",
-    "edad" : "5 años",
-    "lapso" : "Lapso 1"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/14c5a0af-86ba-4431-b55a-4b4287109726",
@@ -2803,19 +2790,6 @@
     "lapso" : "Lapso 3"
   },
   {
-    "redir": "/TeacherResources/ExploreLessons/de1098d9-6fd8-47f3-93b0-11fb9c7e1865",
-    "catTitle": "FIRST® LEGO® League Explore (Lección 1)",
-    "title": "Explore lección 1",
-    "subtitle": "SPIKE™ Essential",
-    "description": "¡Entrena a tu equipo a través de las PRIMERAS lecciones guiadas de LEGO League Explore y prepáralos para los desafíos que se avecinan!",
-    "categories": "STEAM, exploración creativa, codificación",
-    "duration": "30-45 min.",
-    "level": "Principiante",
-    "grade": "Primaria Baja 6 - 8",
-    "urlImg": "/img/lessonsImg/ExploreLesson1.webp",
-    "id": "de1098d9-6fd8-47f3-93b0-11fb9c7e1865"
-  },
-  {
     "redir": "/TeacherResources/ExploreLessons/126793d2-07f2-448f-90d6-eafe25a6a407",
     "catTitle": "Creaciones peculiares (Lección 4)",
     "title": "Máquina del monstruos de basura",
@@ -3206,32 +3180,6 @@
     "lapso" : "Lapso 1"
   },
   {
-    "redir": "/TeacherResources/ExploreLessons/554c7c95-e81a-44ae-99c7-22c23ebb62ae",
-    "catTitle": "FIRST® LEGO® League Explore (Lección 2)",
-    "title": "Explore lección 2",
-    "subtitle": "SPIKE™ Essential",
-    "description": "¡Entrena a tu equipo a través de las PRIMERAS lecciones guiadas de LEGO League Explore y prepáralos para los desafíos que se avecinan!",
-    "categories": "STEAM, exploración creativa, codificación",
-    "duration": "30-45 min.",
-    "level": "Principiante",
-    "grade": "Primaria Baja 6 - 8",
-    "urlImg": "/img/lessonsImg/ExploreLesson2.webp",
-    "id": "554c7c95-e81a-44ae-99c7-22c23ebb62ae"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/0330f967-4e91-486c-a284-5758230facf5",
-    "catTitle": "FIRST® LEGO® League Explore (Lección 3)",
-    "title": "Explore lección 3",
-    "subtitle": "SPIKE™ Essential",
-    "description": "¡Entrena a tu equipo a través de las PRIMERAS lecciones guiadas de LEGO League Explore y prepáralos para los desafíos que se avecinan!",
-    "categories": "STEAM, exploración creativa, codificación",
-    "duration": "30-45 min.",
-    "level": "Principiante",
-    "grade": "Primaria Baja 6 - 8",
-    "urlImg": "/img/lessonsImg/ExploreLesson3.webp",
-    "id": "0330f967-4e91-486c-a284-5758230facf5"
-  },
-  {
     "redir": "/TeacherResources/ExploreLessons/0b5de441-a35c-4bc4-9305-28337d9af2f5",
     "catTitle": "Happy Traveler (Lección 4)",
     "title": "Bote de pantano",
@@ -3304,7 +3252,7 @@
     "urlImg": "/img/lessonsImg/TheGuidedMission.webp",
     "id": "1b928c89-58fb-4d3f-9052-5ef89afb1190",
     "edad" : "8 años",
-    "lapso" : "Lapso 1"
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/e0b97742-83f1-428b-becd-467bfd709e2a",
@@ -3332,7 +3280,9 @@
     "level": "Principiante",
     "grade": "Primaria Baja 6 - 8",
     "urlImg": "/img/lessonsImg/DesignforYou.webp",
-    "id": "90c35de3-cf87-4f1f-a416-1c5c8f079bb2"
+    "id": "90c35de3-cf87-4f1f-a416-1c5c8f079bb2",
+    "edad" : "8 años",
+    "lapso" : "Lapso 1"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/6d4ef103-796d-4354-9035-18ef0c23bc10",
@@ -3427,7 +3377,7 @@
   {
     "redir": "/TeacherResources/ExploreLessons/fd492212-cbe7-4ae0-b531-57210c27ae87",
     "catTitle": "Listo para la competición (Lección 7)",
-    "title": "Es momento de una actualización",
+    "title": "Momento de una actualización",
     "subtitle": "Juego SPIKE™ Prime",
     "description": "Construir herramientas motorizadas que puedan ayudar a resolver las tareas de la competencia.",
     "categories": "STEAM, Ingeniería, Informática",
@@ -3435,7 +3385,9 @@
     "level": "Avanzado",
     "grade": "Primaria Baja 6 - 8",
     "urlImg": "/img/lessonsImg/TimeforanUpgrade.webp",
-    "id": "fd492212-cbe7-4ae0-b531-57210c27ae87"
+    "id": "fd492212-cbe7-4ae0-b531-57210c27ae87",
+    "edad" : "8 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/c33e24b9-a9a8-4dbd-a778-5262f8fdfd48",
@@ -3485,21 +3437,6 @@
   {
     "redir": "/TeacherResources/ExploreLessons/95401960-bb55-48d3-b5ff-faa55b0bdf00",
     "catTitle": "Listo para la competición (Lección 2)",
-    "title": "Campo de entrenamiento: Jugar con objetos",
-    "subtitle": "Juego SPIKE™ Prime",
-    "description": "Utilice sensores para controlar los motores e interactuar con los objetos en el campo de competición.",
-    "categories": "STEAM, Ingeniería, Informática",
-    "duration": "30-45 min.",
-    "level": "Principiante",
-    "grade": "Primaria Baja 6 - 8",
-    "urlImg": "/img/lessonsImg/TrainingCamp2PlayingwithObjects.webp",
-    "id": "95401960-bb55-48d3-b5ff-faa55b0bdf00",
-    "edad" : "8 años",
-    "lapso" : "Lapso 2"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/95401960-bb55-48d3-b5ff-faa55b0bdf00",
-    "catTitle": "Listo para la competición (Lección 2)",
     "title": "Campamento de entrenamiento: Jugar con objetos",
     "subtitle": "Juego SPIKE™ Prime",
     "description": "Utilice sensores para controlar los motores e interactuar con los objetos en el campo de competición.",
@@ -3525,21 +3462,6 @@
     "urlImg": "/img/lessonsImg/AssemblinganAdvancedDrivingBase.webp",
     "id": "5d0d146a-293e-4295-ba8f-fa6a3929b36f",
     "edad" : "7 años",
-    "lapso" : "Lapso 2"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/cf55255f-9e4b-4c4f-82cb-5e86e97c214c",
-    "catTitle": "Listo para la competición (Lección 1)",
-    "title": "Campo de entrenamiento: Conducir",
-    "subtitle": "Juego SPIKE™ Prime",
-    "description": "Construye una Base de Conducción de Práctica y realiza movimientos precisos y controlados.",
-    "categories": "STEAM, Ingeniería, Informática",
-    "duration": "30-45 min.",
-    "level": "Principiante",
-    "grade": "Primaria Baja 6 - 8",
-    "urlImg": "/img/lessonsImg/TrainingCamp1DrivingAround.webp",
-    "id": "cf55255f-9e4b-4c4f-82cb-5e86e97c214c",
-    "edad" : "8 años",
     "lapso" : "Lapso 2"
   },
   {
@@ -3978,19 +3900,6 @@
     "lapso" : "Lapso 1"
   },
   {
-    "redir": "/TeacherResources/ExploreLessons/ea74c122-2336-475d-8cdf-0815e731a94e",
-    "catTitle": "Ciencias del deporte (Lección 4)",
-    "title": "Tiro Libre",
-    "subtitle": "BricQ Motion Prime",
-    "description": "El árbitro hace sonar el silbato... ¡Falta! El jugador recibe un tiro libre. ¿Qué se necesita para poder puntuar en todo momento?",
-    "categories": "Ciencias, STEAM",
-    "duration": "30-45 min.",
-    "level": "Intermedio",
-    "grade": "Primaria Baja 6 - 8",
-    "urlImg": "/img/lessonsImg/FreeKick.webp",
-    "id": "ea74c122-2336-475d-8cdf-0815e731a94e"
-  },
-  {
     "redir": "/TeacherResources/ExploreLessons/b01ef2d4-2eca-4cc3-983d-f69f6e316132",
     "catTitle": "Seguimientos de capacitación (Lección 5)",
     "title": "Reclama por ello",
@@ -4406,7 +4315,9 @@
     "level": "Principiante",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": null,
-    "id": "00682837-402e-4b3b-92f5-9fa1baee79be"
+    "id": "00682837-402e-4b3b-92f5-9fa1baee79be",
+    "edad" : "9 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/c68b7d0d-aae7-4085-93a0-ae2456428f52",
@@ -4689,7 +4600,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": null,
-    "id": "2c43b82b-08ea-4b6a-a7a6-33f77fc43da2"
+    "id": "2c43b82b-08ea-4b6a-a7a6-33f77fc43da2",
+    "edad" : "9 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/d215d11f-a789-4868-8666-c02668b75445",
@@ -4720,19 +4633,6 @@
     "id": "8a42fe63-a1fb-49b2-b24a-85d481da5534",
     "edad" : "10 años",
     "lapso" : "Lapso 2"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/d8a307be-e1e6-493a-9122-9335ea64d70b",
-    "catTitle": "Muévete con los motores (Lección 4)",
-    "title": "Ejecución de la tolva",
-    "subtitle": "SPIKE™ Prime con Python",
-    "description": "Los estudiantes construyen y programan un robot sin ruedas para avanzar.",
-    "categories": "Computer Science",
-    "duration": "45 min",
-    "level": "Principiante",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": null,
-    "id": "d8a307be-e1e6-493a-9122-9335ea64d70b"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/389d8407-8ebd-47a4-a0f4-748155e39484",
@@ -4840,32 +4740,6 @@
     "lapso" : "Lapso 1"
   },
   {
-    "redir": "/TeacherResources/ExploreLessons/10c72991-4a57-46ce-a63e-7d7d21273e39",
-    "catTitle": "Ciencias del deporte (Lección 2)",
-    "title": "Gimnasta",
-    "subtitle": "BricQ Motion Prime",
-    "description": "¿Qué es más genial que la barra horizontal de un gimnasta? ¡Una barra horizontal en un coche! Hagamos un auto con motor de gimnasta.",
-    "categories": "Ciencias, STEAM",
-    "duration": "30-45 min.",
-    "level": "Principiante",
-    "grade": "Primaria Baja 6 - 8",
-    "urlImg": "/img/lessonsImg/Gymnast.webp",
-    "id": "10c72991-4a57-46ce-a63e-7d7d21273e39"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/b68a886e-345a-463b-ba48-c324955a6640",
-    "catTitle": "Ciencias del deporte (Lección 1)",
-    "title": "Pasar",
-    "subtitle": "BricQ Motion Prime",
-    "description": "¿Qué tan bien pueden trabajar juntos para pasar una pelota a través de un campo deportivo? ¿Puede tu equipo marcar el gol de la victoria?",
-    "categories": "Ciencias, STEAM",
-    "duration": "30-45 min.",
-    "level": "Principiante",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": "/img/lessonsImg/PasstheBall.webp",
-    "id": "b68a886e-345a-463b-ba48-c324955a6640"
-  },
-  {
     "redir": "/TeacherResources/ExploreLessons/0f4887f1-3456-41ed-9a50-4528d8aca9af",
     "catTitle": "Ciencias del deporte (Lección 4)",
     "title": "Tiro Libre",
@@ -4881,45 +4755,6 @@
     "lapso" : "Lapso 1"
   },
   {
-    "redir": "/TeacherResources/ExploreLessons/25471e63-3d4e-4318-a075-c6467ab77653",
-    "catTitle": "Ciencias del deporte (Lección 7)",
-    "title": "Golpea la pelota",
-    "subtitle": "BricQ Motion Prime",
-    "description": "Una forma de mejorar en los deportes es entender la ciencia detrás de ellos. Es hora de aplicar tu comprensión de las fuerzas y las interacciones para construir un juego de mesa de golpeo de bolas.",
-    "categories": "Ciencias, STEAM",
-    "duration": "45-90 min.",
-    "level": "Avanzado",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": "/img/lessonsImg/StriketheBall.webp",
-    "id": "25471e63-3d4e-4318-a075-c6467ab77653"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/9de1b661-8ec6-4aa2-aa7c-0e900c9df273",
-    "catTitle": "Ciencias del deporte (Lección 3)",
-    "title": "Pista de esquí",
-    "subtitle": "BricQ Motion Prime",
-    "description": "¡Es hora de salir a las pistas y correr! ¿Qué se necesita para pasar de la pendiente de conejito a ser un profesional del descenso?",
-    "categories": "Ciencias, STEAM",
-    "duration": "30-45 min.",
-    "level": "Intermedio",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": "/img/lessonsImg/SkiSlope.webp",
-    "id": "9de1b661-8ec6-4aa2-aa7c-0e900c9df273"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/5bb6a4dd-ed98-44ed-b2d3-c9692008ab11",
-    "catTitle": "Ciencias del deporte (Lección 5)",
-    "title": "Land Yacht",
-    "subtitle": "BricQ Motion Prime",
-    "description": "¿Puede un yate de tierra navegar contra el viento? Investiga cómo las fuerzas invisibles pueden cambiar el movimiento de un objeto y cómo esta fuerza actúa desde la distancia.",
-    "categories": "Ciencias, STEAM",
-    "duration": "30-45 min.",
-    "level": "Intermedio",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": "/img/lessonsImg/LandYacht.webp",
-    "id": "5bb6a4dd-ed98-44ed-b2d3-c9692008ab11"
-  },
-  {
     "redir": "/TeacherResources/ExploreLessons/ff8aa280-4912-4aed-b5de-140fb790f2d2",
     "catTitle": "Ciencias del deporte (Lección 6)",
     "title": "Coche de hélice",
@@ -4933,19 +4768,6 @@
     "id": "ff8aa280-4912-4aed-b5de-140fb790f2d2",
     "edad" : "7 años",
     "lapso" : "Lapso 3"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/51714572-d401-4248-b438-615f3f8bea45",
-    "catTitle": "Prime Combined (Lección 2)",
-    "title": "Proteger nuestros productos",
-    "subtitle": "SPIKE™ Prime Set, BricQ Motion Prime",
-    "description": "Aplicar la tercera ley de Newton para diseñar una solución que coseche productos de un árbol, sin causar daños por colisión.",
-    "categories": "VAPOR, Ingeniería, Ciencia, Codificación",
-    "duration": "45-90 min.",
-    "level": "Avanzado",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": "/img/lessonsImg/ProtectOurProduce.webp",
-    "id": "51714572-d401-4248-b438-615f3f8bea45"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/1816b0d7-68a8-432b-b789-e2aa1c57911b",
@@ -5275,7 +5097,7 @@
     "urlImg": "/img/lessonsImg/AssembleYourCrew.webp",
     "id": "94178ea7-bd3e-40af-98d8-4983ca9f7a5a",
     "edad" : "11 años",
-    "lapso" : "Lapso 2"
+    "lapso" : "Lapso 3"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/2f45821e-13f0-4629-a444-a4dfcafbc18f",
@@ -5290,7 +5112,7 @@
     "urlImg": "/img/lessonsImg/FreetheMSLRobot.webp",
     "id": "2f45821e-13f0-4629-a444-a4dfcafbc18f",
     "edad" : "11 años",
-    "lapso" : "Lapso 2"
+    "lapso" : "Lapso 3"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/7337cc26-2bad-4666-b4f5-566741ee9c82",
@@ -5305,7 +5127,7 @@
     "urlImg": "/img/lessonsImg/ActivateCommunications.webp",
     "id": "7337cc26-2bad-4666-b4f5-566741ee9c82",
     "edad" : "11 años",
-    "lapso" : "Lapso 2"
+    "lapso" : "Lapso 3"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/65d3c2f1-a67a-478d-82f4-8a6cb880b299",
@@ -5320,7 +5142,7 @@
     "urlImg": "/img/lessonsImg/LaunchtheSatellite.webp",
     "id": "65d3c2f1-a67a-478d-82f4-8a6cb880b299",
     "edad" : "11 años",
-    "lapso" : "Lapso 2"
+    "lapso" : "Lapso 3"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/8090239a-103e-4148-95cc-3be88f8c451c",
@@ -5335,7 +5157,7 @@
     "urlImg": "/img/lessonsImg/GetReadytoGotoMars.webp",
     "id": "8090239a-103e-4148-95cc-3be88f8c451c",
     "edad" : "11 años",
-    "lapso" : "Lapso 2"
+    "lapso" : "Lapso 3"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/ab7ca2fc-eeda-40c8-876d-8797b1b02181",
@@ -5348,7 +5170,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/InitiateLaunch.webp",
-    "id": "ab7ca2fc-eeda-40c8-876d-8797b1b02181"
+    "id": "ab7ca2fc-eeda-40c8-876d-8797b1b02181",
+    "edad" : "11 años",
+    "lapso" : "Lapso 3"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/a9de900e-e85f-47e6-882e-57a1d2d83f4f",
@@ -5363,7 +5187,7 @@
     "urlImg": "/img/lessonsImg/SecurethePowerSupply.webp",
     "id": "a9de900e-e85f-47e6-882e-57a1d2d83f4f",
     "edad" : "11 años",
-    "lapso" : "Lapso 2"
+    "lapso" : "Lapso 3"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/ed0845fe-f223-43fa-80e1-47a3834928c3",
@@ -5378,20 +5202,7 @@
     "urlImg": "/img/lessonsImg/ReturntheRockSamples.webp",
     "id": "ed0845fe-f223-43fa-80e1-47a3834928c3",
     "edad" : "11 años",
-    "lapso" : "Lapso 2"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/e283424a-1fd2-4f53-aabd-affb265818b0",
-    "catTitle": "Actividades de codificación (Lección 8)",
-    "title": "Vehículos itinerantes",
-    "subtitle": "Conjunto básico MINDSTORMS® EV3",
-    "description": "Diseña un coche autónomo que sea lo suficientemente seguro como para conducir por las calles.",
-    "categories": "Codificación, STEAM, Ingeniería, Informática",
-    "duration": "45-90 min.",
-    "level": "Avanzado",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": "/img/lessonsImg/RoamingVehicles.webp",
-    "id": "e283424a-1fd2-4f53-aabd-affb265818b0"
+    "lapso" : "Lapso 3"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/d7008c31-f46a-4ec0-befa-1015a4ba0f25",
@@ -5404,7 +5215,9 @@
     "level": "Avanzado",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/AutonomousIntersection.webp",
-    "id": "d7008c31-f46a-4ec0-befa-1015a4ba0f25"
+    "id": "d7008c31-f46a-4ec0-befa-1015a4ba0f25",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/b46222d9-88c7-4628-9e64-26a3998626a9",
@@ -5417,7 +5230,9 @@
     "level": "Avanzado",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/UnlockingaCar.webp",
-    "id": "b46222d9-88c7-4628-9e64-26a3998626a9"
+    "id": "b46222d9-88c7-4628-9e64-26a3998626a9",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/2e7621fd-9cd8-4d9a-b898-7898b4544343",
@@ -5430,7 +5245,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/AutomaticHeadlights.webp",
-    "id": "2e7621fd-9cd8-4d9a-b898-7898b4544343"
+    "id": "2e7621fd-9cd8-4d9a-b898-7898b4544343",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/8c6ef5ad-5387-42ed-8457-d98d8d8d249f",
@@ -5443,33 +5260,9 @@
     "level": "Principiante",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/AutonomousParking.webp",
-    "id": "8c6ef5ad-5387-42ed-8457-d98d8d8d249f"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/95e66efc-e544-4626-8f14-764703a58bd5",
-    "catTitle": "Actividades de codificación (Lección 5)",
-    "title": "Detección de objetos",
-    "subtitle": "Conjunto básico MINDSTORMS® EV3",
-    "description": "Diseñar formas de evitar accidentes entre vehículos y objetos en la vía.",
-    "categories": "Codificación, STEAM, Ingeniería, Informática",
-    "duration": "45-90 min.",
-    "level": "Intermedio",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": "/img/lessonsImg/ObjectDetection.webp",
-    "id": "95e66efc-e544-4626-8f14-764703a58bd5"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/085172f2-caa0-4b34-a4cd-3a1279d6dd1e",
-    "catTitle": "Actividades de codificación (Lección 2)",
-    "title": "Revertir de forma segura",
-    "subtitle": "Conjunto básico MINDSTORMS® EV3",
-    "description": "Características de diseño para un coche que mejorarán la seguridad a la hora de dar marcha atrás.",
-    "categories": "Codificación, STEAM, Ingeniería, Informática",
-    "duration": "45-90 min.",
-    "level": "Intermedio",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": "/img/lessonsImg/ReversingSafely.webp",
-    "id": "085172f2-caa0-4b34-a4cd-3a1279d6dd1e"
+    "id": "8c6ef5ad-5387-42ed-8457-d98d8d8d249f",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/6a0afdf8-5620-4bc1-879b-e4ea61155b3d",
@@ -5482,20 +5275,9 @@
     "level": "Avanzado",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/CruiseControl.webp",
-    "id": "6a0afdf8-5620-4bc1-879b-e4ea61155b3d"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/01a1f03d-bdd3-4c55-a6d3-a6629bc354f0",
-    "catTitle": "Actividades de codificación (Lección 4)",
-    "title": "Detección de línea",
-    "subtitle": "Conjunto básico MINDSTORMS® EV3",
-    "description": "Diseñe formas de mejorar la seguridad al conducir ayudando a evitar que los conductores se duerman y causen un accidente.",
-    "categories": "Codificación, STEAM, Ingeniería, Informática",
-    "duration": "45-90 min.",
-    "level": "Intermedio",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": "/img/lessonsImg/LineDetection.webp",
-    "id": "01a1f03d-bdd3-4c55-a6d3-a6629bc354f0"
+    "id": "6a0afdf8-5620-4bc1-879b-e4ea61155b3d",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/d6d3b10f-8514-405b-8b05-7d195e9e9e64",
@@ -5658,7 +5440,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/TurnUsingSensor.webp",
-    "id": "2a762860-d31e-4842-b07c-5be29fd00e6d"
+    "id": "2a762860-d31e-4842-b07c-5be29fd00e6d",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/7332d333-dc1a-4aeb-ad68-cdbeec00f447",
@@ -5686,7 +5470,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/AccelerationofGravity.webp",
-    "id": "62d5820e-da09-4d04-a17c-16a00b12ce63"
+    "id": "62d5820e-da09-4d04-a17c-16a00b12ce63",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/58ce89fe-2856-4cb1-821b-39c51f04459e",
@@ -5759,20 +5545,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/MakeaSystemThatSortsColors.webp",
-    "id": "3d266e7d-c40e-4baf-a408-8d57c5566559"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/31a5819f-51fd-44b8-b477-bc4f109ade12",
-    "catTitle": "DEP (Lección 14)",
-    "title": "Crear un sistema que se comunique",
-    "subtitle": "Conjunto básico MINDSTORMS® EV3",
-    "description": "Diseñar, construir y programar un sistema robótico que siga un camino y comunique su posición al menos dos veces en el camino.",
-    "categories": "Ingeniería, STEAM, Robótica, Tecnología",
-    "duration": "90-120 min.",
-    "level": "Intermedio",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": "/img/lessonsImg/MakeaSystemThatCommunicates.webp",
-    "id": "31a5819f-51fd-44b8-b477-bc4f109ade12"
+    "id": "3d266e7d-c40e-4baf-a408-8d57c5566559",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/5969e25c-b9da-40e0-8a3e-0b451b651041",
@@ -5790,19 +5565,6 @@
     "lapso" : "Lapso 1"
   },
   {
-    "redir": "/TeacherResources/ExploreLessons/9a90cd18-4823-48d0-bd90-191f92e594dd",
-    "catTitle": "DEP (Lección 11)",
-    "title": "Crea un sistema que elija y coloque",
-    "subtitle": "Conjunto básico MINDSTORMS® EV3",
-    "description": "Diseñe, construya y programe un sistema robótico que pueda recoger el Cuboid de una ubicación y colocarlo en otra ubicación.",
-    "categories": "Ingeniería, STEAM, Robótica, Tecnología",
-    "duration": "90-120 min.",
-    "level": "Intermedio",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": "/img/lessonsImg/MakeaSystemThatPicksandPlaces.webp",
-    "id": "9a90cd18-4823-48d0-bd90-191f92e594dd"
-  },
-  {
     "redir": "/TeacherResources/ExploreLessons/892e803f-9b4f-4846-b30c-bc65b00a446e",
     "catTitle": "DEP (Lección 12)",
     "title": "Hacer un sistema que fabrique",
@@ -5813,7 +5575,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/MakeaSystemThatManufactures.webp",
-    "id": "892e803f-9b4f-4846-b30c-bc65b00a446e"
+    "id": "892e803f-9b4f-4846-b30c-bc65b00a446e",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/8571a16c-8c1b-42b3-b2a5-dbb36bbdb2cb",
@@ -5826,7 +5590,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/MakeaSystemThatMovesaBall.webp",
-    "id": "8571a16c-8c1b-42b3-b2a5-dbb36bbdb2cb"
+    "id": "8571a16c-8c1b-42b3-b2a5-dbb36bbdb2cb",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/d3d71974-22e6-46fc-9fed-47bc1aa0b8a9",
@@ -5839,7 +5605,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/MakeItSmarterandHealthier.webp",
-    "id": "d3d71974-22e6-46fc-9fed-47bc1aa0b8a9"
+    "id": "d3d71974-22e6-46fc-9fed-47bc1aa0b8a9",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/c308bef5-3777-4eef-a1a0-cf0216789689",
@@ -5852,46 +5620,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/MakeItSmarterWithCommunication.webp",
-    "id": "c308bef5-3777-4eef-a1a0-cf0216789689"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/ca8da075-7d62-4566-afb3-c3d2a31c5188",
-    "catTitle": "DEP (Lección 3)",
-    "title": "Haz que suba una inclinación",
-    "subtitle": "Conjunto básico MINDSTORMS® EV3",
-    "description": "Diseñe, construya y programe un robot que pueda subir por sí mismo una pendiente lo más pronunciada posible.",
-    "categories": "Ingeniería, STEAM, Robótica, Tecnología",
-    "duration": "90-120 min.",
-    "level": "Intermedio",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": "/img/lessonsImg/MakeItMoveUpAnIncline.webp",
-    "id": "ca8da075-7d62-4566-afb3-c3d2a31c5188"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/0dd3d5aa-b997-4642-9c74-7f8d15ff987b",
-    "catTitle": "DEP (Lección 4)",
-    "title": "Haz que se mueva en un patrón",
-    "subtitle": "Conjunto básico MINDSTORMS® EV3",
-    "description": "Diseñe, construya y programe un robot que pueda moverse en un patrón que forme una forma repetible.",
-    "categories": "Ingeniería, STEAM, Robótica, Tecnología",
-    "duration": "90-120 min.",
-    "level": "Intermedio",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": "/img/lessonsImg/MakeItMoveInAPattern.webp",
-    "id": "0dd3d5aa-b997-4642-9c74-7f8d15ff987b"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/ba2a5320-db33-48d3-81f8-87a270645b24",
-    "catTitle": "DEP (Lección 6)",
-    "title": "Hazlo más inteligente y rápido",
-    "subtitle": "Conjunto básico MINDSTORMS® EV3",
-    "description": "Diseñar, construir y programar una criatura robótica que pueda sentir su entorno y responder moviéndose.",
-    "categories": "Ingeniería, STEAM, Robótica, Tecnología",
-    "duration": "90-120 min.",
-    "level": "Intermedio",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": "/img/lessonsImg/MakeItSmarterandFaster.webp",
-    "id": "ba2a5320-db33-48d3-81f8-87a270645b24"
+    "id": "c308bef5-3777-4eef-a1a0-cf0216789689",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/3b3754a2-fbee-4420-8e6b-1b566d9c8bcf",
@@ -5904,46 +5635,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/MakeItSmarterWithaSensor.webp",
-    "id": "3b3754a2-fbee-4420-8e6b-1b566d9c8bcf"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/fefd8e8a-15c7-4890-8e0e-523ea5d29940",
-    "catTitle": "Tutoriales (Lección 3)",
-    "title": "Movimiento curvo",
-    "subtitle": "Conjunto básico MINDSTORMS® EV3",
-    "description": "Utilice el bloque de dirección Move para dirigir la base de conducción.",
-    "categories": "VAPOR, Ingeniería, Robótica, Tecnología",
-    "duration": "0-30 min.",
-    "level": "Principiante",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": "/img/lessonsImg/CurvedMove.webp",
-    "id": "fefd8e8a-15c7-4890-8e0e-523ea5d29940"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/bd932a53-3c50-4855-a585-90fc9142acf9",
-    "catTitle": "Tutoriales (Lección 2)",
-    "title": "Mover objetos",
-    "subtitle": "Conjunto básico MINDSTORMS® EV3",
-    "description": "Programe la base de conducción para mover y soltar el cuboide.",
-    "categories": "VAPOR, Ingeniería, Robótica, Tecnología",
-    "duration": "0-30 min.",
-    "level": "Principiante",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": "/img/lessonsImg/MoveObjects.webp",
-    "id": "bd932a53-3c50-4855-a585-90fc9142acf9"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/66512981-284f-4a6e-a6e8-82ce757ada73",
-    "catTitle": "Tutoriales (Lección 1)",
-    "title": "Movimiento curvo",
-    "subtitle": "Conjunto básico MINDSTORMS® EV3",
-    "description": "Utilice el bloque de dirección Move para dirigir la base de conducción.",
-    "categories": "VAPOR, Ingeniería, Robótica, Tecnología",
-    "duration": "0-30 min.",
-    "level": "Principiante",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": "/img/lessonsImg/CurvedMove.webp",
-    "id": "66512981-284f-4a6e-a6e8-82ce757ada73"
+    "id": "3b3754a2-fbee-4420-8e6b-1b566d9c8bcf",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/2afd5851-3223-442b-bc2f-7d4a0f983048",
@@ -5956,7 +5650,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/Switch.webp",
-    "id": "2afd5851-3223-442b-bc2f-7d4a0f983048"
+    "id": "2afd5851-3223-442b-bc2f-7d4a0f983048",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/e072b474-009e-43a1-9857-16d10c39e999",
@@ -5969,7 +5665,9 @@
     "level": "Principiante",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/StraightMove .webp",
-    "id": "e072b474-009e-43a1-9857-16d10c39e999"
+    "id": "e072b474-009e-43a1-9857-16d10c39e999",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/f74be3fe-36ba-4478-be85-e699b1ff5976",
@@ -5982,7 +5680,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/MakeItMoveAndDisplaySpeed.webp",
-    "id": "f74be3fe-36ba-4478-be85-e699b1ff5976"
+    "id": "f74be3fe-36ba-4478-be85-e699b1ff5976",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/af835aae-cfd7-4a46-a4b1-84eedfd64181",
@@ -5995,7 +5695,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/MakeItMoveWithWheels.webp",
-    "id": "af835aae-cfd7-4a46-a4b1-84eedfd64181"
+    "id": "af835aae-cfd7-4a46-a4b1-84eedfd64181",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/eaeec01d-05c3-4e37-95df-576509272685",
@@ -6008,20 +5710,9 @@
     "level": "Intermedio",
     "grade": "Primaria Alta 9 - 11",
     "urlImg": "/img/lessonsImg/MakeItSmarterandAdaptable.webp",
-    "id": "eaeec01d-05c3-4e37-95df-576509272685"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/6ce9efed-9b56-420f-8e21-04ab8565c59b",
-    "catTitle": "Ciencias del deporte (Lección 6)",
-    "title": "Coche de hélice",
-    "subtitle": "BricQ Motion Prime",
-    "description": "Aunque un velero o yate de tierra no puede navegar fácilmente contra el viento, es posible hacerlo realidad con una ingeniería inteligente. Investiga cómo las fuerzas mecánicas pueden cambiar el movimiento de un objeto y cómo estas fuerzas pueden actuar a distancia.",
-    "categories": "Ciencias, STEAM",
-    "duration": "30-45 min.",
-    "level": "Avanzado",
-    "grade": "Primaria Baja 6 - 8",
-    "urlImg": "/img/lessonsImg/PropellerCar.webp",
-    "id": "6ce9efed-9b56-420f-8e21-04ab8565c59b"
+    "id": "eaeec01d-05c3-4e37-95df-576509272685",
+    "edad" : "11 años",
+    "lapso" : "Lapso 2"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/297ce637-fbe0-4d24-8201-3897aa6e2614",
@@ -6052,19 +5743,6 @@
     "id": "5afd2610-ce06-416d-a1b4-ef9edc5483ec",
     "edad" : "8 años",
     "lapso" : "Lapso 1"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/b0780985-2563-4348-aeaa-b34b1aafbd0a",
-    "catTitle": "Prime Combined (Lección 1)",
-    "title": "Smart House: Go Green",
-    "subtitle": "SPIKE™ Prime Set, BricQ Motion Prime",
-    "description": "Diseñe, construya y programe una función de hogar inteligente para minimizar el impacto humano en el medio ambiente.",
-    "categories": "VAPOR, Ingeniería, Ciencia, Codificación",
-    "duration": "45-90 min.",
-    "level": "Avanzado",
-    "grade": "Primaria Baja 6 - 8",
-    "urlImg": "/img/lessonsImg/SmartHouseGoGreen.webp",
-    "id": "b0780985-2563-4348-aeaa-b34b1aafbd0a"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/6f0ba02a-c78b-4123-8358-105006ff1fb2",
@@ -6412,19 +6090,6 @@
     "lapso" : "Lapso 2"
   },
   {
-    "redir": "/TeacherResources/ExploreLessons/0983796f-dd33-485e-a119-c94c48c24775",
-    "catTitle": "Simple",
-    "title": "Rueda nido",
-    "subtitle": "Conjunto de máquinas simples y motorizadas",
-    "description": "Diseñe y haga un dispositivo de medición de distancia preciso, mida, cuente y calibre escalas para mayor precisión.",
-    "categories": "VAPOR, Ingeniería, Tecnología",
-    "duration": "45-90 min.",
-    "level": "Intermedio",
-    "grade": "Primaria Baja 6 - 8",
-    "urlImg": "/img/lessonsImg/TrundleWheel.webp",
-    "id": "0983796f-dd33-485e-a119-c94c48c24775"
-  },
-  {
     "redir": "/TeacherResources/ExploreLessons/c7d4b60d-12be-4aa1-b755-b73a9110bf20",
     "catTitle": "Simple",
     "title": "Rueda ambulante",
@@ -6725,36 +6390,6 @@
     "lapso" : "Lapso 1"
   },
   {
-    "redir": "/TeacherResources/ExploreLessons/56ec91d9-4479-4cb7-b297-a222b1b575f3",
-    "catTitle": "Simple",
-    "title": "Estampado de letras",
-    "subtitle": "Conjunto de máquinas simples y motorizadas",
-    "description": "Aplicar conocimientos y habilidades relacionados con palancas, levas, engranajes, observar y mejorar, y pruebas justas.",
-    "categories": "VAPOR, Ingeniería, Tecnología",
-    "duration": "45-90 min.",
-    "level": "Avanzado",
-    "grade": "Primaria Baja 6 - 8",
-    "urlImg": "/img/lessonsImg/StampingLetters.webp",
-    "id": "56ec91d9-4479-4cb7-b297-a222b1b575f3",
-    "edad" : "8 años",
-    "lapso" : "Lapso 3"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/56ec91d9-4479-4cb7-b297-a222b1b575f3",
-    "catTitle": "Simple",
-    "title": "Estampado de letras",
-    "subtitle": "Conjunto de máquinas simples y motorizadas",
-    "description": "Aplicar conocimientos y habilidades relacionados con palancas, levas, engranajes, observar y mejorar, y pruebas justas.",
-    "categories": "VAPOR, Ingeniería, Tecnología",
-    "duration": "45-90 min.",
-    "level": "Avanzado",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": "/img/lessonsImg/StampingLetters.webp",
-    "id": "56ec91d9-4479-4cb7-b297-a222b1b575f3",
-    "edad" : "9 años",
-    "lapso" : "Lapso 2"
-  },
-  {
     "redir": "/TeacherResources/ExploreLessons/9bb0a1a0-6057-47a5-9ebe-3e5b0c62e02a",
     "catTitle": "Simple",
     "title": "Volante",
@@ -6782,21 +6417,6 @@
     "urlImg": "/img/lessonsImg/Beaten.webp",
     "id": "acbe84e4-de90-40c5-96cd-42466dc5fc2b",
     "edad" : "8 años",
-    "lapso" : "Lapso 2"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/acbe84e4-de90-40c5-96cd-42466dc5fc2b",
-    "catTitle": "Simple",
-    "title": "Vencido",
-    "subtitle": "Conjunto de máquinas simples y motorizadas",
-    "description": "Aplicar conocimientos y habilidades relacionados con engranajes y poleas, eficiencia energética y pruebas justas.",
-    "categories": "VAPOR, Ingeniería, Tecnología",
-    "duration": "45-90 min.",
-    "level": "Intermedio",
-    "grade": "Primaria Alta 9 - 11",
-    "urlImg": "/img/lessonsImg/Beaten.webp",
-    "id": "acbe84e4-de90-40c5-96cd-42466dc5fc2b",
-    "edad" : "9 años",
     "lapso" : "Lapso 2"
   },
   {
@@ -6828,19 +6448,6 @@
     "id": "86774f41-438e-4850-a269-ee2072ed160f",
     "edad" : "9 años",
     "lapso" : "Lapso 1"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/b25b3fc5-ae82-4f3e-8d36-dcf00b879468",
-    "catTitle": "Simple",
-    "title": "Leva",
-    "subtitle": "Conjunto de máquinas simples y motorizadas",
-    "description": "Una leva es un marco con forma que gira alrededor de un eje, como una rueda giratoria. Las levas pueden controlar el tiempo y el grado de movimiento.",
-    "categories": "VAPOR, Ingeniería, Tecnología",
-    "duration": "0-30 min.",
-    "level": "Principiante",
-    "grade": "Primaria Baja 6 - 8",
-    "urlImg": "/img/lessonsImg/Cam.webp",
-    "id": "b25b3fc5-ae82-4f3e-8d36-dcf00b879468"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/778a395b-242d-4904-a2c8-a2a145c9e32a",
@@ -7248,19 +6855,6 @@
     "lapso" : "Lapso 1"
   },
   {
-    "redir": "/TeacherResources/ExploreLessons/6b391786-cfdf-4c32-a3a6-fce8e05adfda",
-    "catTitle": "Mini Lessons (Sesión 2)",
-    "title": "Ventilador",
-    "subtitle": "Conjunto básico WeDo 2.0",
-    "description": "Presenta la construcción y la codificación utilizando el bloque de potencia del motor para hacer que el motor gire a diferentes velocidades.",
-    "categories": "Ingeniería, STEAM, Programación",
-    "duration": "0-30 min",
-    "level": "Principiante",
-    "grade": "Primaria Baja 6 - 8",
-    "urlImg": "/img/lessonsImg/Ventilador.webp",
-    "id": "6b391786-cfdf-4c32-a3a6-fce8e05adfda"
-  },
-  {
     "redir": "/TeacherResources/ExploreLessons/4a490f5f-d13f-4e78-a230-b4a1e2e358b8",
     "catTitle": "Science (Sesión 13)",
     "title": "Depredador y presa",
@@ -7289,58 +6883,6 @@
     "id": "0fc175f2-b568-450e-9a2b-01f40964c0d0",
     "edad" : "6 años",
     "lapso" : "Lapso 1"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/7f2971c4-a04a-4814-a774-29461827ca3d",
-    "catTitle": "Mini Lessons (Sesión 4)",
-    "title": "Robot espía",
-    "subtitle": "Conjunto básico WeDo 2.0",
-    "description": "Presenta la construcción y la codificación utilizando el Sensor de movimiento.",
-    "categories": "Ingeniería, STEAM, Programación",
-    "duration": "0-30 min",
-    "level": "Principiante",
-    "grade": "Primaria Baja 6 - 8",
-    "urlImg": "/img/lessonsImg/Robotespa.webp",
-    "id": "7f2971c4-a04a-4814-a774-29461827ca3d"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/10c8c42f-ab35-4d55-b45e-aa852540c39f",
-    "catTitle": "Computational Thinking (Sesión 1)",
-    "title": "Base Lunar",
-    "subtitle": "Conjunto básico WeDo 2.0",
-    "description": "Diseñar una solución para que un robot pueda montar una base en la Luna.",
-    "categories": "Programación, STEAM, Saberes y pensamiento científico, Ingeniería",
-    "duration": "Más de 120 minutos",
-    "level": "Intermedio",
-    "grade": "Primaria Baja 6 - 8",
-    "urlImg": "/img/lessonsImg/BaseLunar.webp",
-    "id": "10c8c42f-ab35-4d55-b45e-aa852540c39f"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/c189f283-6145-4603-b715-8696f88b08cc",
-    "catTitle": "Mini Lessons (Sesión 1)",
-    "title": "Caracol Brillante",
-    "subtitle": "Conjunto básico WeDo 2.0",
-    "description": "Presenta la construcción y codificación mediante el bloque de luz.",
-    "categories": "Ingeniería, STEAM, Programación",
-    "duration": "0-30 min",
-    "level": "Principiante",
-    "grade": "Primaria Baja 6 - 8",
-    "urlImg": "/img/lessonsImg/CaracolBrillante.webp",
-    "id": "c189f283-6145-4603-b715-8696f88b08cc"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/e5096d81-11c7-4765-9ca7-53f3077fd4e8",
-    "catTitle": "Mini Lessons (Sesión 3)",
-    "title": "Satélite móvil",
-    "subtitle": "Conjunto básico WeDo 2.0",
-    "description": "Introduce la construcción y la codificación utilizando el motor aún más, haciendo que gire durante un tiempo establecido y luego que cambie de dirección.",
-    "categories": "Ingeniería, STEAM, Programación",
-    "duration": "0-30 min",
-    "level": "Principiante",
-    "grade": "Primaria Baja 6 - 8",
-    "urlImg": "/img/lessonsImg/Satlitemvil.webp",
-    "id": "e5096d81-11c7-4765-9ca7-53f3077fd4e8"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/4e6f47f1-f2ec-45c6-bdf4-29f97abb48dd",
@@ -7386,6 +6928,22 @@
     "id": "7e669cc3-680f-4261-a8ae-f047858497da",
     "edad" : "6 años",
     "lapso" : "Lapso 2"
+  },
+  
+  {
+    "redir": "/TeacherResources/ExploreLessons/56ec91d9-4479-4cb7-b297-a222b1b575f3",
+    "catTitle": "Simple",
+    "title": "Estampado de letras",
+    "subtitle": "Conjunto de máquinas simples y motorizadas",
+    "description": "Aplicar conocimientos y habilidades relacionados con palancas, levas, engranajes, observar y mejorar, y pruebas justas.",
+    "categories": "VAPOR, Ingeniería, Tecnología",
+    "duration": "45-90 min.",
+    "level": "Avanzado",
+    "grade": "Primaria Baja 6 - 8",
+    "urlImg": "/img/lessonsImg/StampingLetters.webp",
+    "id": "56ec91d9-4479-4cb7-b297-a222b1b575f3",
+    "edad" : "8 años",
+    "lapso" : "Lapso 3"
   },
   {
     "redir": "/TeacherResources/ExploreLessons/076434e8-de21-43e1-aa59-b06fefdf5d11",
