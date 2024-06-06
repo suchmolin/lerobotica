@@ -36,8 +36,8 @@ export default function NavMenu(props) {
         <div className="flex flex-row items-center gap-6">
           <Link href="/" className="cursor-pointer">
             <Image
-              src="/img/Logo-Lerobotica-RGB.png"
-              width={30}
+              src="/img/Logo-Lerobotica-horizontal-RGB.png"
+              width={100}
               height={27}
               alt="Lego education Logo"
             />

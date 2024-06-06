@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <link rel="shortcut icon" href="/Robot-Lerobotica-RGB.ico" />
         <NavLang />
         <NavMenu />
         {children}
