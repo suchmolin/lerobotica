@@ -15,8 +15,10 @@ const LessonInfo = ({ params }) => {
 
   return (
     <>
-      <NavLang />
-      <NavMenu />
+      {/*
+        <NavLang />
+        <NavMenu />
+        */}
       <div className="w-full">
         <BoxLessonInfo data={page} />
       </div>

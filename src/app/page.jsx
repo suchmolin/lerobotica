@@ -7,8 +7,10 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center font-[cerapro]">
       <header className="w-full">
+        {/*
         <NavLang />
         <NavMenu />
+        */}
       </header>
       <SectionOneHome />
     </main>

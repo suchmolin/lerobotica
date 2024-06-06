@@ -9,12 +9,18 @@ const FilterLessons = (props) => {
     setSelectedProducts,
     selectedEtapas,
     setSelectedEtapas,
+    selectedEdad,
+    setSelectedEdad,
+    selectedLapso,
+    setSelectedLapso,
     filter1,
     filter2,
     filter3,
     filter4,
     search,
     setSearch,
+    edadDisabled,
+    lapsoDisabled,
   } = props;
 
   const [isScrolled, setIsScrolled] = useState(false);
@@ -39,14 +45,14 @@ const FilterLessons = (props) => {
         width: "100%",
       }}
     >
-      <div className="flex gap-6 ">
+      <div className="flex gap-6 justify-start ">
         <div className="z-40">
           <MultiSelect
             data={filter1}
             placeHolder={"Productos"}
             state={selectedProducts}
             seter={setSelectedProducts}
-            size={"mr-36"}
+            size={"mr-24"}
           />
         </div>
         <div className="z-40">
@@ -59,22 +65,26 @@ const FilterLessons = (props) => {
           />
         </div>
         <div className="z-40">
-          <MultiSelect
-            data={filter3}
-            placeHolder={"Edad"}
-            state={selectedEtapas}
-            seter={setSelectedEtapas}
-            size={"mr-0"}
-          />
+          {!edadDisabled && (
+            <MultiSelect
+              data={filter3}
+              placeHolder={"Edad"}
+              state={selectedEdad}
+              seter={setSelectedEdad}
+              size={"mr-0"}
+            />
+          )}
         </div>
         <div className="z-40">
-          <MultiSelect
-            data={filter4}
-            placeHolder={"Lapso"}
-            state={selectedEtapas}
-            seter={setSelectedEtapas}
-            size={"mr-0"}
-          />
+          {!lapsoDisabled && (
+            <MultiSelect
+              data={filter4}
+              placeHolder={"Lapso"}
+              state={selectedLapso}
+              seter={setSelectedLapso}
+              size={"mr-0"}
+            />
+          )}
         </div>
       </div>
       <div className="">

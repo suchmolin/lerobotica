@@ -1,11 +1,12 @@
 import { HiOutlineLightBulb } from "react-icons/hi";
+import Link from "next/link";
 
 const TeacherResourcesCards = () => {
   return (
     <>
       <div className="w-full lg:w-11/12 mt-20 px-4 flex flex-col md:flex-row gap-8 justify-center items-center">
         <div className="w-full md:w-4/12 flex-col shadow-xl gap-5 rounded-xl overflow-hidden">
-          <a href="/TeacherResources/ExploreLessons">
+          <Link href="/TeacherResources/ExploreLessons">
             <div className="w-full">
               <img
                 src="/img/le_bricq_motion_essential_lifestyle_1hy21_45401_09_cropped.webp"
@@ -22,7 +23,7 @@ const TeacherResourcesCards = () => {
                 Listo para usar materiales para tu salón de clases.
               </p>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     </>

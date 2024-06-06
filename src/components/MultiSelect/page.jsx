@@ -4,7 +4,7 @@ import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
 import { IoIosClose } from "react-icons/io";
 
 export default function MultiSelect(props) {
-  const { data, placeHolder, state, seter, size } = props;
+  const { data, placeHolder, state, seter, size, disabled } = props;
   const people = data;
 
   const [query, setQuery] = useState("");
@@ -25,21 +25,21 @@ export default function MultiSelect(props) {
         <div className="flex relative w-full cursor-pointer overflow-hidden rounded-lg bg-white text-left shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-[#00528c] md:text-xs">
           <Combobox.Button className="">
             <Combobox.Input
-              className={
-                "w-full border-none py-2 pl-3 pr-10 text-sm leading-5 text-gray-900 focus:ring-0 cursor-pointer focus:outline-none " +
-                size
-              }
+              className={`w-full border-none py-2 pl-3 pr-10 text-sm leading-5 text-gray-900 focus:ring-0 focus:outline-none cursor-pointer ${size}`}
               displayValue={(people) =>
                 people.map((person) => person.name).join(", ")
               }
               placeholder={placeHolder}
               readOnly
+              disabled={disabled}
             />
+
             <div className="absolute inset-y-0 right-0 flex items-center pr-2">
               {state.length === 0 && (
                 <ChevronUpDownIcon
                   className="h-5 w-5 text-gray-400"
                   aria-hidden="true"
+                  disabled={disabled}
                 />
               )}
             </div>

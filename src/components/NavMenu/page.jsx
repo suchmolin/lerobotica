@@ -10,6 +10,7 @@ import SubMenuNav from "../SubMenuNav/page";
 import MenuResponsive from "../MenuResponsive/page";
 import TeacherResourcesButton from "../TeacherResourcesButton/page";
 import RequestMeetingButton from "../RequestMeetingButton/page";
+import Link from "next/link";
 
 export default function NavMenu(props) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,14 +34,14 @@ export default function NavMenu(props) {
     >
       <div className="h-full w-10/12 flex justify-between z-40">
         <div className="flex flex-row items-center gap-6">
-          <a href="/" className="cursor-pointer">
+          <Link href="/" className="cursor-pointer">
             <Image
               src="/img/Logo-Lerobotica-RGB.png"
               width={30}
               height={27}
               alt="Lego education Logo"
             />
-          </a>
+          </Link>
           <div className="hidden lg:flex">
             <SubMenuNav />
           </div>
