@@ -37,7 +37,7 @@ export default function NavMenu(props) {
           <Link href="/" className="cursor-pointer">
             <Image
               src="/img/Logo-Lerobotica-horizontal-RGB.png"
-              width={100}
+              width={120}
               height={27}
               alt="Lego education Logo"
             />

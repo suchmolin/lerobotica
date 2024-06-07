@@ -66,3 +66,51 @@
     padding-top: 20px;
     cursor: pointer;
 }
+
+#teacher{
+    background-color: #309a44;
+    padding: 50px 30px;
+}
+    
+#teacher h2{
+    font-size: 1.5rem;
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+}
+    
+#teacher .sc-1by4a7p-5{
+    padding: 10px;    
+    border-bottom: 1px solid white;
+}
+
+#teacher .sc-1by4a7p-4{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 1rem;;
+}
+#teacher .sc-gEvEer {
+    padding-left: 10px;
+    
+}
+#teacher .ukqtbd0 {
+    padding: 10px 0px;
+}
+
+#teacher ul{
+    margin-left: 50px;
+}
+#teacher ul li{
+    list-style-type: circle;
+    font-size: 0.8rem;
+
+}
+#teacher .sc-1by4a7p-4 svg {
+    width: 15px;
+}
+#teacher .ukqtbd0{
+    font-size: 0.8rem;
+}
+#teacher *{
+    color: white;
+}
