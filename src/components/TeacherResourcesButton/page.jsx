@@ -1,12 +1,16 @@
 import { RiGraduationCapLine } from "react-icons/ri";
 import Link from "next/link";
-const TeacherResourcesButton = () => {
+const TeacherResourcesButton = (props) => {
+  const { setMenuResp } = props;
+
   return (
     <div className="flex gap-1 flex-wrap">
       <span className="mt-1">
         <RiGraduationCapLine />
       </span>
-      <Link href="/TeacherResources">Recursos de Maestros</Link>
+      <Link onClick={() => setMenuResp(false)} href="/TeacherResources">
+        Recursos de Maestros
+      </Link>
     </div>
   );
 };

@@ -34,7 +34,11 @@ export default function NavMenu(props) {
     >
       <div className="h-full w-10/12 flex justify-between z-40">
         <div className="flex flex-row items-center gap-6">
-          <Link href="/" className="cursor-pointer">
+          <Link
+            onClick={() => setMenuResp(false)}
+            href="/"
+            className="cursor-pointer"
+          >
             <Image
               src="/img/Logo-Lerobotica-horizontal-RGB.png"
               width={100}
@@ -48,7 +52,7 @@ export default function NavMenu(props) {
         </div>
         <ul className="flex gap-4 items-center">
           <li className="hidden sm:flex gap-2 hover:text-[#4f6cbd] cursor-pointer">
-            <TeacherResourcesButton />
+            <TeacherResourcesButton setMenuResp={setMenuResp} />
           </li>
           <li className="hidden sm:block">
             <RequestMeetingButton />

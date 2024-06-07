@@ -29,7 +29,7 @@ export default function LessonCard(props) {
               <h2 className="font-bold text-xl">{item.title}</h2>
               <p className="text-md mt-1">{item.subtitle}</p>
             </div>
-            <p className="text-md mt-5 font-light">{item.description}</p>
+            <p className="text-sm mt-5 font-light">{item.description}</p>
             <div className="absolute bottom-10">
               <p className="text-sm mt-20">{item.categories}</p>
               <div className="flex flex-row gap-2 font-light mt-3 text-sm">

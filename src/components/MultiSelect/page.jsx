@@ -47,7 +47,7 @@ export default function MultiSelect(props) {
           {state.length > 0 && (
             <span
               onClick={() => seter([])}
-              className="text-2xl text-gray-400 z-10 flex items-center"
+              className="absolute inset-y-0 right-0 pr-2 text-2xl text-gray-400 z-10 flex items-center"
             >
               <IoIosClose />
             </span>
@@ -83,7 +83,9 @@ export default function MultiSelect(props) {
                           selected ? "font-medium" : "font-normal"
                         }`}
                       >
-                        {person.name}
+                        {person.count
+                          ? `${person.name} (${person.count})`
+                          : person.name}
                       </span>
                       {selected ? (
                         <span

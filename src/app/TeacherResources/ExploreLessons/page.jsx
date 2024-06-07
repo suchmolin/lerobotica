@@ -30,7 +30,7 @@ export default function ExploreLessons(props) {
     const products = [];
     const etapas = [];
     const edad = [];
-
+    // seteando el filtro de productos
     data.forEach((lesson) => {
       if (!products.some((item) => item.name === lesson.subtitle)) {
         if (lesson.subtitle.split(",").length === 1) {
@@ -39,21 +39,42 @@ export default function ExploreLessons(props) {
             (selectedEtapas.length > 0 &&
               selectedEtapas.some((etapa) => etapa.name === lesson.grade))
           ) {
-            products.push({ id: lesson.subtitle, name: lesson.subtitle });
+            products.push({
+              id: lesson.subtitle,
+              name: lesson.subtitle,
+              count: 1,
+            });
+          }
+        }
+      } else {
+        if (lesson.subtitle.split(",").length === 1) {
+          if (
+            selectedEtapas.length === 0 ||
+            (selectedEtapas.length > 0 &&
+              selectedEtapas.some((etapa) => etapa.name === lesson.grade))
+          ) {
+            products.find((item) => item.name === lesson.subtitle).count++;
           }
         }
       }
+      //seteando filtro de etapas
       if (!etapas.some((item) => item.name === lesson.grade)) {
         if (
           selectedProducts.length === 0 ||
           (selectedProducts.length > 0 &&
             selectedProducts.some((prod) => prod.name === lesson.subtitle))
         ) {
-          etapas.push({ id: lesson.grade, name: lesson.grade });
+          etapas.push({ id: lesson.grade, name: lesson.grade, count: 1 });
+        }
+      } else {
+        if (
+          selectedProducts.length === 0 ||
+          (selectedProducts.length > 0 &&
+            selectedProducts.some((prod) => prod.name === lesson.subtitle))
+        ) {
+          etapas.find((item) => item.name === lesson.grade).count++;
         }
       }
-
-      //nuevo hacer que los filtros aparezcan solo si el anterior fue selecionado (ejemplo si se selecciona preescolar, aparece 3 años - 4 años - 5 años) y cuando se seleccione la edad aparece el lapso al lado
     });
 
     // Si existe, agregar los objetos correspondientes a `edad`

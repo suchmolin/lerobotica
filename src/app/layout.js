@@ -13,10 +13,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="eS">
       <body className={inter.className}>
         <link rel="shortcut icon" href="/Robot-Lerobotica-RGB.ico" />
-        <NavLang />
+        {/*<NavLang />*/}
         <NavMenu />
         {children}
         <Footer />

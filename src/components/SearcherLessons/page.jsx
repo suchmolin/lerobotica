@@ -3,7 +3,7 @@ const SearcherLessons = (props) => {
   const { search, setSearch } = props;
 
   return (
-    <div className="flex items-center mx-4 font-[cerapro]">
+    <div className="flex px-3 lg:px-0 w-full items-center mx-0 lg:mx-4 font-[cerapro]">
       <label htmlFor="searcher" className="text-xl -mr-8 z-10 text-gray-500 ">
         <CiSearch />
       </label>
