@@ -1,7 +1,10 @@
 const BoxLessonInfo = (props) => {
   const data = props.data;
+
   return (
-    <div className="w-full flex md:w-full px-4 md:px-0 ml-0 md:pl-28 mt-2  py-2 font-[cerapro]">
+    <div
+      className={`w-full flex px-4 md:px-0 ml-0 md:pl-28 mt-2  py-2 font-[cerapro] ${data.teacher ? "md:w-full" : "md:w-6/12"}`}
+    >
       <div
         className="w-full md:w-12/12"
         id="mainLesson"
