@@ -11,7 +11,7 @@ const TeacherResourcesCards = () => {
               <img
                 src="/img/le_bricq_motion_essential_lifestyle_1hy21_45401_09_cropped.webp"
                 alt="Explore Lessons"
-                className="w-full h-full"
+                className="w-full h-full hover:scale-105 transition-all cursor-pointer duration-700 ease-in-out"
               />
             </div>
             <div className="w-full p-4">

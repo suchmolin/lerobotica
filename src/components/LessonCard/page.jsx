@@ -12,8 +12,8 @@ export default function LessonCard(props) {
           href={item.redir}
           className="relative customShadow w-full h-full sm:w-5/12 lg:w-3/12 my-4 rounded-sm min-h-[610px]"
         >
-          <div className="relative flex flex-col items-center">
-            <h4 className="absolute  rounded-t-sm p-2 w-full bg-white/[0.6] text-xs">
+          <div className="relative flex flex-col items-center overflow-hidden">
+            <h4 className="absolute  rounded-t-sm p-2 w-full bg-white/[0.6] text-xs z-10">
               {item.catTitle}
             </h4>
             {/*}
@@ -24,7 +24,7 @@ export default function LessonCard(props) {
             />*/}
             {item.urlImg ? (
               <img
-                className="w-full max-h-[289px] rounded-t-sm"
+                className="w-full max-h-[289px] rounded-t-sm hover:scale-105 transition-all duration-700 ease-in-out"
                 src={item.urlImg}
                 alt="imagen"
               />

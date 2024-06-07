@@ -8,6 +8,7 @@ const SliderHome = () => {
           width={335}
           height={252}
           alt="Main Image one"
+          className="hover:scale-105 transition-all cursor-pointer duration-700 ease-in-out"
         />
       </div>
       <div className="w-64 h-[335px] rounded-xl overflow-hidden">
@@ -16,6 +17,7 @@ const SliderHome = () => {
           width={335}
           height={252}
           alt="Main Image two"
+          className="hover:scale-105 transition-all cursor-pointer duration-700 ease-in-out"
         />
       </div>
       <div className="w-64 h-[335px] rounded-xl overflow-hidden">
@@ -24,6 +26,7 @@ const SliderHome = () => {
           width={335}
           height={252}
           alt="Main Image three"
+          className="hover:scale-105 transition-all cursor-pointer duration-700 ease-in-out"
         />
       </div>
     </div>

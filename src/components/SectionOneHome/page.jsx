@@ -1,4 +1,6 @@
+"use client";
 import SliderHome from "../SliderHome/page";
+import { Fade } from "react-awesome-reveal";
 const SectionOneHome = () => {
   return (
     <section className="w-full lg:w-10/12 font-sans flex flex-col justify-center items-center">
@@ -17,7 +19,9 @@ const SectionOneHome = () => {
           </p>
         </div>
       </div>
-      <SliderHome />
+      <Fade direction="up" triggerOnce duration={1000}>
+        <SliderHome />
+      </Fade>
       <div className="h-[200px]">_</div>
     </section>
   );
