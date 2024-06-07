@@ -17,14 +17,11 @@ export default function LessonCard(props) {
             </h4>
             <img
               className="w-full max-h-[289px] rounded-t-sm"
-              src={
-                item.urlImg ||
-                "https://assets.education.lego.com/v3/assets/blt293eea581807678a/blt940bfebf6c4aa22d/62b05ea5e75cbf5ab676b1b1/45345_Science_U3_L2_Web_thumbnail.png?locale=en-us&auto=webp&format=jpeg&width=1800&quality=90&fit=bounds"
-              }
+              src={item.urlImg || "/img/lessonsImg/sinImagen.png"}
               alt="imagen"
             />
           </div>
-          <div className="relative h-[350px] py-2 px-3 flex flex-col ">
+          <div className="relative h-[350px] pt-6 pb-2 px-3 flex flex-col ">
             <div>
               <h2 className="font-bold text-xl">{item.title}</h2>
               <p className="text-md mt-1">{item.subtitle}</p>
