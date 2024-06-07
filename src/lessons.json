@@ -1995,6 +1995,21 @@
     "lapso" : "Lapso 1"
   },
   {
+    "redir": "/TeacherResources/ExploreLessons/e29f8453-4bd9-48f4-88b2-ed15a3dab13c",
+    "catTitle": "Los animales y su entorno (Lección 2)",
+    "title": "Ciclos de vida",
+    "subtitle": "SPIKE™ Essential",
+    "description": "Leo aprendió que los renacuajos son ranas bebés. Se pregunta cómo cambian otros animales y plantas a medida que crecen.",
+    "categories": "VAPOR, Ciencia",
+    "duration": "45-90 min.",
+    "level": "Intermedio",
+    "grade": "Primaria Baja 6 - 8",
+    "urlImg": "/img/lessonsImg/LifeCycles.webp",
+    "id": "e29f8453-4bd9-48f4-88b2-ed15a3dab13c",
+    "edad" : "6 años",
+    "lapso" : "Lapso 1"
+  },
+  {
     "redir": "/TeacherResources/ExploreLessons/82e6db58-9a2c-45f3-b2c6-ea575b292298",
     "catTitle": "Creador Middle School (Lesson 1)",
     "title": "Hacer un accesorio digital",
@@ -2532,21 +2547,6 @@
     "urlImg": "/img/lessonsImg/MakeaWearable.webp",
     "id": "ecb4d1e6-d574-4dc1-87d8-bd65497b996b",
     "edad" : "5 años",
-    "lapso" : "Lapso 1"
-  },
-  {
-    "redir": "/TeacherResources/ExploreLessons/e29f8453-4bd9-48f4-88b2-ed15a3dab13c",
-    "catTitle": "Los animales y su entorno (Lección 2)",
-    "title": "Ciclos de vida",
-    "subtitle": "SPIKE™ Essential",
-    "description": "Leo aprendió que los renacuajos son ranas bebés. Se pregunta cómo cambian otros animales y plantas a medida que crecen.",
-    "categories": "VAPOR, Ciencia",
-    "duration": "45-90 min.",
-    "level": "Intermedio",
-    "grade": "Primaria Baja 6 - 8",
-    "urlImg": "/img/lessonsImg/LifeCycles.webp",
-    "id": "e29f8453-4bd9-48f4-88b2-ed15a3dab13c",
-    "edad" : "6 años",
     "lapso" : "Lapso 1"
   },
   {

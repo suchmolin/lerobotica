@@ -25,11 +25,8 @@ const FilterLessons = (props) => {
     lapsoDisabled,
   } = props;
 
-  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-  console.log(isMobile);
-
   const [isScrolled, setIsScrolled] = useState(false);
-  const [filterOpen, setFilterOpen] = useState(!isMobile ?? true);
+  const [filterOpen, setFilterOpen] = useState(true);
 
   useEffect(() => {
     const handleScroll = () => {
