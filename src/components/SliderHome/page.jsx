@@ -4,7 +4,7 @@ const SliderHome = () => {
     <div className="w-full flex justify-center items-center gap-2 sm:gap-8 -mt-36 lg:-mt-36 overflow-hidden px-3">
       <div className="w-64 h-[335px] rounded-xl overflow-hidden">
         <Image
-          src="/img/mainsec1.webp"
+          src="/img/mainsec1.png"
           width={335}
           height={252}
           alt="Main Image one"
@@ -13,7 +13,7 @@ const SliderHome = () => {
       </div>
       <div className="w-64 h-[335px] rounded-xl overflow-hidden">
         <Image
-          src="/img/mainsec2.webp"
+          src="/img/mainsec2.png"
           width={335}
           height={252}
           alt="Main Image two"
@@ -22,7 +22,7 @@ const SliderHome = () => {
       </div>
       <div className="w-64 h-[335px] rounded-xl overflow-hidden">
         <Image
-          src="/img/mainsec3.webp"
+          src="/img/mainsec3.png"
           width={335}
           height={252}
           alt="Main Image three"

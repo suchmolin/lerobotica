@@ -1,11 +1,21 @@
 "use client";
+import Image from "next/image";
 import SliderHome from "../SliderHome/page";
 import { Fade } from "react-awesome-reveal";
+
 const SectionOneHome = () => {
   return (
-    <section className="w-full lg:w-10/12 font-sans flex flex-col justify-center items-center">
-      <div className="w-full h-[515px] bg-[#ffd500] flex flex-col items-center lg:justify-center pt-28 lg:pt-0">
-        <div className="w-10/12 md:w-10/12 lg:w-8/12">
+    <section className="firstSec w-full lg:w-10/12 font-sans flex flex-col justify-center items-center">
+      {/*<div className="flex">
+        <Image
+          class="trasition-all"
+          src="/img/puerta.png"
+          width={150}
+          height={515}
+        />*/}
+
+      <div className="w-full whitespace-nowrap overflow-hidden transition-all duration-[1500ms] h-[515px] bg-[#ffd500] flex flex-col flex-wrap items-center  lg:justify-center pt-28 lg:pt-0">
+        <div className="w-12/12 md:w-10/12 lg:w-8/12">
           <h1 className="flex flex-col text-4xl md:text-5xl lg:text-6xl font-bold">
             Lerobotica{" "}
             <span className="text-2xl sm:text-3xl">
@@ -14,11 +24,22 @@ const SectionOneHome = () => {
           </h1>
           <p className="mt-2 text-xs sm:text-base">
             Soluciones de aprendizaje diseñadas para capacitar a estudiantes y
-            profesores, generar una comprensión y un compromiso más profundos y
-            encender un amor por el aprendizaje para toda la vida.
+            profesores, generar una comprensión
+          </p>
+          <p className="mt-2 text-xs sm:text-base">
+            y un compromiso más profundos y encender un amor por el aprendizaje
+            para toda la vida.
           </p>
         </div>
       </div>
+
+      {/*<Image
+          class="scale-x-[-1] transition-all"
+          src="/img/puerta.png"
+          width={150}
+          height={515}
+        />
+      </div>*/}
       <Fade direction="up" triggerOnce duration={1000}>
         <SliderHome />
       </Fade>

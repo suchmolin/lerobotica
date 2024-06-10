@@ -27,6 +27,19 @@ export default function NavMenu(props) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    const firstSecElement = document.querySelector(".firstSec");
+    if (isScrolled) {
+      if (firstSecElement) {
+        firstSecElement.classList.add("mt-[80px]");
+      }
+    } else {
+      if (firstSecElement) {
+        firstSecElement.classList.remove("mt-[80px]");
+      }
+    }
+  }, [isScrolled]);
+
   return (
     <nav
       translate="no"
@@ -53,12 +66,12 @@ export default function NavMenu(props) {
           <li className="hidden sm:block">
             <RequestMeetingButton />
           </li>
-          <li className="text-2xl hover:text-[#4f6cbd] cursor-pointer">
+          {/*<li className="text-2xl hover:text-[#4f6cbd] cursor-pointer">
             <RiSearchLine />
           </li>
           <li className="text-xl hover:text-[#4f6cbd] cursor-pointer">
             <BsCart3 />
-          </li>
+          </li>*/}
           <li
             onClick={() => setMenuResp(!menuResp)}
             className="block lg:hidden text-2xl hover:text-[#4f6cbd] cursor-pointer"

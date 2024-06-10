@@ -9,7 +9,7 @@ const TeacherResources = () => {
   // Your component logic goes here
 
   return (
-    <div className="font-[cerapro]">
+    <div className="firstSec font-[cerapro]">
       {/*
         <NavLang />
         <NavMenu />

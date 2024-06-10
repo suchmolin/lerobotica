@@ -193,7 +193,7 @@ export default function ExploreLessons(props) {
   }, [selectedProducts, selectedEtapas, search, selectedEdad, selectedLapso]);
 
   return (
-    <div className="font-[cerapro]">
+    <div className="firstSec font-[cerapro]">
       {/*
         <NavLang />
         <NavMenu />
