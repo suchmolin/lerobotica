@@ -45,7 +45,7 @@ export default function NavMenu(props) {
     >
       <div className="h-full w-10/12 flex justify-between z-40">
         <div className="flex flex-row items-center gap-6">
-          <Link href="/" className="cursor-pointer">
+          <Link href="./" className="cursor-pointer">
             <SvgLogoHorizontal />
           </Link>
           <div className="hidden lg:flex">
