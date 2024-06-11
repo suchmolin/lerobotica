@@ -9,10 +9,11 @@ export default function LessonCard(props) {
     <>
       {data.slice(0, count).map((item, index) => (
         <Fade
+          key={index}
           triggerOnce
           className="customShadow w-full h-full sm:w-5/12 lg:w-3/12 my-4 rounded-sm min-h-[610px]"
         >
-          <a key={index} href={item.redir} className="relative ">
+          <a href={item.redir} className="relative ">
             <div className="relative flex flex-col items-center overflow-hidden">
               <h4 className="absolute  rounded-t-sm p-2 w-full bg-white/[0.6] text-xs z-10">
                 {item.catTitle}

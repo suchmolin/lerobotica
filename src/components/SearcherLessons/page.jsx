@@ -1,4 +1,6 @@
+"use client";
 import { CiSearch } from "react-icons/ci";
+
 const SearcherLessons = (props) => {
   const { search, setSearch } = props;
 
