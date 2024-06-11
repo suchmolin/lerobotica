@@ -15,9 +15,9 @@ export default function LessonCard(props) {
         >
           <a href={item.redir} className="relative ">
             <div className="relative flex flex-col items-center overflow-hidden">
-              <h4 className="absolute  rounded-t-sm p-2 w-full bg-white/[0.6] text-xs z-10">
+              <p className="absolute  rounded-t-sm p-2 w-full bg-white/[0.6] text-xs z-10">
                 {item.catTitle}
-              </h4>
+              </p>
               {/*}
             <img
               className="w-full max-h-[289px] rounded-t-sm"
