@@ -8,7 +8,7 @@ const SearcherLessons = (props) => {
         <CiSearch />
       </label>
       <input
-        className="w-[350px] pl-10 h-9 rounded-lg shadow-md focus:outline-[#00528c] focus:outline-1"
+        className="w-full pl-10 h-9 rounded-lg shadow-md focus:outline-[#00528c] focus:outline-1"
         type="text"
         name="searcher"
         placeholder="Buscar ..."
