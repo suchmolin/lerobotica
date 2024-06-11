@@ -1,7 +1,7 @@
 import Image from "next/image";
 const SliderHome = () => {
   return (
-    <div className="w-full flex justify-center items-center gap-2 sm:gap-8 -mt-36 lg:-mt-36 overflow-hidden px-3">
+    <div className="overflow-hidden flex justify-center items-center gap-2 sm:gap-8">
       <div className="w-64 h-[335px] rounded-xl overflow-hidden">
         <Image
           src="/img/mainsec1.png"

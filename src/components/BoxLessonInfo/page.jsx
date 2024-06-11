@@ -3,10 +3,10 @@ const BoxLessonInfo = (props) => {
 
   return (
     <div
-      className={`w-full flex px-4 md:px-0 ml-0 md:pl-28 mt-2  py-2 font-[cerapro] ${data.teacher ? "md:w-full" : "md:w-6/12"}`}
+      className={`w-full flex md:flex-row flex-col px-4 md:px-0 ml-0 md:pl-28 mt-2  py-2 font-[cerapro] `}
     >
       <div
-        className="w-full md:w-12/12"
+        className="w-full"
         id="mainLesson"
         dangerouslySetInnerHTML={
           data ? { __html: data.html } : { __html: "not found" }
@@ -15,7 +15,7 @@ const BoxLessonInfo = (props) => {
       {data && data.teacher ? (
         <div className="w-full flex justify-center">
           <div
-            className="w-8/12 h-fit"
+            className="md:w-8/12 w-full h-fit"
             id="teacher"
             dangerouslySetInnerHTML={
               data ? { __html: data.teacher } : { __html: "not found" }

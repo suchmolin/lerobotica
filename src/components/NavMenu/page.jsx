@@ -80,7 +80,7 @@ export default function NavMenu(props) {
           </li>
         </ul>
       </div>
-      {menuResp && <MenuResponsive />}
+      {menuResp && <MenuResponsive setMenuResp={setMenuResp}/>}
     </nav>
   );
 }
