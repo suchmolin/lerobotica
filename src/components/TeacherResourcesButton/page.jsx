@@ -1,8 +1,12 @@
 import { RiGraduationCapLine } from "react-icons/ri";
 import Link from "next/link";
-const TeacherResourcesButton = ({ setMenuResp }) => {
+const TeacherResourcesButton = (props) => {
+  const { setMenuResp } = props;
+
   const handleClick = (e) => {
-    setMenuResp(false);
+    if (setMenuResp) {
+      setMenuResp(false);
+    }
   };
 
   return (

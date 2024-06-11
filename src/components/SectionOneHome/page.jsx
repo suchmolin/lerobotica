@@ -46,8 +46,6 @@ const SectionOneHome = () => {
       >
         <SliderHome />
       </Fade>
-
-      <div className="h-[200px]">_</div>
     </section>
   );
 };

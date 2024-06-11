@@ -1,8 +1,5 @@
 "use client";
-import Image from "next/image";
 
-import { RiSearchLine } from "react-icons/ri";
-import { BsCart3 } from "react-icons/bs";
 import { useState, useEffect } from "react";
 import { IoMdMenu } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
@@ -11,6 +8,7 @@ import MenuResponsive from "../MenuResponsive/page";
 import TeacherResourcesButton from "../TeacherResourcesButton/page";
 import RequestMeetingButton from "../RequestMeetingButton/page";
 import Link from "next/link";
+import SvgLogoHorizontal from "../SvgLogoHorizontal/page";
 
 export default function NavMenu(props) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -48,12 +46,7 @@ export default function NavMenu(props) {
       <div className="h-full w-10/12 flex justify-between z-40">
         <div className="flex flex-row items-center gap-6">
           <Link href="/" className="cursor-pointer">
-            <Image
-              src="/img/Logo-Lerobotica-horizontal-RGB.png"
-              width={120}
-              height={27}
-              alt="Lego education Logo"
-            />
+            <SvgLogoHorizontal />
           </Link>
           <div className="hidden lg:flex">
             <SubMenuNav />
@@ -80,7 +73,7 @@ export default function NavMenu(props) {
           </li>
         </ul>
       </div>
-      {menuResp && <MenuResponsive setMenuResp={setMenuResp}/>}
+      {menuResp && <MenuResponsive setMenuResp={setMenuResp} />}
     </nav>
   );
 }
