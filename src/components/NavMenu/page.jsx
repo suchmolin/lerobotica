@@ -45,13 +45,15 @@ export default function NavMenu(props) {
     >
       <div className="h-full w-10/12 flex justify-between z-40">
         <div className="flex flex-row items-center gap-6">
-          <Link href="./" className="cursor-pointer">
-            <SvgLogoHorizontal />
-          </Link>
           <div className="hidden lg:flex">
             <SubMenuNav />
           </div>
         </div>
+
+        <Link href="/" className="cursor-pointer h-fit">
+          <SvgLogoHorizontal />
+        </Link>
+
         <ul className="flex gap-4 items-center">
           <li className="hidden sm:flex gap-2 hover:text-[#4f6cbd] cursor-pointer">
             <TeacherResourcesButton />

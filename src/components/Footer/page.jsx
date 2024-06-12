@@ -1,31 +1,50 @@
 import { RequestCookiesAdapter } from "next/dist/server/web/spec-extension/adapters/request-cookies";
 import React from "react";
 import RequestMeetingButton from "../RequestMeetingButton/page";
+import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="w-full py-10">
-      <div className="w-full flex flex-col items-center justify-center">
-        <div className="w-full sm:w-8/12 lg:w-4/12 overflow-hidden">
-          <video
-            className="w-full scale-105"
-            autoPlay
-            muted
-            loop
-            src="/vid/Page_14-Anim.mp4"
-          ></video>
-        </div>
-
-        <div className="w-full lg:w-10/12 h-[400px] sm:h-[300px] bg-[#ffd500] text-center text-black lg:rounded-t-xl flex flex-col justify-center items-center">
-          <h2 className="text-2xl sm:text-4xl font-bold w-10/12 md:w-6/12 py-2">
-            Trae a Lerobotica a tu escuela o distrito
+    <footer className="w-full mt-36">
+      <div className="w-full flex gap-3 justify-center z-10 mb-12">
+        <Image
+          width={800}
+          height={400}
+          src="/img/footerRobots.jpg"
+          alt="footerimage"
+        />
+      </div>
+      <div className="w-full border-t-2 border-t-gray-100 flex justify-center items-center flex-col">
+        <div className="w-9/12 flex gap-4 items-center justify-center py-5 bg-[#FFD100] rounded-lg -mt-9">
+          <h2 className="text-2xl font-[cerapro] font-bold text-gray-700">
+            Trae a Lerobotica a tu escula o distrito
           </h2>
-          <p className="text-lg">
-            Nuestro equipo de expertos está aquí para ayudarte a encontrar la
-            solución que se adapte a las necesidades de tus estudiantes.
-          </p>
-          <div className="py-2 mt-4">
-            <RequestMeetingButton />
+          <RequestMeetingButton />
+        </div>
+        <div className="flex gap-10 justify-center font-[cerapro] py-10">
+          <div className="px-7 flex flex-col">
+            <p className="text-gray-700 py-1">
+              Lorem, ipsum dolor sit amet consectetur adipisicing.
+            </p>
+            <p className="text-gray-700 py-1">Lorem ipsum dolor sit.</p>
+          </div>
+          <div className="px-7 flex flex-col">
+            <h5 className="font-bold py-2 text-gray-700">Conocenos</h5>
+            <a className="text-gray-700 py-1">About uS</a>
+            <a className="text-gray-700 py-1">Corporate Sale</a>
+            <a className="text-gray-700 py-1">Terms & Services</a>
+          </div>
+          <div className="px-7 flex flex-col">
+            <h5 className="font-bold py-2 text-gray-700">Support</h5>
+            <a className="text-gray-700 py-1">About uS</a>
+            <a className="text-gray-700 py-1">Corporate Sale</a>
+            <a className="text-gray-700 py-1">Terms & Services</a>
+          </div>
+          <div className="px-7 flex flex-col">
+            <h5 className="font-bold py-2 text-gray-700">Contact</h5>
+            <a className="text-gray-700 py-1">About uS</a>
+            <a className="text-gray-700 py-1">Corporate Sale</a>
+            <a className="text-gray-700 py-1">Terms & Services</a>
           </div>
         </div>
       </div>

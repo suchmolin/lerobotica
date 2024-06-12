@@ -1,6 +1,6 @@
-import NavLang from "@/components/NavLang/page";
-import NavMenu from "@/components/NavMenu/page";
 import SectionOneHome from "@/components/SectionOneHome/page";
+import SectionThreeHome from "@/components/SectionThreeHome/page";
+import SectiontwoHome from "@/components/SectiontwoHome/page";
 
 export default function Home() {
   //coment
@@ -13,6 +13,8 @@ export default function Home() {
         */}
       </header>
       <SectionOneHome />
+      <SectiontwoHome />
+      <SectionThreeHome />
     </main>
   );
 }

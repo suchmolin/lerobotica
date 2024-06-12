@@ -4,8 +4,8 @@ const SvgLogoHorizontal = () => {
   return (
     <div>
       <svg
-        width="120"
-        height="327"
+        width="150"
+        height="75"
         viewBox="0 0 1271 327"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
