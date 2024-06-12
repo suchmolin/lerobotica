@@ -8,7 +8,7 @@ const SectionOneHome = () => {
     <section className="firstSec w-full lg:w-10/12 font-sans flex flex-col justify-center items-center">
       {/*<div className="flex">
         <Image
-          class="trasition-all"
+          className="trasition-all"
           src="/img/puerta.png"
           width={150}
           height={515}
@@ -32,7 +32,7 @@ const SectionOneHome = () => {
       </div>
 
       {/*<Image
-          class="scale-x-[-1] transition-all"
+          className="scale-x-[-1] transition-all"
           src="/img/puerta.png"
           width={150}
           height={515}

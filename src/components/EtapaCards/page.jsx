@@ -3,7 +3,7 @@ import Link from "next/link";
 const EtapaCards = (props) => {
   const { imgUrl, icon, subtitulo, texto, redir } = props;
   return (
-    <div className="w-3/12 flex-col shadow-xl gap-5 rounded-xl overflow-hidden">
+    <div className="w-10/12 md:w-8/12 lg:w-3/12 flex-col shadow-xl gap-5 rounded-xl overflow-hidden">
       <Link href={redir}>
         <div className="w-full h-56">
           <Image

@@ -1,23 +1,30 @@
+"use client";
 import FAQBox from "../FAQBox/page";
-
+import { Slide } from "react-awesome-reveal";
 export default function PreguntasFrecuentes() {
   return (
-    <div className="w-full flex flex-col items-center mt-6 mb-10 font-[cerapro]">
-      <div className="w-10/12 mt-10 flex justify-center">
-        <div className="w-3/12 h-[330px] overflow-hidden rounded-full mt-16">
+    <Slide
+      triggerOnce
+      direction="up"
+      className="w-full flex flex-col items-center justify-center mt-0 lg:mt-6 mb-10 font-[cerapro]"
+    >
+      <div className="w-full mt-0 lg:mt-10 flex flex-col lg:flex-row justify-center items-center">
+        <div className=" lg:w-[330px] h-[330px] overflow-hidden rounded-full mx-2">
           <video
-            className="h-[590px] -mt-16"
+            className="h-[590px] -mt-24"
             autoPlay
             muted
             loop
             src="/img/helicopter.mp4"
           ></video>
         </div>
-        <div className="w-7/12 flex flex-col items-center">
-          <h2 className="text-4xl font-bold">Preguntas Frecuentes</h2>
+        <div className="w-11/12 lg:w-7/12 mt-3 lg:mt-0 flex flex-col items-center justify-center">
+          <h2 className="text-2xl lg:text-4xl font-bold">
+            Preguntas Frecuentes
+          </h2>
           <FAQBox />
         </div>
       </div>
-    </div>
+    </Slide>
   );
 }

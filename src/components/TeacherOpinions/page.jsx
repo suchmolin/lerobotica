@@ -1,10 +1,13 @@
+"use client";
 import TeacherLeft from "../TeacherLeft/page";
-
+import { Slide } from "react-awesome-reveal";
 const TeacherOpinions = () => {
   return (
-    <>
-      <div className="w-full flex flex-col items-center mt-28 mb-10 font-[cerapro]">
-        <h2 className="text-5xl font-bold">Opiniones de los maestros</h2>
+    <Slide triggerOnce direction="left">
+      <div className="w-full flex flex-col items-center mt-16 lg:mt-28 mb-10 font-[cerapro]">
+        <h2 className="text-2xl md:text-5xl font-bold">
+          Opiniones de los maestros
+        </h2>
         <TeacherLeft
           left={true}
           imgUrl="perfil1.jpg"
@@ -18,7 +21,7 @@ const TeacherOpinions = () => {
           name="Lorem ipsum, dolor sit amet consectetur adipisicing."
         />
       </div>
-    </>
+    </Slide>
   );
 };
 

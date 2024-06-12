@@ -89,8 +89,8 @@ const SectionThreeHome = () => {
   );
 
   return (
-    <Fade className="w-full">
-      <div className="w-full mt-10 px-4 flex flex-col md:flex-row gap-8 justify-center items-center">
+    <Fade triggerOnce className="w-full">
+      <div className="w-full mt-16 md:mt-10 px-4 flex flex-col md:flex-row gap-8 justify-center items-center">
         <EtapaCards
           imgUrl="le_bricq_motion_essential_lifestyle_1hy21_45401_09_cropped.webp"
           icon={icon1}

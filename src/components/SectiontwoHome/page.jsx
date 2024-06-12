@@ -8,7 +8,7 @@ const SectiontwoHome = () => {
     <Slide
       direction="up"
       triggerOnce
-      className="relative mt-14 w-full flex justify-center"
+      className="relative -mt-10 sm:mt-14 w-full flex justify-center"
     >
       <Image
         className="absolute top-0 left-0"
@@ -17,8 +17,8 @@ const SectiontwoHome = () => {
         height={100}
         alt="robot1"
       />
-      <div className="w-10/12 h-[300px] flex justify-between">
-        <div className="flex w-4/12 flex-col items-center px-16 text-center">
+      <div className="w-10/12 min-h-[300px] flex flex-col md:flex-row justify-between">
+        <div className="flex w-full md:w-4/12 flex-col items-center px-10 sm:px-20 py-4 md:px-6 lg:px-16 text-center">
           <div className="rounded-full ring-2 ring-[#ffd500] p-3">
             <svg
               width="50"
@@ -87,7 +87,7 @@ const SectiontwoHome = () => {
             commodi maiores doloribus!
           </p>
         </div>
-        <div className="flex w-4/12 flex-col items-center px-16 text-center">
+        <div className="flex w-full md:w-4/12 flex-col items-center px-10 sm:px-20 py-4 md:px-6 lg:px-16 text-center">
           <div className="rounded-full ring-2 ring-[#ffd500] p-3 text-[#309a44]">
             <svg
               width="50"
@@ -196,7 +196,7 @@ const SectiontwoHome = () => {
             commodi maiores doloribus!
           </p>
         </div>
-        <div className="flex w-4/12 flex-col items-center px-16 text-center">
+        <div className="flex w-full md:w-4/12 flex-col items-center px-10 sm:px-20 py-4 md:px-6 lg:px-16 text-center">
           <div className="rounded-full ring-2 ring-[#ffd500] p-3">
             <svg
               width="50"
@@ -262,34 +262,34 @@ const SectiontwoHome = () => {
           </p>
         </div>
       </div>
-      <div className="w-6/12 flex justify-between">
+      <div className="w-11/12 md:w-6/12 flex justify-between mt-10 sm:mt-0">
         <div className="text-center">
           <CountUp
-            className="text-5xl font-bold"
+            className="text-2xl md:text-5xl font-bold"
             suffix="+"
             end={20}
             duration={5}
           />
-          <p>Años de experiencia</p>
+          <p className="text-xs px-2">Años de experiencia</p>
         </div>
         <div className="text-center">
           <CountUp
-            className="text-5xl font-bold"
+            className="text-2xl md:text-5xl font-bold"
             end={2000}
             separator=","
             suffix="+"
             duration={5}
           />
-          <p>Miembros de nuestra comunidad</p>
+          <p className="text-xs px-2">Miembros de nuestra comunidad</p>
         </div>
         <div className="text-center">
           <CountUp
-            className="text-5xl font-bold"
+            className="text-2xl md:text-5xl font-bold"
             end={400}
             duration={5}
             suffix="+"
           />
-          <p>Leeciones alineadas con los estándares</p>
+          <p className="text-xs px-2">Leeciones alineadas con los estándares</p>
         </div>
       </div>
       <Image
