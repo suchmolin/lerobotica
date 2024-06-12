@@ -1,6 +1,8 @@
+import PreguntasFrecuentes from "@/components/PreguntasFrecuentes/page";
 import SectionOneHome from "@/components/SectionOneHome/page";
 import SectionThreeHome from "@/components/SectionThreeHome/page";
 import SectiontwoHome from "@/components/SectiontwoHome/page";
+import TeacherOpinions from "@/components/TeacherOpinions/page";
 
 export default function Home() {
   //coment
@@ -15,6 +17,8 @@ export default function Home() {
       <SectionOneHome />
       <SectiontwoHome />
       <SectionThreeHome />
+      <TeacherOpinions />
+      <PreguntasFrecuentes />
     </main>
   );
 }
