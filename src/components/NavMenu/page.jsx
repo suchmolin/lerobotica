@@ -50,7 +50,11 @@ export default function NavMenu(props) {
           </div>
         </div>
 
-        <Link href="/" className="cursor-pointer h-fit">
+        <Link
+          aria-label="Home Lerobotica"
+          href="/"
+          className="cursor-pointer h-fit"
+        >
           <SvgLogoHorizontal />
         </Link>
 
