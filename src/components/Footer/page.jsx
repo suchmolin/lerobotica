@@ -35,22 +35,40 @@ const Footer = () => {
             <div className="flex gap-3">
               <div className="px-7 flex flex-col items-center">
                 <p className="font-bold py-2 text-gray-700">Conocenos</p>
-                <a className="text-gray-700 py-1">About uS</a>
-                <a className="text-gray-700 py-1">Corporate Sale</a>
-                <a className="text-gray-700 py-1">Terms & Services</a>
+                <a href="/" className="text-gray-700 py-1">
+                  About uS
+                </a>
+                <a href="/" className="text-gray-700 py-1">
+                  Corporate Sale
+                </a>
+                <a href="/" className="text-gray-700 py-1">
+                  Terms & Services
+                </a>
               </div>
               <div className="px-7 flex flex-col items-center">
                 <p className="font-bold py-2 text-gray-700">Support</p>
-                <a className="text-gray-700 py-1">About uS</a>
-                <a className="text-gray-700 py-1">Corporate Sale</a>
-                <a className="text-gray-700 py-1">Terms & Services</a>
+                <a href="/" className="text-gray-700 py-1">
+                  About uS
+                </a>
+                <a href="/" className="text-gray-700 py-1">
+                  Corporate Sale
+                </a>
+                <a href="/" className="text-gray-700 py-1">
+                  Terms & Services
+                </a>
               </div>
             </div>
             <div className="px-7 flex flex-col items-center">
               <p className="font-bold py-2 text-gray-700">Contact</p>
-              <a className="text-gray-700 py-1">About uS</a>
-              <a className="text-gray-700 py-1">Corporate Sale</a>
-              <a className="text-gray-700 py-1">Terms & Services</a>
+              <a href="/" className="text-gray-700 py-1">
+                About uS
+              </a>
+              <a href="/" className="text-gray-700 py-1">
+                Corporate Sale
+              </a>
+              <a href="/" className="text-gray-700 py-1">
+                Terms & Services
+              </a>
             </div>
           </div>
         </div>
