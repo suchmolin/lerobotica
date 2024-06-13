@@ -16,7 +16,9 @@ export default function PreguntasFrecuentes() {
             muted
             loop
             src="/img/helicopter.mp4"
-          ></video>
+          >
+            <track label="cap" kind="caption" />
+          </video>
         </div>
         <div className="w-11/12 lg:w-7/12 mt-3 lg:mt-0 flex flex-col items-center justify-center">
           <h2 className="text-2xl lg:text-4xl font-bold">

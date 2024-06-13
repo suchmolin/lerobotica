@@ -17,7 +17,7 @@ const EtapaCards = (props) => {
         <div className="w-full p-4 flex gap-7 px-7 py-6">
           {icon}
           <div className="flex flex-col">
-            <h4 className="font-bold text-xl">{subtitulo}</h4>
+            <p className="font-bold text-xl">{subtitulo}</p>
             <p className="">{texto}</p>
           </div>
         </div>
