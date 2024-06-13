@@ -8,19 +8,27 @@ import { Slide } from "react-awesome-reveal";
 export default function SliderTeacher(props) {
   const listRef = useRef();
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [firstRender, setFirstRender] = useState(true);
 
   useEffect(() => {
     const listNode = listRef.current;
     const divNode = listNode.querySelectorAll(".sliderItem")[currentSlide];
 
     if (divNode) {
-      divNode.scrollIntoView({
+      intoView(divNode);
+    }
+  }, [currentSlide]);
+
+  const intoView = (nodo) => {
+    if (!firstRender) {
+      nodo.scrollIntoView({
         behavior: "smooth",
         block: "nearest",
         inline: "center",
       });
     }
-  }, [currentSlide]);
+    setFirstRender(false);
+  };
 
   const scrollToSlider = (direction) => {
     if (direction === "prev") {
