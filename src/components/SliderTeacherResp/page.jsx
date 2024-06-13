@@ -68,12 +68,14 @@ export default function SliderTeacherResp(props) {
       </div>
       <div className="w-full flex justify-center gap-10 mt-3">
         <button
+          aria-label="prev slider"
           onClick={() => scrollToSlider("prev")}
           className="p-3 rounded-full shadow-xl flex items-center hover:bg-gray-100 transition-all duration-300"
         >
           <IoIosArrowBack />
         </button>
         <button
+          aria-label="next slider"
           onClick={() => scrollToSlider("next")}
           className="p-3 rounded-full shadow-xl flex items-center hover:bg-gray-100 transition-all duration-300"
         >
