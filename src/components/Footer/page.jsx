@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="w-full mt-24">
       <div className="flex justify-center w-full h-[60px] md:h-[100px] z-10 mb-12">
-        <div className="relative w-[400px] md:w-[650px]">
+        <div className="relative w-[280px] md:w-[680px]">
           <Image
             objectFit="cover"
             src="/img/footerRobots.jpg"
