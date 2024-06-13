@@ -4,7 +4,7 @@ const TeacherLeft = (props) => {
   const { left, imgUrl, resena, name } = props;
   return (
     <div
-      className={`w-11/12 lg:w-8/12 min-h-[200px] flex flex-col md:flex-row items-center gap-5 mt-7 px-3 py-5 border-2 rounded-lg shadow-xl ${left ? "" : "flex-row-reverse"}`}
+      className={`w-11/12 lg:w-10/12 min-h-[200px] flex flex-col md:flex-row items-center gap-5 mt-7 px-3 py-5 border-2 rounded-lg shadow-xl whi ${left ? "" : " md:flex-row-reverse"}`}
     >
       <div className="w-[200px] overflow-hidden rounded-full flex items-center border-2">
         <img

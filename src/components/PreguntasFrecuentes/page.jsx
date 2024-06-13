@@ -6,7 +6,7 @@ export default function PreguntasFrecuentes() {
     <Slide
       triggerOnce
       direction="up"
-      className="w-full flex flex-col items-center justify-center mt-0 lg:mt-6 mb-10 font-[cerapro]"
+      className="w-full flex flex-col items-center justify-center mt-10 lg:mt-6 mb-10 font-[cerapro]"
     >
       <div className="w-full mt-0 lg:mt-10 flex flex-col lg:flex-row justify-center items-center">
         <div className=" lg:w-[330px] h-[330px] overflow-hidden rounded-full mx-2">
