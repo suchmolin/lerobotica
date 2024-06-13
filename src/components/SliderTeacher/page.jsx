@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import TeacherLeft from "../TeacherLeft/page";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
+import { Slide } from "react-awesome-reveal";
 
 export default function SliderTeacher(props) {
   const listRef = useRef();
@@ -29,7 +30,7 @@ export default function SliderTeacher(props) {
     }
   };
   return (
-    <>
+    <Slide triggerOnce direction="left">
       <div className="w-full flex justify-center ">
         <div
           ref={listRef}
@@ -107,6 +108,6 @@ export default function SliderTeacher(props) {
           <IoIosArrowForward />
         </button>
       </div>
-    </>
+    </Slide>
   );
 }
