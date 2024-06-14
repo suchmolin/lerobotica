@@ -5,7 +5,7 @@ import { Slide } from "react-awesome-reveal";
 import RequestMeetingButton from "../RequestMeetingButton/page";
 export default function HeaderHome(props) {
   const imagen = {
-    src: "/img/header.png",
+    src: "/img/header.webp",
     alt: "header",
     width: 650,
     height: 650,
