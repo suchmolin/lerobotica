@@ -124,7 +124,7 @@ const SectionThreeHome = () => {
     <Fade triggerOnce className="w-full">
       <div className="w-full mt-16 md:mt-10 px-4 flex flex-col md:flex-row gap-8 justify-center items-center">
         <EtapaCards
-          imgUrl="le_bricq_motion_essential_lifestyle_1hy21_45401_09_cropped.webp"
+          imgUrl="etapaCard1.png"
           icon={icon1}
           subtitulo="Pre-escolar"
           texto="De 3 años a 5 años"
@@ -138,7 +138,7 @@ const SectionThreeHome = () => {
           redir="/"
         />
         <EtapaCards
-          imgUrl="etapaCard3.jpg"
+          imgUrl="etapaCard3.png"
           icon={icon3}
           subtitulo="Primaria Alta"
           texto="De 9 años a 11 años"

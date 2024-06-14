@@ -6,13 +6,13 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer className="w-full mt-24">
-      <div className="flex justify-center w-full h-[60px] md:h-[100px] z-10 mb-12">
+      <div className="flex justify-center w-full h-[60px] md:h-[100px] z-10 mb-10">
         <div className="relative w-[280px] md:w-[680px]">
           <Image
-            objectFit="cover"
+            width={700}
+            height={10}
             src="/img/footerRobots.jpg"
             alt="footerimage"
-            fill
             className=" object-cover z-0"
           />
         </div>
@@ -27,47 +27,44 @@ const Footer = () => {
         <div className="w-full flex flex-col md:flex-row gap-10 justify-center font-[cerapro] md:py-10">
           <div className="px-4 mt-5 md:mt-0 flex flex-col justify-center md:justify-start text-center md:text-start">
             <p className="text-gray-700 py-1">
-              Lorem, ipsum dolor sit amet consectetur adipisicing.
+              Mantente al día con todas las iniciativas y actividades de
+              Lerobótica
             </p>
-            <p className="text-gray-700 py-1">Lorem ipsum dolor sit.</p>
           </div>
-          <div className="flex flex-col sm:flex-row justify-center items-center">
+          <div className="flex flex-col sm:flex-row justify-center">
             <div className="flex gap-3">
-              <div className="px-7 flex flex-col items-center">
-                <p className="font-bold py-2 text-gray-700">Conocenos</p>
+              <div className="px-7 flex flex-col items-center text-center">
+                <p className="font-bold py-2 text-gray-700">Conócenos</p>
                 <a href="/" className="text-gray-700 py-1">
-                  About uS
+                  ¿Quiénes somos?
                 </a>
                 <a href="/" className="text-gray-700 py-1">
-                  Corporate Sale
+                  Soluciones
                 </a>
                 <a href="/" className="text-gray-700 py-1">
-                  Terms & Services
+                  Contáctanos
                 </a>
               </div>
-              <div className="px-7 flex flex-col items-center">
-                <p className="font-bold py-2 text-gray-700">Support</p>
+              <div className="px-7 flex flex-col items-center text-center">
+                <p className="font-bold py-2 text-gray-700">Servicios</p>
                 <a href="/" className="text-gray-700 py-1">
-                  About uS
+                  Privacidad
                 </a>
                 <a href="/" className="text-gray-700 py-1">
-                  Corporate Sale
+                  Términos y condiciones
                 </a>
                 <a href="/" className="text-gray-700 py-1">
-                  Terms & Services
+                  Preguntas frecuentes
                 </a>
               </div>
             </div>
-            <div className="px-7 flex flex-col items-center">
-              <p className="font-bold py-2 text-gray-700">Contact</p>
+            <div className="px-7 flex flex-col items-center text-center">
+              <p className="font-bold py-2 text-gray-700">Créditos</p>
               <a href="/" className="text-gray-700 py-1">
-                About uS
+                Desarrollado por Lerobotica
               </a>
               <a href="/" className="text-gray-700 py-1">
-                Corporate Sale
-              </a>
-              <a href="/" className="text-gray-700 py-1">
-                Terms & Services
+                Creado por Lerobotica
               </a>
             </div>
           </div>

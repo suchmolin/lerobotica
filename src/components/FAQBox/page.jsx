@@ -6,7 +6,7 @@ export default function FAQBox() {
           <div className="py-5">
             <details className="group">
               <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
-                <span> How does the billing work?</span>
+                <span> ¿Cómo me inscribo en Lerobotica?</span>
                 <span className="transition group-open:rotate-180">
                   <svg
                     fill="none"
@@ -24,17 +24,17 @@ export default function FAQBox() {
                 </span>
               </summary>
               <p className="group-open:animate-fadeIn mt-3 text-neutral-600">
-                Springerdata offers a variety of billing options, including
-                monthly and annual subscription plans, as well as pay-as-you-go
-                pricing for certain services. Payment is typically made through
-                a credit card or other secure online payment method.
+                A través de nuestros números de contacto, será atendido por
+                nuestro Departamento de Ventas, que le brindará toda la
+                información necesaria sobre nuestros cursos de robótica y
+                programación.
               </p>
             </details>
           </div>
           <div className="py-5">
             <details className="group">
               <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
-                <span> Can I get a refund for my subscription?</span>
+                <span> ¿Qué es Lerobotica?</span>
                 <span className="transition group-open:rotate-180">
                   <svg
                     fill="none"
@@ -52,18 +52,16 @@ export default function FAQBox() {
                 </span>
               </summary>
               <p className="group-open:animate-fadeIn mt-3 text-neutral-600">
-                We offer a 30-day money-back guarantee for most of its
-                subscription plans. If you are not satisfied with your
-                subscription within the first 30 days, you can request a full
-                refund. Refunds for subscriptions that have been active for
-                longer than 30 days may be considered on a case-by-case basis.
+                Somos un instituto de robótica y programación basado en el
+                sistema de aprendizaje LEGO para niños de preescolar a
+                secundaria.
               </p>
             </details>
           </div>
           <div className="py-5">
             <details className="group">
               <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
-                <span> How do I cancel my subscription?</span>
+                <span> ¿Cuál es su filosofía de enseñanza?</span>
                 <span className="transition group-open:rotate-180">
                   <svg
                     fill="none"
@@ -81,17 +79,17 @@ export default function FAQBox() {
                 </span>
               </summary>
               <p className="group-open:animate-fadeIn mt-3 text-neutral-600">
-                To cancel your subscription, you can log in to your account and
-                navigate to the subscription management page. From there, you
-                should be able to cancel your subscription and stop future
-                billing.
+                Nuestra filosofía está basada en el sistema de aprendizaje LEGO,
+                que fomenta la educación intuitiva, inclusiva y adaptable
+                permitiendo reforzar las habilidades de nuestros alumnos de cara
+                al futuro y así aprendan de forma lúdica y práctica
               </p>
             </details>
           </div>
           <div className="py-5">
             <details className="group">
               <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
-                <span> Is there a free trial?</span>
+                <span> Números de contacto</span>
                 <span className="transition group-open:rotate-180">
                   <svg
                     fill="none"
@@ -109,16 +107,22 @@ export default function FAQBox() {
                 </span>
               </summary>
               <p className="group-open:animate-fadeIn mt-3 text-neutral-600">
-                We offer a free trial of our software for a limited time. During
-                the trial period, you will have access to a limited set of
-                features and functionality, but you will not be charged.
+                <b>Puerto Ordaz</b> <br />
+                {"(0414)- 9030437"}
+                <br />
+                {"(0286) 962 58 32"}
+                <br />
+                <br />
+                <b>Caracas</b>
+                <br />
+                {"(0212)- 976 20 66"}
               </p>
             </details>
           </div>
           <div className="py-5">
             <details className="group">
               <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
-                <span> How do I contact support?</span>
+                <span> ¿Dónde están ubicados?</span>
                 <span className="transition group-open:rotate-180">
                   <svg
                     fill="none"
@@ -136,10 +140,11 @@ export default function FAQBox() {
                 </span>
               </summary>
               <p className="group-open:animate-fadeIn mt-3 text-neutral-600">
-                If you need help with our platform or have any other questions,
-                you can contact the company's support team by submitting a
-                support request through the website or by emailing
-                support@ourwebsite.com.
+                <b>Caracas</b>, Av. Principal Prados del Este, C.C Galería
+                Prados del Este, Mezzanina, Local M38.
+                <br />
+                <b>Puerto Ordaz</b>, Av. Paseo Caroní, C.C Naraya, Piso 1, Local
+                115.
               </p>
             </details>
           </div>
