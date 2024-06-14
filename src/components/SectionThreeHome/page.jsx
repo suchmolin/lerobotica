@@ -124,21 +124,21 @@ const SectionThreeHome = () => {
     <Fade triggerOnce className="w-full">
       <div className="w-full mt-16 md:mt-10 px-4 flex flex-col md:flex-row gap-8 justify-center items-center">
         <EtapaCards
-          imgUrl="etapaCard1.png"
+          imgUrl="etapaCard1.webp"
           icon={icon1}
           subtitulo="Pre-escolar"
           texto="De 3 años a 5 años"
           redir="/"
         />
         <EtapaCards
-          imgUrl="etapaCard2.png"
+          imgUrl="etapaCard2.webp"
           icon={icon2}
           subtitulo="Primaria Baja"
           texto="De 6 años a 8 años"
           redir="/"
         />
         <EtapaCards
-          imgUrl="etapaCard3.png"
+          imgUrl="etapaCard3.webp"
           icon={icon3}
           subtitulo="Primaria Alta"
           texto="De 9 años a 11 años"

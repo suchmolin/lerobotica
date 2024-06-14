@@ -11,6 +11,7 @@ const SectiontwoHome = () => {
       className="relative mt-5 w-full flex justify-center"
     >
       <img
+        loading="lazy"
         className="absolute top-0 left-0"
         src="/img/robot1.png"
         width={100}
@@ -288,6 +289,7 @@ const SectiontwoHome = () => {
         </div>
       </div>
       <img
+        loading="lazy"
         className="absolute bottom-20 right-0"
         src="/img/robot2.png"
         width={100}
