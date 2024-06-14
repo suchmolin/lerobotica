@@ -23,50 +23,69 @@ export default function SliderTeacherResp(props) {
 
   const scrollToSlider = (direction) => {
     if (direction === "prev") {
-      setCurrentSlide((prev) => (currentSlide === 0 ? 3 : prev - 1));
+      setCurrentSlide((prev) => (currentSlide === 0 ? 5 : prev - 1));
     } else {
-      setCurrentSlide((prev) => (currentSlide === 3 ? 0 : prev + 1));
+      setCurrentSlide((prev) => (currentSlide === 5 ? 0 : prev + 1));
     }
   };
   return (
     <>
-      <div className="w-full h-[600px] flex justify-center">
+      <h2 className="text-2xl md:text-5xl font-bold text-center">
+        Opiniones de los maestros
+      </h2>
+      <div className="w-full h-[550px] flex justify-center">
         <div ref={listRef} className="w-full relative flex overflow-hidden">
           <div className=" sliderItem min-w-full flex flex-col items-center">
             <TeacherLeft
               left={true}
-              imgUrl="perfil1.jpg"
-              resena="0Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nemo odit, facere numquam id officiis commodi deleniti dolores. Tempora explicabo modi corporis sit nulla ut laboriosam fuga, assumenda aliquam illum porro, eveniet veniam? Eius dicta est doloremque dolores quidem debitis facere similique. Perspiciatis iusto mollitia eos ipsum impedit, architecto blanditiis!"
+              imgUrl="perfil4.png"
+              resena="2Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nemo odit, facere numquam id officiis commodi deleniti dolores. Tempora explicabo modi corporis sit nulla ut laboriosam fuga, assumenda aliquam illum porro, eveniet veniam?"
               name="Lorem ipsum, dolor sit amet consectetur adipisicing."
             />
           </div>
           <div className=" sliderItem min-w-full flex flex-col items-center">
             <TeacherLeft
-              left={true}
-              imgUrl="perfil1.jpg"
-              resena="1Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nemo odit, facere numquam id officiis commodi deleniti dolores. Tempora explicabo modi corporis sit nulla ut laboriosam fuga, assumenda aliquam illum porro, eveniet veniam? Eius dicta est doloremque dolores quidem debitis facere similique. Perspiciatis iusto mollitia eos ipsum impedit, architecto blanditiis!"
+              left={false}
+              imgUrl="perfil6.png"
+              resena="Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nemo odit, facere numquam id officiis commodi deleniti dolores. Tempora explicabo modi corporis sit nulla ut laboriosam fuga, "
               name="Lorem ipsum, dolor sit amet consectetur adipisicing."
             />
           </div>
           <div className="sliderItem min-w-full flex flex-col items-center">
             <TeacherLeft
               left={true}
-              imgUrl="perfil1.jpg"
-              resena="2Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nemo odit, facere numquam id officiis commodi deleniti dolores. Tempora explicabo modi corporis sit nulla ut laboriosam fuga, assumenda aliquam illum porro, eveniet veniam? Eius dicta est doloremque dolores quidem debitis facere similique. Perspiciatis iusto mollitia eos ipsum impedit, architecto blanditiis!"
+              imgUrl="perfil1.png"
+              resena="0Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nemo odit, facere numquam id officiis commodi deleniti dolores. Tempora explicabo modi corporis sit nulla ut laboriosam fuga, assumenda aliquam illum porro, eveniet veniam?,."
+              name="Lorem ipsum, dolor sit amet consectetur adipisicing."
+            />
+          </div>
+          <div className="sliderItem min-w-full flex flex-col items-center">
+            <TeacherLeft
+              left={false}
+              imgUrl="perfil5.png"
+              resena="Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nemo odit, facere numquam id officiis commodi deleniti dolores. Tempora explicabo modi corporis sit nulla ut laboriosam fuga, "
               name="Lorem ipsum, dolor sit amet consectetur adipisicing."
             />
           </div>
           <div className="sliderItem min-w-full flex flex-col items-center">
             <TeacherLeft
               left={true}
-              imgUrl="perfil1.jpg"
-              resena="3Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nemo odit, facere numquam id officiis commodi deleniti dolores. Tempora explicabo modi corporis sit nulla ut laboriosam fuga, assumenda aliquam illum porro, eveniet veniam? Eius dicta est doloremque dolores quidem debitis facere similique. Perspiciatis iusto mollitia eos ipsum impedit, architecto blanditiis!"
+              imgUrl="perfil3.png"
+              resena="1Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nemo odit, facere numquam id officiis commodi deleniti dolores. Tempora explicabo modi corporis sit nulla ut laboriosam fuga, assumenda aliquam illum porro, eveniet veniam?"
+              name="Lorem ipsum, dolor sit amet consectetur adipisicing."
+            />
+          </div>
+          <div className="sliderItem min-w-full flex flex-col items-center">
+            <TeacherLeft
+              left={false}
+              imgUrl="perfil2.png"
+              resena="Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nemo odit, facere numquam id officiis commodi deleniti dolores. Tempora explicabo modi corporis sit nulla ut laboriosam fuga, "
               name="Lorem ipsum, dolor sit amet consectetur adipisicing."
             />
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-center gap-10 mt-3">
+      <div className="w-full flex justify-center gap-10 ">
         <button
           aria-label="prev slider"
           onClick={() => scrollToSlider("prev")}

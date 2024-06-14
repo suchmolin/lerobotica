@@ -8,8 +8,8 @@ export default function PreguntasFrecuentes() {
       direction="up"
       className="w-full flex flex-col items-center justify-center mt-10 lg:mt-6 mb-10 font-[cerapro]"
     >
-      <div className="w-full mt-0 lg:mt-10 flex flex-col lg:flex-row justify-center items-center">
-        <div className=" lg:w-[330px] h-[330px] overflow-hidden rounded-full mx-2">
+      <div className="w-full mt-0 lg:mt-10 flex flex-col lg:flex-row justify-center ">
+        <div className=" lg:w-[330px] h-[330px] overflow-hidden rounded-full mx-2 mt-0 lg:mt-10">
           <video
             className="h-[590px] -mt-24"
             autoPlay

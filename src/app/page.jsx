@@ -1,3 +1,4 @@
+import HeaderHome from "@/components/HeaderHome/page";
 import PreguntasFrecuentes from "@/components/PreguntasFrecuentes/page";
 import SectionOneHome from "@/components/SectionOneHome/page";
 import SectionThreeHome from "@/components/SectionThreeHome/page";
@@ -10,20 +11,21 @@ export default function Home() {
   //coment
   return (
     <main className="flex flex-col items-center font-[cerapro]">
+      {/*
       <header className="w-full">
-        {/*
         <NavLang />
         <NavMenu />
-        */}
+        <SectionOneHome />
       </header>
-      <SectionOneHome />
+        */}
+      <HeaderHome />
       <SectiontwoHome />
       <SectionThreeHome />
       {/*<TeacherOpinions />*/}
       <div className="hidden md:block w-full my-20">
         <SliderTeacher />
       </div>
-      <div className="block md:hidden w-full h-[650px]">
+      <div className="mt-10 block md:hidden w-full h-[650px]">
         <SliderTeacherResp />
       </div>
       <PreguntasFrecuentes />

@@ -8,7 +8,7 @@ const SectiontwoHome = () => {
     <Slide
       direction="up"
       triggerOnce
-      className="relative -mt-10 sm:mt-14 w-full flex justify-center"
+      className="relative mt-5 w-full flex justify-center"
     >
       <Image
         className="absolute top-0 left-0"
