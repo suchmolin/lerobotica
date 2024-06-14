@@ -7,8 +7,8 @@ const EtapaCards = (props) => {
       <Link href={redir}>
         <div className="w-full h-56">
           <img
-            width={372}
-            height={225}
+            width={326}
+            height={224}
             src={`/img/${imgUrl}`}
             alt={imgUrl}
             className="w-full h-full hover:scale-105 transition-all cursor-pointer duration-700 ease-in-out"
