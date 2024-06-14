@@ -9,9 +9,9 @@ const Footer = () => {
       <div className="flex justify-center w-full h-[60px] md:h-[100px] z-10 mb-10">
         <div className="relative w-[280px] md:w-[680px]">
           <Image
-            width={700}
-            height={10}
-            src="/img/footerRobots.jpg"
+            width={680}
+            height={100}
+            src="/img/footerRobots.webp"
             alt="footerimage"
             className=" object-cover z-0"
           />
