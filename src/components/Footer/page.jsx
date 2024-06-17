@@ -1,4 +1,3 @@
-import { RequestCookiesAdapter } from "next/dist/server/web/spec-extension/adapters/request-cookies";
 import React from "react";
 import RequestMeetingButton from "../RequestMeetingButton/page";
 import Image from "next/image";
@@ -35,35 +34,43 @@ const Footer = () => {
             <div className="flex gap-3">
               <div className="px-7 flex flex-col items-center text-center">
                 <p className="font-bold py-2 text-gray-700">Conócenos</p>
-                <a href="/" className="text-gray-700 py-1">
+                <a href="/QuienesSomos" className="text-gray-700 py-1">
                   ¿Quiénes somos?
                 </a>
-                <a href="/" className="text-gray-700 py-1">
+                <a href="/Soluciones" className="text-gray-700 py-1">
                   Soluciones
                 </a>
-                <a href="/" className="text-gray-700 py-1">
+                <a href="/Contacto" className="text-gray-700 py-1">
                   Contáctanos
                 </a>
               </div>
               <div className="px-7 flex flex-col items-center text-center">
                 <p className="font-bold py-2 text-gray-700">Servicios</p>
-                <a href="/" className="text-gray-700 py-1">
+                <a href="/PoliticasdePrivacidad" className="text-gray-700 py-1">
                   Privacidad
                 </a>
-                <a href="/" className="text-gray-700 py-1">
+                <a href="/TerminosyCondiciones" className="text-gray-700 py-1">
                   Términos y condiciones
                 </a>
-                <a href="/" className="text-gray-700 py-1">
+                <a href="/PreguntasFrecuentes" className="text-gray-700 py-1">
                   Preguntas frecuentes
                 </a>
               </div>
             </div>
             <div className="px-7 flex flex-col items-center text-center">
               <p className="font-bold py-2 text-gray-700">Créditos</p>
-              <a href="/" className="text-gray-700 py-1">
+              <a
+                target="_blank"
+                href="https://lerobotica.com"
+                className="text-gray-700 py-1"
+              >
                 Desarrollado por Lerobotica
               </a>
-              <a href="/" className="text-gray-700 py-1">
+              <a
+                target="_blank"
+                href="https://lerobotica.com"
+                className="text-gray-700 py-1"
+              >
                 Creado por Lerobotica
               </a>
             </div>
