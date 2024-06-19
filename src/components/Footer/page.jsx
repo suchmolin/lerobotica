@@ -3,18 +3,69 @@ import RequestMeetingButton from "../RequestMeetingButton/page";
 import Image from "next/image";
 
 const Footer = () => {
+  const imgFooter = [
+    {
+      img: "robotfoot1.webp",
+      width: 100,
+      height: 60,
+      alt: "footerimage",
+      hideOnResponsive: true,
+    },
+    {
+      img: "robotfoot2.webp",
+      width: 140,
+      height: 80,
+      alt: "footerimage",
+      hideOnResponsive: true,
+    },
+    {
+      img: "robotfoot3.webp",
+      width: 130,
+      height: 100,
+      alt: "footerimage",
+      hideOnResponsive: true,
+    },
+    {
+      img: "robotfoot4.webp",
+      width: 110,
+      height: 100,
+      alt: "footerimage",
+      hideOnResponsive: true,
+    },
+    {
+      img: "robotfoot5.webp",
+      width: 110,
+      height: 100,
+      alt: "footerimage",
+    },
+    {
+      img: "robotfoot6.webp",
+      width: 110,
+      height: 100,
+      alt: "footerimage",
+    },
+    {
+      img: "robotfoot7.webp",
+      width: 90,
+      height: 100,
+      alt: "footerimage",
+    },
+  ];
   return (
     <footer className="w-full mt-24">
-      <div className="flex justify-center w-full h-[60px] md:h-[100px] z-10 mb-10">
-        <div className="relative w-[280px] md:w-[680px]">
-          <Image
-            width={680}
-            height={100}
-            src="/img/footerRobots.webp"
-            alt="footerimage"
-            className=" object-cover z-0"
-          />
-        </div>
+      <div className="flex justify-center w-full z-10 mb-10">
+        {imgFooter.map((img, index) => {
+          return (
+            <img
+              key={index}
+              width={img.width}
+              height={img.height}
+              src={`/img/${img.img}`}
+              alt={img.alt}
+              className={img.hideOnResponsive ? "hidden md:block" : "block"}
+            />
+          );
+        })}
       </div>
       <div className="w-full border-t-2 border-t-gray-100 flex justify-center items-center flex-col">
         <div className="w-full md:w-9/12 flex gap-4 items-center justify-center px-10 md:px-0 py-5 bg-[#FFD100] rounded-sm md:rounded-lg -mt-9">
