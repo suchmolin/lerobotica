@@ -1,6 +1,9 @@
-import FAQBox from "@/components/FAQBox/page";
+"use client"
+import FAQBox from "@/components/FAQBox/page"
+import { useState } from "react"
 
 export default function PreguntasFrecuentes() {
+  const [onPlay, setOnPlay] = useState(false)
   const sobreNosotros = [
     {
       title: "¿Cómo me registro en un curso?",
@@ -17,7 +20,7 @@ export default function PreguntasFrecuentes() {
       content:
         "Somos un instituto de robótica y programación basada en el sistema de aprendizaje LEGO, para niños de preescolar a secundaria.",
     },
-  ];
+  ]
   const estudiantes = [
     {
       title: "¿Hay algún requisito previo?",
@@ -33,7 +36,7 @@ export default function PreguntasFrecuentes() {
       content:
         "Por lo momentos nuestro cursos están diseñados y estructurados en español.",
     },
-  ];
+  ]
   const otras = [
     {
       title: "¿Ofrecen oportunidades en línea?",
@@ -50,42 +53,104 @@ export default function PreguntasFrecuentes() {
       content:
         "Nuestro propósito es ser aliado en la educación, con el fin de maximizar el potencial de nuestros estudiantes a través de un aprendizaje intuitivo adaptable, lúdico e incluyente.",
     },
-  ];
+  ]
+
+  const handlePlay = (index) => {
+    setOnPlay(index)
+    const videos = document.querySelectorAll("video")
+    videos.forEach((video, i) => {
+      if (i !== index) {
+        video.pause()
+        video.load()
+      }
+    })
+  }
+
   return (
-    <div className="relative flex flex-col items-center">
-      <img
-        loading="lazy"
-        className="fixed hidden md:block top-20 left-0"
-        src="/img/robot1.png"
-        width={100}
-        height={100}
-        alt="robot1"
-      />
-      <h2 className="text-[#b1127c] text-6xl font-bold pt-7 text-center">
-        Preguntas Frecuentes
-      </h2>
-      <h3 className="text-3xl text-[#b1127c] text-center mt-10">
-        Sobre Nosotros
-      </h3>
-      <div className="w-11/12">
-        <FAQBox data={sobreNosotros} />
+    <>
+      <div className="w-full h-screen flex justify-center py-20">
+        <div className="w-10/12 flex gap-5 items-center">
+          <div
+            className={`${onPlay === 0 ? "w-6/12" : "w-4/12"}  h-fit overflow-hidden rounded-xl bg-red-200 cursor-pointer ${onPlay !== false ? "" : "hover:w-6/12"} transition-all duration-500`}
+          >
+            <video
+              onPlay={() => handlePlay(0)}
+              poster="/img/le_bricq_motion_essential_lifestyle_1hy21_45401_09_cropped.webp"
+              src="https://firebasestorage.googleapis.com/v0/b/jsuchmolin-394bd.appspot.com/o/vid.mp4?alt=media&token=bf58ecf7-2c25-4a87-b92e-91941742e095"
+              controls
+              preload
+              muted
+              loop
+              className="w-full h-full cursor-pointer"
+            ></video>
+          </div>
+          <div
+            className={`${onPlay === 1 ? "w-6/12" : "w-4/12"}  h-fit overflow-hidden rounded-xl bg-red-200 cursor-pointer ${onPlay !== false ? "" : "hover:w-6/12"} transition-all duration-500`}
+          >
+            <video
+              onPlay={() => handlePlay(1)}
+              poster="/img/le_bricq_motion_essential_lifestyle_1hy21_45401_09_cropped.webp"
+              src="https://firebasestorage.googleapis.com/v0/b/jsuchmolin-394bd.appspot.com/o/vid.mp4?alt=media&token=bf58ecf7-2c25-4a87-b92e-91941742e095"
+              controls
+              preload
+              muted
+              loop
+              className="w-full h-full cursor-pointer"
+            ></video>
+          </div>
+          <div
+            className={`${onPlay === 2 ? "w-6/12" : "w-4/12"}  h-fit overflow-hidden rounded-xl bg-red-200 cursor-pointer ${onPlay !== false ? "" : "hover:w-6/12"} transition-all duration-500`}
+          >
+            <video
+              onPlay={() => handlePlay(2)}
+              poster="/img/le_bricq_motion_essential_lifestyle_1hy21_45401_09_cropped.webp"
+              src="https://firebasestorage.googleapis.com/v0/b/jsuchmolin-394bd.appspot.com/o/vid.mp4?alt=media&token=bf58ecf7-2c25-4a87-b92e-91941742e095"
+              controls
+              preload
+              muted
+              loop
+              className="w-full h-full cursor-pointer"
+            ></video>
+          </div>
+        </div>
       </div>
-      <h3 className="text-3xl text-[#b1127c] text-center mt-10">Estudiantes</h3>
-      <div className="w-11/12">
-        <FAQBox data={estudiantes} />
+      <div className="relative flex flex-col items-center">
+        <img
+          loading="lazy"
+          className="fixed hidden md:block top-20 left-0"
+          src="/img/robot1.png"
+          width={100}
+          height={100}
+          alt="robot1"
+        />
+        <h2 className="text-[#b1127c] text-6xl font-bold pt-7 text-center">
+          Preguntas Frecuentes
+        </h2>
+        <h3 className="text-3xl text-[#b1127c] text-center mt-10">
+          Sobre Nosotros
+        </h3>
+        <div className="w-11/12">
+          <FAQBox data={sobreNosotros} />
+        </div>
+        <h3 className="text-3xl text-[#b1127c] text-center mt-10">
+          Estudiantes
+        </h3>
+        <div className="w-11/12">
+          <FAQBox data={estudiantes} />
+        </div>
+        <h3 className="text-3xl text-[#b1127c] text-center mt-10">Otras</h3>
+        <div className="w-11/12">
+          <FAQBox data={otras} />
+        </div>
+        <img
+          loading="lazy"
+          className="fixed hidden md:block bottom-0 right-0"
+          src="/img/robot2.png"
+          width={100}
+          height={100}
+          alt="robot2"
+        />
       </div>
-      <h3 className="text-3xl text-[#b1127c] text-center mt-10">Otras</h3>
-      <div className="w-11/12">
-        <FAQBox data={otras} />
-      </div>
-      <img
-        loading="lazy"
-        className="fixed hidden md:block bottom-0 right-0"
-        src="/img/robot2.png"
-        width={100}
-        height={100}
-        alt="robot2"
-      />
-    </div>
-  );
+    </>
+  )
 }

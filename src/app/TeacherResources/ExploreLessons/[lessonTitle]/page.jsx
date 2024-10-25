@@ -1,17 +1,17 @@
-"use client";
-import data from "/src/lessonInfo.json";
-import lessons from "/src/lessons.json";
-import "./page.css";
-import NavLang from "@/components/NavLang/page";
-import NavMenu from "@/components/NavMenu/page";
-import { useRouter } from "next/router";
-import BoxLessonInfo from "@/components/BoxLessonInfo/page";
+"use client"
+import data from "/src/lessonInfo.json"
+import lessons from "/src/lessons.json"
+import "./page.css"
+import NavLang from "@/components/NavLang/page"
+import NavMenu from "@/components/NavMenu/page"
+import { useRouter } from "next/router"
+import BoxLessonInfo from "@/components/BoxLessonInfo/page"
 
 const LessonInfo = ({ params }) => {
-  const { lessonTitle } = params;
+  const { lessonTitle } = params
 
-  const page = data.find((lesson) => lesson.id === lessonTitle);
-  const head = lessons.find((lesson) => lesson.id === lessonTitle);
+  const page = data.find((lesson) => lesson.id === lessonTitle)
+  const head = lessons.find((lesson) => lesson.id === lessonTitle)
 
   return (
     <>
@@ -21,7 +21,7 @@ const LessonInfo = ({ params }) => {
         */}
       <div
         translate="no"
-        className="w-full flex md:flex-row  flex-col-reverse justify-center font-[cerapro] py-5"
+        className="w-full flex md:flex-row  flex-col-reverse justify-center  py-5"
       >
         <div className="w-full md:w-7/12  px-3 md:px-0 flex justify-between flex-col">
           <h4 className="text-[#309a44]">{head.subtitle}</h4>
@@ -41,7 +41,7 @@ const LessonInfo = ({ params }) => {
         <BoxLessonInfo data={page} />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default LessonInfo;
+export default LessonInfo

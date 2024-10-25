@@ -1,14 +1,14 @@
-import Link from "next/link";
+import Link from "next/link"
 
-const RequestMeetingButton = () => {
+const RequestMeetingButton = ({ size }) => {
   return (
     <Link
       href="#"
-      className="flex w-fit bg-[#006cb7] text-xs font-bold text-white py-2 px-4 hover:bg-[#00528c] cursor-pointer flex-nowrap"
+      className={`flex w-fit bg-azulLR text-${size} font-[baloo-bold] text-white  px-3 py-1 hover:scale-105 hover:shadow-lg transition-all duration-300 cursor-pointer flex-nowrap`}
     >
-      Contactanos
+      Contáctanos
     </Link>
-  );
-};
+  )
+}
 
-export default RequestMeetingButton;
+export default RequestMeetingButton

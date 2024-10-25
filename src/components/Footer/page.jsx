@@ -1,135 +1,150 @@
-import React from "react";
-import RequestMeetingButton from "../RequestMeetingButton/page";
-import Image from "next/image";
+import React from "react"
+import RequestMeetingButton from "../RequestMeetingButton/page"
+import Image from "next/image"
 
 const Footer = () => {
   const imgFooter = [
     {
-      img: "robotfoot1.webp",
-      width: 100,
-      height: 60,
+      img: "/img/robotfoot1.png",
       alt: "footerimage",
       hideOnResponsive: true,
     },
     {
-      img: "robotfoot2.webp",
-      width: 140,
-      height: 80,
+      img: "/img/robotfoot2.png",
       alt: "footerimage",
       hideOnResponsive: true,
     },
     {
-      img: "robotfoot3.webp",
-      width: 130,
-      height: 100,
+      img: "/img/robotfoot3.png",
       alt: "footerimage",
       hideOnResponsive: true,
     },
     {
-      img: "robotfoot4.webp",
-      width: 110,
-      height: 100,
+      img: "/img/robotfoot4.png",
       alt: "footerimage",
       hideOnResponsive: true,
     },
     {
-      img: "robotfoot5.webp",
-      width: 110,
-      height: 100,
+      img: "/img/robotfoot5.png",
       alt: "footerimage",
     },
     {
-      img: "robotfoot6.webp",
-      width: 110,
-      height: 100,
+      img: "/img/robotfoot6.png",
       alt: "footerimage",
     },
     {
-      img: "robotfoot7.webp",
-      width: 90,
-      height: 100,
+      img: "/img/robotfoot7.png",
       alt: "footerimage",
     },
-  ];
+  ]
   return (
     <footer className="w-full mt-24">
-      <div className="flex justify-center w-full z-10 mb-10">
-        {imgFooter.map((img, index) => {
+      <div className="flex gap-5 justify-center w-full z-10 mb-10">
+        {imgFooter.map((img) => {
           return (
-            <img
-              key={index}
-              width={img.width}
-              height={img.height}
-              src={`/img/${img.img}`}
-              alt={img.alt}
-              className={img.hideOnResponsive ? "hidden md:block" : "block"}
-            />
-          );
+            <div key={img.alt} className="w-[100px] aspect-square relative">
+              <Image
+                src={img.img}
+                layout="fill"
+                objectFit="contain"
+                alt={img.alt}
+              />
+            </div>
+          )
         })}
       </div>
-      <div className="w-full border-t-2 border-t-gray-100 flex justify-center items-center flex-col">
-        <div className="w-full md:w-9/12 flex gap-4 items-center justify-center px-10 md:px-0 py-5 bg-[#FFD100] rounded-sm md:rounded-lg -mt-9">
-          <h2 className="text-lg md:text-2xl font-[cerapro] font-bold text-gray-700">
+      <div className="w-full border-t-2 border-t-gray-100 flex justify-center items-center flex-col bg-gray-100">
+        <div className="w-full md:w-7/12 flex gap-4 items-center justify-center px-10 md:px-0 py-5 bg-[#FFD100] -mt-9">
+          <h2 className="text-lg md:text-2xl  font-[baloo-bold] ">
             Trae a Lerobotica a tu escula o distrito
           </h2>
           <RequestMeetingButton />
         </div>
-        <div className="w-full flex flex-col md:flex-row gap-10 justify-center font-[cerapro] md:py-10">
-          <div className="px-4 mt-5 md:mt-0 flex flex-col justify-center md:justify-start text-center md:text-start">
-            <p className="text-gray-700 py-1">
+        <div className="w-full flex flex-col md:flex-row justify-center py-10 text-xl">
+          <div className="w-[150px] -mt-10 mr-5 h-[200px] relative">
+            <Image
+              src="/img/Logo-Lerobotica-RGB.png"
+              layout="fill"
+              objectFit="contain"
+            />
+          </div>
+          <div className="px-4 mt-5 md:mt-0 flex flex-col justify-center md:justify-start text-center md:text-start ">
+            <p className="w-8/12 mb-4 py-1">
               Mantente al día con todas las iniciativas y actividades de
               Lerobótica
             </p>
+            <div className="flex items-center">
+              <input
+                className="w-96 h-8 px-3"
+                placeholder="Correo Electrónico"
+                type="email"
+              />
+              <button className="-ml-7 hover:scale-110 transition-all duration-300">
+                <img
+                  className="w-[19px] aspect-square"
+                  src="/img/sendIcon.png"
+                />
+              </button>
+            </div>
           </div>
           <div className="flex flex-col sm:flex-row justify-center">
-            <div className="flex gap-3">
-              <div className="px-7 flex flex-col items-center text-center">
-                <p className="font-bold py-2 text-gray-700">Conócenos</p>
-                <a href="/QuienesSomos" className="text-gray-700 py-1">
-                  ¿Quiénes somos?
-                </a>
-                <a href="/Soluciones" className="text-gray-700 py-1">
-                  Soluciones
-                </a>
-                <a href="/Contacto" className="text-gray-700 py-1">
-                  Contáctanos
-                </a>
-              </div>
-              <div className="px-7 flex flex-col items-center text-center">
-                <p className="font-bold py-2 text-gray-700">Servicios</p>
-                <a href="/PoliticasdePrivacidad" className="text-gray-700 py-1">
-                  Privacidad
-                </a>
-                <a href="/TerminosyCondiciones" className="text-gray-700 py-1">
-                  Términos y condiciones
-                </a>
-                <a href="/PreguntasFrecuentes" className="text-gray-700 py-1">
-                  Preguntas frecuentes
-                </a>
-              </div>
-            </div>
-            <div className="px-7 flex flex-col items-center text-center">
-              <p className="font-bold py-2 text-gray-700">Créditos</p>
+            <div className="px-7 flex flex-col ">
               <a
-                target="_blank"
-                href="https://lerobotica.com"
-                className="text-gray-700 py-1"
+                href="/QuienesSomos"
+                className=" py-1 hover:scale-105 transition-all duration-300"
               >
-                Desarrollado por Lerobotica
+                Pre-escolar
               </a>
               <a
-                target="_blank"
-                href="https://lerobotica.com"
-                className="text-gray-700 py-1"
+                href="/Soluciones"
+                className=" py-1 hover:scale-105 transition-all duration-300"
               >
-                Creado por Lerobotica
+                Primaria Baja
+              </a>
+              <a
+                href="/Contacto"
+                className=" py-1 hover:scale-105 transition-all duration-300"
+              >
+                Primaria Alta
+              </a>
+              <a
+                href="/Contacto"
+                className=" py-1 hover:scale-105 transition-all duration-300"
+              >
+                Recursos de Maestros
+              </a>
+            </div>
+            <div className="px-7 flex flex-col ">
+              <a
+                href="/QuienesSomos"
+                className=" py-1 hover:scale-105 transition-all duration-300"
+              >
+                ¿Quiénes somos?
+              </a>
+              <a
+                href="/Soluciones"
+                className=" py-1 hover:scale-105 transition-all duration-300"
+              >
+                Soluciones
+              </a>
+              <a
+                href="/blog"
+                className=" py-1 hover:scale-105 transition-all duration-300"
+              >
+                Blog
+              </a>
+              <a
+                href="/Contacto"
+                className=" py-1 hover:scale-105 transition-all duration-300"
+              >
+                Contáctanos
               </a>
             </div>
           </div>
         </div>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

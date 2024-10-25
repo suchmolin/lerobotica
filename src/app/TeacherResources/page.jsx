@@ -1,15 +1,15 @@
-import React from "react";
+import React from "react"
 
-import NavLang from "@/components/NavLang/page";
-import NavMenu from "@/components/NavMenu/page";
-import WelcomeTeacherResources from "@/components/WelcomeTeacherResources/page";
-import TeacherResourcesCards from "@/components/TeacherResourcesCards/page";
+import NavLang from "@/components/NavLang/page"
+import NavMenu from "@/components/NavMenu/page"
+import WelcomeTeacherResources from "@/components/WelcomeTeacherResources/page"
+import TeacherResourcesCards from "@/components/TeacherResourcesCards/page"
 
 const TeacherResources = () => {
   // Your component logic goes here
 
   return (
-    <div translate="no" className="firstSec font-[cerapro]">
+    <div translate="no" className="firstSec ">
       {/*
         <NavLang />
         <NavMenu />
@@ -21,7 +21,7 @@ const TeacherResources = () => {
         <TeacherResourcesCards />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default TeacherResources;
+export default TeacherResources

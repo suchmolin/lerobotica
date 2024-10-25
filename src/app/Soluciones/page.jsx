@@ -35,9 +35,9 @@ export default function Soluciones() {
         "El SPIKE Prime Set contiene 528 elementos, incluido hardware inteligente y una colorida selección de ladrillos LEGO familiares, apilables y apropiados para la edad. El hardware incluye un concentrador de 2 puertos, 3 motores y un HUB Materias: - Ingeniería - Informática - STEAM - Codificación - Ciencia",
       image: "/img/spikePrime.png",
     },
-  ];
+  ]
   return (
-    <div className="firstSec w-full flex justify-center py-3 font-[cerapro]">
+    <div className="firstSec w-full flex justify-center py-3 ">
       <div className="w-11/12 flex flex-col items-center justify-center">
         <h2 className="text-[#b1127c] text-6xl font-bold py-7 ">Soluciones</h2>
         <div className="flex gap-4 flex-wrap justify-center">
@@ -63,5 +63,5 @@ export default function Soluciones() {
         </div>
       </div>
     </div>
-  );
+  )
 }

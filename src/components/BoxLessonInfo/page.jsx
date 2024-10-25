@@ -1,9 +1,9 @@
 const BoxLessonInfo = (props) => {
-  const data = props.data;
+  const data = props.data
 
   return (
     <div
-      className={`w-full flex md:flex-row flex-col px-4 md:px-0 ml-0 md:pl-28 mt-2  py-2 font-[cerapro] `}
+      className={`w-full flex md:flex-row flex-col px-4 md:px-0 ml-0 md:pl-28 mt-2  py-2  `}
     >
       <div
         className="w-full"
@@ -24,7 +24,7 @@ const BoxLessonInfo = (props) => {
         </div>
       ) : null}
     </div>
-  );
-};
+  )
+}
 
-export default BoxLessonInfo;
+export default BoxLessonInfo

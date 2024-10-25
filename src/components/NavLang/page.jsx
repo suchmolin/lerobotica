@@ -1,12 +1,12 @@
-import SubMenuLang from "../SubMenuLang/page";
+import SubMenuLang from "../SubMenuLang/page"
 
 export default function NavLang(props) {
   return (
     <div
       translate="no"
-      className="bg-[#efefef] h-11 lg:flex justify-center w-full font-[cerapro] hidden "
+      className="bg-verdeLR text-white h-11 lg:flex justify-center w-full  hidden "
     >
       <SubMenuLang />
     </div>
-  );
+  )
 }

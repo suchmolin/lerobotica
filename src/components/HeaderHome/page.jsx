@@ -1,55 +1,85 @@
-"use client";
-import Image from "next/image";
-import "./page.css";
-import { Slide } from "react-awesome-reveal";
-import RequestMeetingButton from "../RequestMeetingButton/page";
+import Image from "next/image"
+import "./page.css"
+import RequestMeetingButton from "../RequestMeetingButton/page"
+import HelicopterMove from "../HelicopterMove/page"
+
 export default function HeaderHome(props) {
-  const imagen = {
-    src: "/img/header.webp",
-    alt: "header",
-    width: 650,
-    height: 650,
-  };
-
   return (
-    <div className="firstSec w-full h-full sm:h-[615px] flex flex-col sm:flex-row font-[cerapro]">
-      <div className="w-full sm:w-6/12 h-full bg-[#FFD100] flex flex-col  justify-center px-10 lg:pl-40 py-5 items-center text-center">
-        <Slide triggerOnce>
-          <h1 className="flex flex-col text-5xl lg:text-6xl font-extrabold ">
-            <span className="text-sm sm:text-2xl text-black">Instituto de</span>
-            Robótica y Programación
-          </h1>
-          <p className="hidden sm:block mt-2 text-xs sm:text-sm pr-10">
-            Un espacio para los exploradores de la tecnología
-          </p>
-          <div className="w-full sm:w-8/12 mt-2">
-            <RequestMeetingButton />
+    <div className="firstSec relative w-full h-[calc(100vh-125px)] flex justify-end overflow-hidden">
+      <div className="relative w-5/12 flex flex-col justify-center pl-20">
+        <h1 className="text-azulLR text-7xl font-[baloo-bold]">
+          <span className="text-6xl block">Instituto de</span>
+          Robótica y
+          <br />
+          Programacion
+        </h1>
+        <p className="text-3xl py-2">
+          Un espacio para los exploradores <br /> de la tecnología.
+        </p>
+        <RequestMeetingButton size={"3xl"} />
+      </div>
+      <div className="relative w-6/12 h-full flex items-end justify-center pr-10 pl-32">
+        <div className="flex flex-col items-center">
+          <div className="relative w-[450px] aspect-square ml-10">
+            <Image
+              src="/img/ninoHero.png"
+              layout="fill"
+              objectFit="contain"
+              objectPosition="bottom"
+              alt="niño sonriendo mientras juega con legos"
+            />
           </div>
-        </Slide>
+          <div className="bg-amarilloLR text-azulLR px-5 flex justify-between items-center py-4 rounded-t-2xl">
+            <div className="flex flex-col text-center">
+              <p className="text-5xl font-[baloo-bold]">42</p>
+              <p className="text-xl leading-none font-bold">
+                Años de experiencia
+              </p>
+            </div>
+            <div className="flex flex-col text-center">
+              <p className="text-5xl font-[baloo-bold]">42</p>
+              <p className="text-xl leading-none font-bold">
+                Años de experiencia
+              </p>
+            </div>
+            <div className="flex flex-col text-center">
+              <p className="text-5xl font-[baloo-bold]">42</p>
+              <p className="text-xl leading-none font-bold">
+                Años de experiencia
+              </p>
+            </div>
+            <div className="flex flex-col text-center">
+              <p className="text-5xl font-[baloo-bold]">42</p>
+              <p className="text-xl leading-none font-bold">
+                Años de experiencia
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div className="hidden shapedividers_com-5952 h-full w-full sm:w-6/12 sm:flex items-center -ml-1">
-        <Slide direction="right" triggerOnce>
+      <div className="absolute -top-16 left-[20%]">
+        <div className="relative w-[200px] aspect-square">
           <Image
-            width={imagen.width}
-            height={imagen.height}
-            className="z-20"
-            src={imagen.src}
-            alt={imagen.alt}
+            src="/img/legoAmarillo.png"
+            layout="fill"
+            objectFit="contain"
+            objectPosition="top"
+            alt="logo de lego amarillo"
           />
-        </Slide>
+        </div>
       </div>
-      <div className=" shapedividers_com-1214 h-full w-full sm:w-6/12 flex sm:hidden items-center -mt-1">
-        <Slide direction="right" triggerOnce>
+      <div className="absolute -bottom-[10%] left-0">
+        <div className="relative w-[230px] aspect-square">
           <Image
-            width={imagen.width}
-            height={imagen.height}
-            className="z-20"
-            src={imagen.src}
-            alt={imagen.alt}
+            src="/img/legoVerdeBlur.png"
+            layout="fill"
+            objectFit="contain"
+            objectPosition="left"
+            alt="logo de lego amarillo"
           />
-        </Slide>
+        </div>
       </div>
+      <HelicopterMove />
     </div>
-  );
+  )
 }

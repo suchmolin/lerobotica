@@ -1,47 +1,47 @@
-"use client";
+"use client"
 
-import { useState, useEffect } from "react";
-import { IoMdMenu } from "react-icons/io";
-import { IoMdClose } from "react-icons/io";
-import SubMenuNav from "../SubMenuNav/page";
-import MenuResponsive from "../MenuResponsive/page";
-import TeacherResourcesButton from "../TeacherResourcesButton/page";
-import RequestMeetingButton from "../RequestMeetingButton/page";
-import Link from "next/link";
-import SvgLogoHorizontal from "../SvgLogoHorizontal/page";
+import { useState, useEffect } from "react"
+import { IoMdMenu } from "react-icons/io"
+import { IoMdClose } from "react-icons/io"
+import SubMenuNav from "../SubMenuNav/page"
+import MenuResponsive from "../MenuResponsive/page"
+import TeacherResourcesButton from "../TeacherResourcesButton/page"
+import RequestMeetingButton from "../RequestMeetingButton/page"
+import Link from "next/link"
+import SvgLogoHorizontal from "../SvgLogoHorizontal/page"
 
 export default function NavMenu(props) {
-  const [isScrolled, setIsScrolled] = useState(false);
-  const [menuResp, setMenuResp] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false)
+  const [menuResp, setMenuResp] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
-      const currentScrollY = window.scrollY;
-      setIsScrolled(currentScrollY > 44);
-    };
+      const currentScrollY = window.scrollY
+      setIsScrolled(currentScrollY > 44)
+    }
 
-    window.addEventListener("scroll", handleScroll, { passive: true });
+    window.addEventListener("scroll", handleScroll, { passive: true })
 
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
 
   useEffect(() => {
-    const firstSecElement = document.querySelector(".firstSec");
+    const firstSecElement = document.querySelector(".firstSec")
     if (isScrolled) {
       if (firstSecElement) {
-        firstSecElement.classList.add("mt-[80px]");
+        firstSecElement.classList.add("mt-[80px]")
       }
     } else {
       if (firstSecElement) {
-        firstSecElement.classList.remove("mt-[80px]");
+        firstSecElement.classList.remove("mt-[80px]")
       }
     }
-  }, [isScrolled]);
+  }, [isScrolled])
 
   return (
     <nav
       translate="no"
-      className={`w-full h-20 bg-[#f5f5f5] justify-center flex text-sm font-[cerapro] z-50 ${isScrolled ? "fixed top-0" : "relative"}`}
+      className={`w-full h-20 bg-[#f5f5f5] justify-center flex text-sm  z-50 ${isScrolled ? "fixed top-0" : "relative"}`}
     >
       <div className="h-full w-10/12 flex justify-between z-40">
         <div className="flex flex-row items-center gap-6">
@@ -81,5 +81,5 @@ export default function NavMenu(props) {
       </div>
       {menuResp && <MenuResponsive setMenuResp={setMenuResp} />}
     </nav>
-  );
+  )
 }

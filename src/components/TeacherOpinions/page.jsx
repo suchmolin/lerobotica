@@ -1,10 +1,10 @@
-"use client";
-import TeacherLeft from "../TeacherLeft/page";
-import { Slide } from "react-awesome-reveal";
+"use client"
+import TeacherLeft from "../TeacherLeft/page"
+import { Slide } from "react-awesome-reveal"
 const TeacherOpinions = () => {
   return (
     <Slide triggerOnce direction="left">
-      <div className="w-full flex flex-col items-center mt-16 lg:mt-28 mb-10 font-[cerapro]">
+      <div className="w-full flex flex-col items-center mt-16 lg:mt-28 mb-10 ">
         <h2 className="text-2xl md:text-5xl font-bold">
           Opiniones de los maestros
         </h2>
@@ -22,7 +22,7 @@ const TeacherOpinions = () => {
         />
       </div>
     </Slide>
-  );
-};
+  )
+}
 
-export default TeacherOpinions;
+export default TeacherOpinions

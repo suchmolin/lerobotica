@@ -1,5 +1,5 @@
-import { HiOutlineLightBulb } from "react-icons/hi";
-import Link from "next/link";
+import { HiOutlineLightBulb } from "react-icons/hi"
+import Link from "next/link"
 
 const TeacherResourcesCards = () => {
   return (
@@ -16,10 +16,10 @@ const TeacherResourcesCards = () => {
             </div>
             <div className="w-full p-4">
               <HiOutlineLightBulb className="text-4xl text-yellow-500 mb-3" />
-              <h3 className="text-2xl font-bold text-gray-800 font-[cerapro]">
+              <h3 className="text-2xl font-bold text-gray-800 ">
                 Explorar Lecciones
               </h3>
-              <p className="text-gray-600 font-[cerapro] mb-10">
+              <p className="text-gray-600  mb-10">
                 Listo para usar materiales para tu salón de clases.
               </p>
             </div>
@@ -27,7 +27,7 @@ const TeacherResourcesCards = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default TeacherResourcesCards;
+export default TeacherResourcesCards

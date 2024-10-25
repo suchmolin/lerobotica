@@ -3,8 +3,12 @@
 @tailwind utilities;
 
   @font-face {
-    font-family: 'cerapro';
-    src: url('/fonts/CeraPro-Regular.ttf');
+    font-family: 'baloo-bold';
+    src: url('/fonts/Baloo2-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'baloo';
+    src: url('/fonts/Baloo2-Regular.ttf');
   }
 
 .customShadow{
@@ -12,4 +16,18 @@
 }
 .zfull{
   z-index: 100;
+}
+
+
+.dropShadow{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.dropShadow2{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.dropShadow3{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.dropShadow4{
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
