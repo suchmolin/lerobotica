@@ -4,7 +4,7 @@ export default function FAQBox({ data }) {
     <div className="relative w-full py-7 sm:max-w-2xl rounded-t-2xl bg-gray-100">
       <div className="mx-auto">
         <div className="mx-auto grid max-w-xl divide-y divide-neutral-200">
-          {data.map((item, index) => (
+          {data?.map((item, index) => (
             <div key={item.id} className="py-5">
               <details className="group">
                 <summary className="flex cursor-pointer list-none items-center justify-between font-medium">

@@ -1,13 +1,13 @@
-import { Fragment, useEffect, useState } from "react";
-import { Combobox, Transition } from "@headlessui/react";
-import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
-import { IoIosClose } from "react-icons/io";
+import { Fragment, useEffect, useState } from "react"
+import { Combobox, Transition } from "@headlessui/react"
+import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid"
+import { IoIosClose } from "react-icons/io"
 
 export default function MultiSelect(props) {
-  const { data, placeHolder, state, seter, size, disabled } = props;
-  const people = data;
+  const { data, placeHolder, state, seter, size, disabled } = props
+  const people = data
 
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState("")
 
   const filteredPeople =
     query === ""
@@ -17,7 +17,7 @@ export default function MultiSelect(props) {
             .toLowerCase()
             .replace(/\s+/g, "")
             .includes(query.toLowerCase().replace(/\s+/g, ""))
-        );
+        )
 
   return (
     <Combobox value={state} onChange={seter} multiple>
@@ -105,5 +105,5 @@ export default function MultiSelect(props) {
         </Transition>
       </div>
     </Combobox>
-  );
+  )
 }

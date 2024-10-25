@@ -41,7 +41,7 @@ export default function Soluciones() {
       <div className="w-11/12 flex flex-col items-center justify-center">
         <h2 className="text-[#b1127c] text-6xl font-bold py-7 ">Soluciones</h2>
         <div className="flex gap-4 flex-wrap justify-center">
-          {data.map((item, index) => (
+          {data?.map((item, index) => (
             <div
               key={index}
               className="w-11/12 md:w-5/12 flex flex-col lg:flex-row items-center bg-white border border-gray-200 rounded-lg shadow"

@@ -1,7 +1,7 @@
-"use client";
-import Image from "next/image";
-import { Slide } from "react-awesome-reveal";
-import CountUp from "react-countup";
+"use client"
+import Image from "next/image"
+import { Slide } from "react-awesome-reveal"
+import CountUp from "react-countup"
 
 export default function Contacto() {
   const data = [
@@ -20,7 +20,7 @@ export default function Contacto() {
       telefono: "0212-976.20.66 / 0212-975.29.89",
       image: "/img/pdosEste.png",
     },
-  ];
+  ]
   return (
     <>
       <Slide
@@ -110,7 +110,7 @@ export default function Contacto() {
         />
       </Slide>
       <div className="w-full flex flex-col md:flex-row justify-center gap-4 mt-10 items-center">
-        {data.map((item, index) => (
+        {data?.map((item, index) => (
           <div
             key={index}
             className="w-11/12 md:w-5/12 flex flex-col md:flex-row items-center bg-white border border-gray-200 rounded-lg shadow"
@@ -133,5 +133,5 @@ export default function Contacto() {
         ))}
       </div>
     </>
-  );
+  )
 }
