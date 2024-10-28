@@ -6,7 +6,7 @@ import Image from "next/image"
 
 export default function FAQ() {
   return (
-    <div className="relative w-full flex flex-col justify-center items-center pb-20 sm:pb-0">
+    <div className="relative w-full flex flex-col justify-center items-center pb-20 sm:pb-0  overflow-hidden">
       <div className="sm:absolute -top-36 lg:-top-5 xl:top-0 right-0">
         <div className="relative aspect-square w-[175px]">
           <Image
@@ -75,7 +75,7 @@ export default function FAQ() {
         </div>
       </div>
 
-      <div className="absolute -bottom-20 right-0">
+      <div className="absolute bottom-0 right-0">
         <div className="relative aspect-square w-[175px]">
           <Image
             src="/img/legoAmarillo2.png"
