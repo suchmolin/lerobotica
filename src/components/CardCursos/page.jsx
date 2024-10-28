@@ -4,7 +4,7 @@ import { data } from "@/data/cursos"
 export default function CardCursos({ data }) {
   const { titulo, subtitulo, icon, img } = data
   return (
-    <div className="w-[330px] rounded-t-[40px] overflow-hidden">
+    <div className="w-[270px] xs:w-[330px] rounded-t-[40px] overflow-hidden">
       <div className="relative w-full h-[320px]">
         <Image
           src={img}

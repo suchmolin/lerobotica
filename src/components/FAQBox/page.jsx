@@ -1,7 +1,7 @@
 import { FaWhatsapp } from "react-icons/fa"
 export default function FAQBox({ data }) {
   return (
-    <div className="relative w-full py-7 sm:max-w-2xl rounded-t-2xl bg-gray-100">
+    <div className="relative w-full py-7 sm:max-w-2xl rounded-t-2xl bg-gray-100 px-3 sm:px-0">
       <div className="mx-auto">
         <div className="mx-auto grid max-w-xl divide-y divide-neutral-200">
           {data?.map((item, index) => (
