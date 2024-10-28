@@ -6,7 +6,7 @@ import HelicopterMove from "../HelicopterMove/page"
 export default function HeaderHome(props) {
   return (
     <div className="firstSec relative w-full lg:h-[calc(100vh-125px)] flex flex-col lg:flex-row justify-end overflow-hidden mb-10">
-      <div className="relative w-full lg:w-5/12 flex flex-col justify-center sm:pl-10 lg:pl-20 mt-5 mb-20 z-10">
+      <div className="relative w-full lg:w-5/12 flex flex-col justify-center sm:pl-10 lg:pl-20 mt-5 mb-5 sm:mb-20 z-10">
         <h1 className="text-azulLR text-4xl xs:text-5xl sm:text-6xl lg:text-7xl font-[baloo-bold] px-3 xs:px-8 sm:px-0">
           <span className="text-3xl xs:text-4xl sm:text-5xl lg:text-6xl block">
             Instituto de
@@ -22,7 +22,7 @@ export default function HeaderHome(props) {
           <RequestMeetingButton size={"3xl"} />
         </div>
       </div>
-      <div className="relative w-full lg:w-7/12 xl:w-6/12 h-full flex items-end justify-center lg:pr-10 pt-40 lg:pt-0">
+      <div className="relative w-full lg:w-7/12 xl:w-6/12 h-full flex items-end justify-center lg:pr-10 pt-24 lg:pt-0">
         <div className="flex flex-col items-center">
           <div className="relative w-[280px] xs:w-[360px] sm:w-[450px] aspect-square ml-10">
             <Image
