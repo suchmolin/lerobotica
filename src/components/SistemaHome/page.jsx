@@ -62,7 +62,7 @@ export default function SistemaHome() {
             <div className="absolute hidden lg:block -bottom-10 xxl:bottom-0 right-52">
               <div className="relative aspect-square w-[175px]">
                 <Image
-                  src="/img/legorojo.png"
+                  src="/img/legoRojo.png"
                   layout="fill"
                   objectFit="contain"
                   alt="logo de lego"
