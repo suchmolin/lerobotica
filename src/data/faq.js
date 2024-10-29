@@ -38,3 +38,71 @@ export const data = [
     ],
   },
 ]
+
+export const data1 = [
+  {
+    id: "1a",
+    pregunta: "¿Cómo me inscribo en un curso?",
+    respuesta: [
+      "A través de nuestros números de contacto, será atendido por nuestro Departamento de Ventas, que le brindará toda la información necesaria sobre nuestros cursos de robótica y programación.",
+    ],
+  },
+  {
+    id: "2a",
+    pregunta: "¿Cuál es su política de cancelación y reembolso?",
+    respuesta: [
+      "Luego de culminar la inscripción en nuestra sede, el Departamento de Ventas le hará entrega de toda la información necesaria sobre nuestras políticas, normas en el aula y códigos establecidos por la empresa.",
+    ],
+  },
+  {
+    id: "3a",
+    pregunta: "¿Qué es LeRobotica?",
+    respuesta: [
+      "Somos un instituto de robótica y programación basado en el sistema de aprendizaje LEGO para niños de preescolar a secundaria.",
+    ],
+  },
+]
+export const data2 = [
+  {
+    id: "1b",
+    pregunta: "¿Hay algún requisito previo?",
+    respuesta: [
+      "Nuestro Departamento de Ventas durante la conversación bien sea telefónica o presencial en alguna de nuestras sedes, le indicará todos los requisitos necesarios para la inscripción del estudiante.",
+    ],
+  },
+  {
+    id: "2b",
+    pregunta: "¿Qué métodos de pago aceptan?",
+    respuesta: ["Pago en efectivo, transferencia bancaria y pago móvil."],
+  },
+  {
+    id: "3b",
+    pregunta: "¿En qué idiomas enseñan?",
+    respuesta: [
+      "Por los momentos nuestro cursos están diseñados y estructurados en español.",
+    ],
+  },
+]
+export const data3 = [
+  {
+    id: "1c",
+    pregunta: "¿Ofrecen oportunidades en línea?",
+    respuesta: [
+      "Todos nuestros cursos están diseñados para trabajar de forma presencial, ya que el alumno debe interactuar con el Set de LEGO.",
+    ],
+  },
+  {
+    id: "2c",
+    pregunta: "¿Puedo enviar mi solicitud para convertirme en profesor?",
+    respuesta: [
+      "Por los momentos nuestra plantilla está completa, pero sin ningún compromiso podemos recibir su hoja de vida a través de nuestro correo electrónico",
+    ],
+  },
+  {
+    id: "3c",
+    pregunta: "Nuestra misión",
+    respuesta: [
+      "Nuestro propósito es ser aliado en la educación, con el fin de maximizar el potencial de nuestros estudiantes a través de un aprendizaje intuitivo adaptable, lúdico e incluyente.",
+    ],
+  },
+]

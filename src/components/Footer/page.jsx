@@ -1,6 +1,7 @@
 import React from "react"
 import RequestMeetingButton from "../RequestMeetingButton/page"
 import Image from "next/image"
+import Link from "next/link"
 
 const Footer = () => {
   const imgFooter = [
@@ -97,56 +98,62 @@ const Footer = () => {
           </div>
           <div className="flex flex-col sm:flex-row justify-center text-center sm:text-start">
             <div className="px-7 flex flex-col ">
-              <a
+              <Link
                 href="/QuienesSomos"
                 className=" py-1 hover:scale-105 transition-all duration-300"
               >
                 Pre-escolar
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/Soluciones"
                 className=" py-1 hover:scale-105 transition-all duration-300"
               >
                 Primaria Baja
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/Contacto"
                 className=" py-1 hover:scale-105 transition-all duration-300"
               >
                 Primaria Alta
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/Contacto"
                 className=" py-1 hover:scale-105 transition-all duration-300"
               >
                 Recursos de Maestros
-              </a>
+              </Link>
             </div>
             <div className="hidden sm:flex px-7 flex-col ">
-              <a
+              <Link
                 href="/QuienesSomos"
                 className=" py-1 hover:scale-105 transition-all duration-300"
               >
                 ¿Quiénes somos?
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/Soluciones"
                 className=" py-1 hover:scale-105 transition-all duration-300"
               >
                 Soluciones
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/blog"
                 className=" py-1 hover:scale-105 transition-all duration-300"
               >
                 Blog
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/Contacto"
                 className=" py-1 hover:scale-105 transition-all duration-300"
               >
                 Contáctanos
-              </a>
+              </Link>
+              <Link
+                href="/preguntasFrecuentes"
+                className=" py-1 hover:scale-105 transition-all duration-300"
+              >
+                Preguntas Frecuentes
+              </Link>
             </div>
           </div>
         </div>

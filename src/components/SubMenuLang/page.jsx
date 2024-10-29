@@ -7,7 +7,7 @@ const SubMenuLang = () => {
         <Link href="/quienesSomos">¿Quiénes Somos?</Link>
       </li>
       <li className="hover:scale-105 cursor-pointer transition-all duration-300 ">
-        <Link href="#">Soluciones</Link>
+        <Link href="/soluciones">Soluciones</Link>
       </li>
       <li className="hover:scale-105 cursor-pointer transition-all duration-300 ">
         <Link href="/contactanos">Contáctanos</Link>

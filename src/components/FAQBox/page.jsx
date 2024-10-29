@@ -1,17 +1,23 @@
 import { FaWhatsapp } from "react-icons/fa"
-export default function FAQBox({ data }) {
+export default function FAQBox({ data, fondo, texto }) {
   return (
-    <div className="relative w-full py-7 sm:max-w-2xl rounded-t-2xl bg-gray-100 px-3 sm:px-0">
+    <div
+      className={`relative w-full py-7 sm:max-w-2xl rounded-t-2xl ${fondo || "bg-gray-100"} px-3 sm:px-0`}
+    >
       <div className="mx-auto">
         <div className="mx-auto grid max-w-xl divide-y divide-neutral-200">
           {data?.map((item, index) => (
             <div key={item.id} className="py-5">
               <details className="group">
                 <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
-                  <span className="text-xl font-[baloo-bold]">
+                  <span
+                    className={`text-xl font-[baloo-bold] ${texto || "text-black"}`}
+                  >
                     {item.pregunta}
                   </span>
-                  <span className="transition group-open:rotate-180">
+                  <span
+                    className={`transition group-open:rotate-180 ${texto || ""}`}
+                  >
                     <svg
                       fill="none"
                       height="24"
@@ -28,7 +34,9 @@ export default function FAQBox({ data }) {
                   </span>
                 </summary>
                 {item.respuesta.map((res) => (
-                  <p className="group-open:animate-fadeIn mt-3 text-neutral-600 flex items-center gap-2">
+                  <p
+                    className={`group-open:animate-fadeIn mt-3 ${texto || "text-neutral-600"} flex items-center gap-2`}
+                  >
                     {res}
                   </p>
                 ))}
