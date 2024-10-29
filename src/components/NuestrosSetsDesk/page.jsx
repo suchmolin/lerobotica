@@ -12,7 +12,8 @@ export default function NuestrosSetsDesk({ data }) {
           <button
             key={sol.id}
             onClick={() => setSelected(sol.id)}
-            className={`bg-${sol.color || "azulClaroLR"} py-3 px-6 flex flex-col rounded-t-3xl text-white -ml-3 ${sol.id === selected ? "z-10" : ""}`}
+            style={{ backgroundColor: `${sol.color}` }}
+            className={`py-3 px-6 flex flex-col rounded-t-3xl text-white -ml-3 ${sol.id === selected ? "z-10" : ""}`}
           >
             <span className="font-[baloo-bold] text-xl xl:text-2xl leading-none">
               {sol.titulo}

@@ -51,7 +51,7 @@ export default function HeaderContactanos() {
           >
             <div className="relative w-[290px] xs:w-[350px] sm:w-[650px] lg:w-[500px] xl:w-[600px] aspect-square">
               <Image
-                src="/img/robotCuadroAzul.png"
+                src="/img/robotcuadroazul.png"
                 layout="fill"
                 objectPosition="right"
                 objectFit="contain"

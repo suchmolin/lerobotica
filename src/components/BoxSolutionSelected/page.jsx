@@ -4,7 +4,8 @@ export default function BoxSolutionSelected({ data }) {
   if (!data) return null
   return (
     <div
-      className={`flex justify-end text-white bg-${data.color || "azulClaroLR"} py-10 -mt-1`}
+      style={{ backgroundColor: `${data.color}` }}
+      className={`flex justify-end text-white py-10 `}
     >
       <div className="w-5/12 flex flex-col justify-center">
         <h2 className="text-5xl font-[baloo-bold]">{data.titulo}</h2>

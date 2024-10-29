@@ -125,13 +125,13 @@ const Footer = () => {
             </div>
             <div className="hidden sm:flex px-7 flex-col ">
               <Link
-                href="/QuienesSomos"
+                href="/quienes-somos"
                 className=" py-1 hover:scale-105 transition-all duration-300"
               >
                 ¿Quiénes somos?
               </Link>
               <Link
-                href="/Soluciones"
+                href="/soluciones"
                 className=" py-1 hover:scale-105 transition-all duration-300"
               >
                 Soluciones
@@ -143,13 +143,13 @@ const Footer = () => {
                 Blog
               </Link>
               <Link
-                href="/Contacto"
+                href="/contactanos"
                 className=" py-1 hover:scale-105 transition-all duration-300"
               >
                 Contáctanos
               </Link>
               <Link
-                href="/preguntasFrecuentes"
+                href="/preguntas-frecuentes"
                 className=" py-1 hover:scale-105 transition-all duration-300"
               >
                 Preguntas Frecuentes
