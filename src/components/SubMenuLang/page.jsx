@@ -13,7 +13,7 @@ const SubMenuLang = () => {
         <Link href="/contactanos">Contáctanos</Link>
       </li>
       <li className="hover:scale-105 cursor-pointer transition-all duration-300 ">
-        <Link href="#">Blog</Link>
+        <Link href="/blog">Blog</Link>
       </li>
       {/*
       <li className="text-xl hover:scale-105 cursor-pointer">
