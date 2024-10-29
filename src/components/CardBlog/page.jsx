@@ -5,9 +5,11 @@ export default function CardBlog({ data, selected, setSelected }) {
     <button
       onClick={() => {
         setSelected(data.id)
-        document
-          .getElementById("blogBox")
-          .scrollIntoView({ behavior: "smooth" })
+        if (screen.width < 768) {
+          document
+            .getElementById("blogBox")
+            .scrollIntoView({ behavior: "smooth" })
+        }
       }}
       className={`group w-[300px] md:w-[240px] lg:w-[300px] p-4 rounded-t-2xl bg-gray-100 flex flex-col border-amarilloLR transition-all duration-300 ${selected === data.id ? "border-b-4 dropShadow3" : ""}`}
     >
