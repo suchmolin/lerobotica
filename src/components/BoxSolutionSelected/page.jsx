@@ -21,6 +21,7 @@ export default function BoxSolutionSelected({ data }) {
             objectFit="contain"
             layout="fill"
             alt={data.titulo}
+            priority
           />
         </div>
       </div>
