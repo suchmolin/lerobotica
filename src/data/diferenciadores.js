@@ -3,14 +3,14 @@ export const data = [
     id: "1",
     title: "¡Aprende jugando!",
     description:
-      "Aprende las bases de la codificación y la programación temprana a través de secuencias, bucles y condicionales que le darán movimiento a tus creaciones en la estación del Tren.",
+      "Aprender mediante el juego fomenta el compromiso de los niños con las clases y en LeRobotica lo sabemos. Tu hijo aprende divirtiéndose a través de clases dinámicas y juegos.",
     icon: "/img/difBombillo.png",
   },
   {
     id: "2",
     title: "Expresa ideas, explora soluciones",
     description:
-      "Resuelve problemas y conoce emociones, utilizando elementos digitales. Mejora las habilidades lingüísticas y matemáticas a través del aprendizaje lúdico y práctico ",
+      "Resuelven problemas, conocen sus emociones y mejoran sus habilidades lingüísticas y matemáticas a través del aprendizaje lúdico y práctico.",
     icon: "/img/difLego.png",
   },
   {

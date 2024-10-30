@@ -3,11 +3,16 @@ import Image from "next/image"
 export default function HeaderSoluciones() {
   return (
     <div className="firstSec relative w-full flex flex-col-reverse lg:flex-row items-center  lg:justify-end">
-      <div className="w-11/12 sm:w-8/12 md:w-6/12 lg:w-3/12 flex flex-col justify-center text-azulLR text-center mb-10 xs:mb-20 lg:mb-0">
-        <h1 className="text-5xl xs:text-6xl font-[baloo-bold]">Soluciones</h1>
+      <div className="w-11/12 sm:w-8/12 md:w-6/12 lg:w-3/12 flex flex-col justify-center text-azulLR  mb-10 xs:mb-20 lg:mb-0">
+        <h1 className="text-5xl xs:text-6xl font-[baloo-bold]">
+          Aprenden,
+          <br />
+          programan
+          <br />y construyen
+        </h1>
         <p className="text-2xl xs:text-3xl">
-          Habilidades que les permiten a nuestros estudiantes enfrentar el
-          futuro.
+          Los niños desarrollan habilidades que los preparan para un futuro
+          junto a la tecnología
         </p>
       </div>
       <div className="w-full lg:w-7/12 flex justify-center items-center">

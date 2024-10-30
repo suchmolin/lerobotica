@@ -9,15 +9,14 @@ export default function HeaderHome(props) {
     <div className="firstSec relative w-full lg:h-[calc(100vh-125px)] flex flex-col lg:flex-row justify-end overflow-hidden mb-10">
       <div className="relative w-full lg:w-5/12 flex flex-col justify-center sm:pl-10 lg:pl-20 mt-5 mb-5 sm:mb-20 z-10">
         <h1 className="text-azulLR text-4xl xs:text-5xl sm:text-6xl lg:text-7xl font-[baloo-bold] px-3 xs:px-8 sm:px-0">
-          <span className="text-3xl xs:text-4xl sm:text-5xl lg:text-6xl block">
-            Instituto de
-          </span>
           Robótica y
           <br />
-          Programacion
+          Programación
+          <br />
+          para niños
         </h1>
         <p className=" text-xl xs:text-2xl sm:text-3xl py-2 lg:pr-10 xl:pr-32 px-3 xs:px-8 sm:px-0">
-          Un espacio para los exploradores de la tecnología.
+          Un espacio creativo donde tu hijo innova, aprende y se divierte.
         </p>
         <div className="px-3 xs:px-8 lg:px-0">
           <RequestMeetingButton size={"3xl"} />

@@ -9,7 +9,7 @@ export default function HeaderQuienesSomos() {
         <h1 className="text-azulLR text-4xl xs:text-5xl sm:text-6xl lg:text-7xl font-[baloo-bold] px-3 xs:px-8 sm:px-0 mb-3">
           ¿Qué es <br /> LeRobotica?
         </h1>
-        <div className="text-lg sm:text-2xl flex flex-col gap-3 xl:pr-20 mx-8">
+        <div className="text-lg sm:text-2xl flex flex-col gap-3 xl:pr-20 mx-8 sm:mx-0">
           <p>
             Somos un instituto de Robótica y Programación basado en el Sistema
             de Aprendizaje LEGO para niños de preescolar a secundaria.

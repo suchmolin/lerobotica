@@ -14,12 +14,14 @@ export default function HeaderContactanos() {
         >
           <div className="relative w-full flex flex-col justify-center  lg:pl-32 xxl:pl-60 mt-5 mb-5 sm:mb-20 z-10">
             <h1 className="text-azulLR text-4xl xs:text-5xl sm:text-6xl xl:text-7xl font-[baloo-bold] px-3 xs:px-8 sm:px-0">
-              ¡Bienvenido a
+              ¡Somos la
               <br />
-              nuestro mundo!
+              extracurricular
+              <br />
+              que necesitas!
             </h1>
             <p className=" text-xl xs:text-2xl sm:text-3xl py-2 lg:pr-10 xl:pr-32 px-3 xs:px-8 sm:px-0">
-              Podrás contactarnos a través del siguiente enlace:
+              Puedes comunicarte con nosotros a través del siguiente enlace:
             </p>
             <div className="pl-8 sm:pl-0">
               <RequestMeetingButton size={"3xl"} />
