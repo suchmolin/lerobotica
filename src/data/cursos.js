@@ -1,6 +1,6 @@
 export const data = [
   {
-    id: "preescolar",
+    id: "pre-escolar",
     titulo: "Preescolar",
     subtitulo: "De 3 a 5 años",
     img: "/img/preescolarCurso.png",

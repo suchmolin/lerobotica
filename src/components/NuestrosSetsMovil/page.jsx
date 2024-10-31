@@ -8,7 +8,8 @@ export default function NuestrosSetsMovil({ data }) {
           {data?.map((item, index) => (
             <div
               key={item.id}
-              className={`py-5  bg-${item.color || "azulClaroLR"} rounded-t-3xl -mt-10`}
+              style={{ backgroundColor: item.color }}
+              className={`py-5 rounded-t-3xl -mt-10`}
             >
               <details className="group">
                 <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
