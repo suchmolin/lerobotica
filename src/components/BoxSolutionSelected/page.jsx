@@ -11,7 +11,9 @@ export default function BoxSolutionSelected({ data }) {
         <h2 className="text-5xl font-[baloo-bold]">{data.titulo}</h2>
         <p className="text-2xl font-bold mb-7">{data.etapa}</p>
         {data.descripcion.map((parrafo, i) => (
-          <p className="text-xl">{parrafo}</p>
+          <p key={i} className="text-xl">
+            {parrafo}
+          </p>
         ))}
       </div>
       <div className="w-6/12 flex items-center justify-center">

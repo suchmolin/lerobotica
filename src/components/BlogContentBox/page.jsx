@@ -5,8 +5,8 @@ export default function BlogContentBox({ data }) {
   return (
     <div id="blogBox" className="w-full flex justify-center">
       <div className="w-11/12 md:w-8/12 pt-20 md:pt-0">
-        {contenido.map((item) => (
-          <>
+        {contenido.map((item, i) => (
+          <div key={i}>
             {item.titulo ? (
               <h2 className="text-5xl font-[baloo-bold] text-azulLR mb-3">
                 {item.titulo}
@@ -22,8 +22,11 @@ export default function BlogContentBox({ data }) {
               ""
             )}
             {item.texto
-              ? item.texto.map((parrafo) => (
-                  <p className="text-xl text-justify mb-3 text-gray-700">
+              ? item.texto.map((parrafo, i) => (
+                  <p
+                    key={`parrafo${i}`}
+                    className="text-xl text-justify mb-3 text-gray-700"
+                  >
                     {parrafo}
                   </p>
                 ))
@@ -40,7 +43,7 @@ export default function BlogContentBox({ data }) {
             ) : (
               ""
             )}
-          </>
+          </div>
         ))}
       </div>
     </div>

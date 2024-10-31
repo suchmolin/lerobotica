@@ -1,6 +1,7 @@
 import Image from "next/image"
 import CardCursos from "../CardCursos/page"
 import { data } from "@/data/cursos"
+import CardCursosBack from "../CardCursosBack/page"
 
 export default function NuestrosCursosHome() {
   return (
@@ -41,8 +42,11 @@ export default function NuestrosCursosHome() {
             Nuestros cursos
           </h2>
           <div className="w-full flex gap-10 justify-center flex-wrap">
-            {data.map((curso) => (
-              <CardCursos key={curso.id} data={curso} />
+            {data.map((curso, i) => (
+              <div key={i} className="card w-[270px] xs:w-[330px]  h-[420px] ">
+                <CardCursos key={curso.id} data={curso} />
+                <CardCursosBack key={curso.id} data={curso} />
+              </div>
             ))}
           </div>
         </div>

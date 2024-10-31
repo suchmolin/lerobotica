@@ -1,19 +1,11 @@
-"use client";
-import Image from "next/image";
-import SliderHome from "../SliderHome/page";
-import { Fade } from "react-awesome-reveal";
+"use client"
+import Image from "next/image"
+import SliderHome from "../SliderHome/page"
+import { Fade } from "react-awesome-reveal"
 
 const SectionOneHome = () => {
   return (
     <section className="firstSec w-full lg:w-10/12 font-sans flex flex-col justify-center items-center">
-      {/*<div className="flex">
-        <Image
-          className="trasition-all"
-          src="/img/puerta.png"
-          width={150}
-          height={515}
-        />*/}
-
       <div className="w-full text-center overflow-hidden transition-all duration-[1500ms] h-[515px] bg-[#ffd500] flex flex-col flex-wrap items-center  lg:justify-center pt-28 lg:pt-0">
         <div className="w-12/12 md:w-10/12 lg:w-8/12">
           <h1 className="flex flex-col text-4xl md:text-5xl lg:text-6xl font-bold">
@@ -31,13 +23,6 @@ const SectionOneHome = () => {
         </div>
       </div>
 
-      {/*<Image
-          className="scale-x-[-1] transition-all"
-          src="/img/puerta.png"
-          width={150}
-          height={515}
-        />
-      </div>*/}
       <Fade
         className="w-full -mt-36 lg:-mt-36 px-3"
         direction="up"
@@ -47,7 +32,7 @@ const SectionOneHome = () => {
         <SliderHome />
       </Fade>
     </section>
-  );
-};
+  )
+}
 
-export default SectionOneHome;
+export default SectionOneHome

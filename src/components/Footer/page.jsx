@@ -74,10 +74,11 @@ const Footer = () => {
                 src="/img/Logo-Lerobotica-RGB.png"
                 layout="fill"
                 objectFit="contain"
+                alt="logo de lerobotica"
               />
             </div>
             <div className="w-11/12 sm:w-9/12 px-4 mt-5 md:mt-0 flex flex-col items-center justify-center md:justify-start md:text-start  text-center sm:text-start">
-              <p className="w-10/12 sm:w-8/12 mb-4 py-1">
+              <p className="w-64 xs:w-80 sm:w-8/12 mb-4 py-1">
                 Mantente al día con todas las iniciativas y actividades de
                 Lerobótica
               </p>

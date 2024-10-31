@@ -1,4 +1,3 @@
-import { Inter } from "next/font/google"
 import Footer from "../components/Footer/page.jsx"
 import "./globals.css"
 import NavLang from "@/components/NavLang/page.jsx"

@@ -4,7 +4,7 @@ import { data } from "@/data/cursos"
 export default function CardCursos({ data }) {
   const { titulo, subtitulo, icon, img } = data
   return (
-    <div className="w-[270px] xs:w-[330px] rounded-t-[40px] overflow-hidden">
+    <div className="cardFace front rounded-t-[40px] overflow-hidden">
       <div className="relative w-full h-[320px]">
         <Image
           src={img}
@@ -23,7 +23,7 @@ export default function CardCursos({ data }) {
           />
         </div>
         <div className="w-9/12 flex flex-col text-black">
-          <h3 className="text-3xl font-[baloo-bold]">{titulo}</h3>
+          <h3 className="text-2xl xs:text-3xl font-[baloo-bold]">{titulo}</h3>
           <p className="text-xl">{subtitulo}</p>
         </div>
       </div>

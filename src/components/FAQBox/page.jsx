@@ -33,8 +33,9 @@ export default function FAQBox({ data, fondo, texto }) {
                     </svg>
                   </span>
                 </summary>
-                {item.respuesta.map((res) => (
+                {item.respuesta.map((res, i) => (
                   <p
+                    key={i}
                     className={`group-open:animate-fadeIn mt-3 ${texto || "text-neutral-600"} flex items-center gap-2`}
                   >
                     {res}
