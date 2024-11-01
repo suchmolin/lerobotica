@@ -2,6 +2,7 @@ import React from "react"
 import RequestMeetingButton from "../RequestMeetingButton/page"
 import Image from "next/image"
 import Link from "next/link"
+import TeacherResourcesButton from "../TeacherResourcesButton/page"
 
 const Footer = () => {
   const imgFooter = [
@@ -100,29 +101,24 @@ const Footer = () => {
           <div className="flex flex-col sm:flex-row justify-center text-center sm:text-start">
             <div className="px-7 flex flex-col ">
               <Link
-                href="/QuienesSomos"
+                href="/etapa/pre-escolar"
                 className=" py-1 hover:scale-105 transition-all duration-300"
               >
                 Pre-escolar
               </Link>
               <Link
-                href="/Soluciones"
+                href="/etapa/primaria-baja"
                 className=" py-1 hover:scale-105 transition-all duration-300"
               >
                 Primaria Baja
               </Link>
               <Link
-                href="/Contacto"
+                href="/etapa/primaria-alta"
                 className=" py-1 hover:scale-105 transition-all duration-300"
               >
                 Primaria Alta
               </Link>
-              <Link
-                href="/Contacto"
-                className=" py-1 hover:scale-105 transition-all duration-300"
-              >
-                Recursos de Maestros
-              </Link>
+              <TeacherResourcesButton />
             </div>
             <div className="hidden sm:flex px-7 flex-col ">
               <Link

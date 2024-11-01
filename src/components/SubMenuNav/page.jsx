@@ -10,7 +10,7 @@ const SubMenuNav = () => {
         <Link href="/etapa/primaria-baja">Primaria Baja</Link>
       </li>
       <li className="hover:text-[#4f6cbd] cursor-pointer">
-        <Link href="/etapa/primaria-alta">Primaria Alta/</Link>
+        <Link href="/etapa/primaria-alta">Primaria Alta</Link>
       </li>
     </ul>
   )
