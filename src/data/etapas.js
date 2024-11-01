@@ -3,6 +3,20 @@ export const data = [
     id: "pre-escolar",
     title: "Pre-escolar",
     edad: "3 a 5 años",
+    sets: [
+      "parque-steam",
+      "mi-mundo-xl",
+      "set-de-las-emociones",
+      "coding-express",
+      "mis-primeros-cuentos",
+      "maquinas-tecnologicas",
+      "cafe",
+      "tren-de-las-matematicas",
+      "nuestra-comunidad",
+      "spike-essential-pre-escolar",
+      "maquinas-simples-iniciales",
+      "set-de-letras",
+    ],
     descripcion: [
       "Coding Express es una solución creativa e intuitiva que introduce a estudiantes de preescolar a conceptos básicos de codificación y habilidades cruciales para el siglo XXI, además de despertar de manera natural su curiosidad, creatividad y deseo de explorar y aprender juntos.",
     ],
@@ -66,11 +80,35 @@ export const data = [
         },
       ],
     },
+    habilidades: [
+      {
+        titulo: "Conocimientos de matemáticas y Lectoescritura",
+        img: "/img/habilidadesPreEscolar1.png",
+      },
+      {
+        titulo: "CoTécnicas básicas de programación",
+        img: "/img/habilidadesPreEscolar2.png",
+      },
+      {
+        titulo: "Pensamiento Creativo",
+        img: "/img/habilidadesPreEscolar3.png",
+      },
+      {
+        titulo: "Trabajo en equipo",
+        img: "/img/habilidadesPreEscolar4.png",
+      },
+    ],
   },
   {
     id: "primaria-baja",
     title: "Primaria Baja",
     edad: "6 a 8 años",
+    sets: [
+      "spike-essential-primaria-baja",
+      "bricq-motion-essential",
+      "set-principal-wedo-2.0",
+      "maquinas-simples",
+    ],
     descripcion: [
       "Presenta una divertida metodología que invita al alumno a motivarse y desarrollar sus competencias socioemocionales, lingüísticas y matemáticas a través de una aventura en un parque de diversiones.",
       "La codificación de bloques basada en iconos y palabras con hardware simple, que incluye un concentrador inteligente de dos puertos, motores, una matriz de luz y un sensor de color, ayuda a los estudiantes a dar vida a sus creaciones.",
@@ -137,11 +175,37 @@ export const data = [
         },
       ],
     },
+    habilidades: [
+      {
+        titulo: "Da vida a los modelos con programación gradual",
+        img: "/img/habilidadesPreEscolar1.png",
+      },
+      {
+        titulo: "Desarrollo con sus competencias lingüísticas",
+        img: "/img/habilidadesPreEscolar2.png",
+      },
+      {
+        titulo: "Conocimiento temprano de las matemáticas y las ciencias.",
+        img: "/img/habilidadesPreEscolar3.png",
+      },
+      {
+        titulo: "Contribuye al desarrollo socio-emocional",
+        img: "/img/habilidadesPreEscolar4.png",
+      },
+    ],
   },
   {
     id: "primaria-alta",
     title: "Primaria Alta",
     edad: "9 a 11 años",
+    sets: [
+      "spike-prime",
+      "bricq-motion-prime",
+      "mindstorms-ev3",
+      "mindstorms-ev3",
+      "ampliacion-de-energias-renovables",
+      "expansion-de-neumatica",
+    ],
     descripcion: [
       "Invita al alumno a desarrollar habilidades de pensamiento crítico, a desarrollar problemas que involucran las matemáticas, la ciencia y la tecnología en la construcción de cada robot.",
       "Spike Prime enseña robótica y programación de forma sencilla e intuitiva a través del sistema familiar de codificación de bloques basado en Scratch con la APP LEGO Education SPIKE PRIME.",
@@ -208,5 +272,24 @@ export const data = [
         },
       ],
     },
+    habilidades: [
+      {
+        titulo: "Exploran la codificación basada en texto con Python",
+        img: "/img/habilidadesPreEscolar1.png",
+      },
+      {
+        titulo:
+          "Desarrollan el pensamiento criticó y la resolución de problemas.",
+        img: "/img/habilidadesPreEscolar2.png",
+      },
+      {
+        titulo: "Exploran su confianza y resiliencia",
+        img: "/img/habilidadesPreEscolar3.png",
+      },
+      {
+        titulo: "Dan vida a robots con programación gradual.",
+        img: "/img/habilidadesPreEscolar4.png",
+      },
+    ],
   },
 ]

@@ -59,3 +59,14 @@
 .card:hover .back{
   transform: perspective(1000px) rotateY(360deg);
 }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+textarea{
+  resize: none;
+}

@@ -43,6 +43,11 @@ export default function ValoresEtapa({ data }) {
         className="w-full lg:w-6/12 xl:w-5/12 h-fit lg:h-full flex items-center px-3 xl:px-0"
       >
         <div className="w-full flex flex-col ">
+          <div className="text-center">
+            <h2 className="text-6xl font-[baloo-bold] text-azulLR mb-12 text center">
+              Conoce nuestras características
+            </h2>
+          </div>
           {valores.items.map((item, i) => (
             <button
               key={i}
