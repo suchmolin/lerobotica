@@ -15,8 +15,9 @@ export default function HeaderQuienesSomos() {
             Sistema de Aprendizaje LEGO para niños de preescolar a secundaria.
           </p>
           <p className="">
-            Buscamos construcciones y actividades que inspiren a los niños a
-            desarrollar su lógica y su creatividad, mientras se divierten.
+            Buscamos a través de construcciones y actividades que los niños se
+            inspiren y desarrollaren su lógica y su creatividad, mientras se
+            divierten.
           </p>
         </div>
       </div>

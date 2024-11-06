@@ -3,7 +3,7 @@ export const data = [
     id: "1",
     pregunta: "¿Cómo inscribo a mi hijo en un curso?",
     respuesta: [
-      "Comunicate a través de nuestros números de contacto (0412-203-0567) y serás atendido por nuestro Departamento de Ventas, que te brindará toda la información necesaria sobre nuestros cursos de robótica y programación.",
+      "Comunicate a través de nuestro número de contacto (0412-203-0567) y serás atendido por nuestro Departamento de Ventas, que te brindará toda la información necesaria sobre nuestros cursos de robótica y programación.",
     ],
   },
   {
@@ -44,7 +44,7 @@ export const data1 = [
     id: "1a",
     pregunta: "¿Cómo inscribo a mi hijo en un curso?",
     respuesta: [
-      "Comunicate a través de nuestros números de contacto (0412-203-0567) y serás atendido por nuestro Departamento de Ventas, que te brindará toda la información necesaria sobre nuestros cursos de robótica y programación.",
+      "Comunicate a través de nuestro número de contacto (0412-203-0567) y serás atendido por nuestro Departamento de Ventas, que te brindará toda la información necesaria sobre nuestros cursos de robótica y programación.",
     ],
   },
   {
