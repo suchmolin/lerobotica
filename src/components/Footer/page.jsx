@@ -64,7 +64,7 @@ const Footer = () => {
       <div className="w-full border-t-2 border-t-gray-100 flex justify-center items-center flex-col bg-gray-100">
         <div className="w-10/12 lg:w-7/12 flex flex-col sm:flex-row gap-4 items-center justify-center px-10 md:px-0 py-5 bg-[#FFD100] -mt-9">
           <h2 className="text-lg md:text-2xl  font-[baloo-bold] text-center sm:text-start">
-            Trae a Lerobotica a tu escula o distrito
+            Trae a Lerobotica a tu escula o ciudad
           </h2>
           <RequestMeetingButton />
         </div>

@@ -1,40 +1,40 @@
 export const data = [
   {
     id: "1",
-    pregunta: "¿Cómo me inscribo en un curso?",
+    pregunta: "¿Cómo inscribo a mi hijo en un curso?",
     respuesta: [
-      "A través de nuestros números de contacto, será atendido por nuestro Departamento de Ventas, que le brindará toda la información necesaria sobre nuestros cursos de robótica y programación.",
+      "Comunicate a través de nuestros números de contacto (0412-203-0567) y serás atendido por nuestro Departamento de Ventas, que te brindará toda la información necesaria sobre nuestros cursos de robótica y programación.",
     ],
   },
   {
     id: "2",
-    pregunta: "¿Qué es LeRobotica?",
+    pregunta: "¿Cómo aprende mi hijo en LeRobotica?",
     respuesta: [
-      "Somos un instituto de robótica y programación basado en el sistema de aprendizaje LEGO para niños de preescolar a secundaria.",
+      "Los niños aprenden a través de nuestra metodología: Aprender Jugando. Mediante actividades y construcciones que los inspiren a  a desarrollar su lógica y su creatividad. ",
     ],
   },
   {
     id: "3",
     pregunta: "¿Cuál es su filosofía de enseñanza?",
     respuesta: [
-      "Nuestra filosofía está basada en el sistema de aprendizaje LEGO, que fomenta la educación intuitiva, inclusiva y adaptable permitiendo reforzar las habilidades de nuestros alumnos de cara al futuro y así aprendan de forma lúdica y práctica",
+      "Nuestra filosofía está basada en el sistema de aprendizaje LEGO, que fomenta la educación intuitiva, inclusiva y adaptable permitiendo reforzar las habilidades de nuestros alumnos.",
     ],
   },
   {
     id: "4",
     pregunta: "¿Dónde están ubicados?",
     respuesta: [
-      "Puerto Ordaz: Av. Paseo Caroní, C.C Naraya, Piso 1, Local 115.",
+      "Caracas: Centro Ciudad Comercial Tamanaco Torre A, piso 3, oficina 302",
       "Caracas: Av. Principal Prados del Este, C.C Galería Prados del Este, Mezzanina, Local M38.",
-      "Caracas: C.C. Ciudad Tamanaco, Torre A, piso 3, oficina 302",
+      "Puerto Ordaz: Av. Paseo Caroní, C.C Naraya, Piso 1, Local 115.",
     ],
   },
   {
     id: "5",
     pregunta: "Números de contacto",
     respuesta: [
+      "Caracas: (0212)-976.20.66 / (0412)-203.05.67 / (0424)-903.04.37",
       "Puerto Ordaz: (0286)-962.58.32 / (0414)-903.04.37",
-      "Caracas: (0212)-976.20.66 / (0424)-903.04.37",
     ],
   },
 ]
@@ -42,9 +42,9 @@ export const data = [
 export const data1 = [
   {
     id: "1a",
-    pregunta: "¿Cómo me inscribo en un curso?",
+    pregunta: "¿Cómo inscribo a mi hijo en un curso?",
     respuesta: [
-      "A través de nuestros números de contacto, será atendido por nuestro Departamento de Ventas, que le brindará toda la información necesaria sobre nuestros cursos de robótica y programación.",
+      "Comunicate a través de nuestros números de contacto (0412-203-0567) y serás atendido por nuestro Departamento de Ventas, que te brindará toda la información necesaria sobre nuestros cursos de robótica y programación.",
     ],
   },
   {
@@ -56,9 +56,9 @@ export const data1 = [
   },
   {
     id: "3a",
-    pregunta: "¿Qué es LeRobotica?",
+    pregunta: "¿Cómo aprende mi hijo en LeRobotica?",
     respuesta: [
-      "Somos un instituto de robótica y programación basado en el sistema de aprendizaje LEGO para niños de preescolar a secundaria.",
+      "Los niños aprenden a través de nuestra metodología: Aprender Jugando. Mediante actividades y construcciones que los inspiren a  a desarrollar su lógica y su creatividad.",
     ],
   },
 ]

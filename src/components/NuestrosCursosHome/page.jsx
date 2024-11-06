@@ -1,6 +1,6 @@
 import Image from "next/image"
 import CardCursos from "../CardCursos/page"
-import { data } from "@/data/cursos"
+import { data } from "@/data/etapas"
 import CardCursosBack from "../CardCursosBack/page"
 
 export default function NuestrosCursosHome() {

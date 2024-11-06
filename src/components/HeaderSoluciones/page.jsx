@@ -11,8 +11,8 @@ export default function HeaderSoluciones() {
           <br />y construyen
         </h1>
         <p className="text-2xl xs:text-3xl">
-          Los niños desarrollan habilidades que los preparan para un futuro
-          junto a la tecnología
+          Los niños desarrollan habilidades que los preparan para una vida junto
+          a la tecnología
         </p>
       </div>
       <div className="w-full lg:w-7/12 flex justify-center items-center">

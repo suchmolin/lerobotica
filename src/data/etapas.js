@@ -18,10 +18,17 @@ export const data = [
       "set-de-letras",
     ],
     descripcion: [
-      "Coding Express es una solución creativa e intuitiva que introduce a estudiantes de preescolar a conceptos básicos de codificación y habilidades cruciales para el siglo XXI, además de despertar de manera natural su curiosidad, creatividad y deseo de explorar y aprender juntos.",
+      "En esta etapa los niños aprenden sobre sus emociones, como entenderlas y como actuar ante ellas, desarrollan habilidades matemáticas y de lectoescritura.",
+      "Hacemos énfasis en su desarrollo motriz a través de actividades y contrucciones con enfoque en la resolución de problemas y trabajo en equipo. ",
     ],
     img: "/img/headerPreEscolar.png",
     imgAlt: "/img/headerPreEscolarAlt.png",
+    cursoTarjeta: {
+      img: "/img/preescolarCurso.png",
+      icon: "/img/roboticonpreescolar.png",
+      descripcion:
+        "Prepara a tu hijo para la escuela y la vida, desarrollando confianza y habilidades sociales a través de la metodología STEAM.",
+    },
     dif: [
       {
         id: "dif-pre-escolar-1",
@@ -56,27 +63,27 @@ export const data = [
         {
           id: "item1",
           descripcion:
-            "Aprende las bases de la codificación y la programación temprana",
+            "Aprenden las bases de la codificación y la programación temprana",
           descripcion2:
-            "Aprende las bases de la codificación y la programación temprana a través de secuencias, bucles y condicionales que le darán movimiento a tus creaciones en la estación del Tren.",
+            "Aprenden las bases de la codificación y la programación temprana a través de secuencias, bucles y condicionales que le darán movimiento a sus creaciones.",
         },
         {
           id: "item2",
-          descripcion: "Resuelve problemas y conoce emociones",
+          descripcion: "Resuelven problemas y conocen emociones",
           descripcion2:
-            "Resuelve problemas y conoce emociones, expresa ideas, explora soluciones, utilizando elementos digitales",
+            "Resuelven problemas y conocen emociones, expresan ideas, exploran soluciones, utilizando elementos digitales",
         },
         {
           id: "item3",
-          descripcion: "Mejora las habilidades lingüísticas y matemáticas",
+          descripcion: "Mejoran las habilidades lingüísticas y matemáticas",
           descripcion2:
-            "Mejora las habilidades lingüísticas y matemáticas a través del aprendizaje lúdico y práctico",
+            "Mejoran las habilidades lingüísticas y matemáticas a través del aprendizaje lúdico y práctico.",
         },
         {
           id: "item4",
           descripcion: "Resolución de problemas y pensamiento crítico",
           descripcion2:
-            "Resolución de problemas y pensamiento crítico por medio de unidades y actividades interactivas que permiten diseñar y optimizar soluciones comunes en la estación del tren.",
+            "Resolución de problemas, pensamiento crítico y desarrollo motriz por medio de unidades y actividades interactivas que les permiten diseñar y optimizar soluciones comunes.",
         },
       ],
     },
@@ -86,7 +93,7 @@ export const data = [
         img: "/img/habilidadesPreEscolar1.png",
       },
       {
-        titulo: "CoTécnicas básicas de programación",
+        titulo: "Técnicas básicas de programación",
         img: "/img/habilidadesPreEscolar2.png",
       },
       {
@@ -110,11 +117,20 @@ export const data = [
       "maquinas-simples",
     ],
     descripcion: [
-      "Presenta una divertida metodología que invita al alumno a motivarse y desarrollar sus competencias socioemocionales, lingüísticas y matemáticas a través de una aventura en un parque de diversiones.",
+      "Esta etapa presenta una divertida metodología que invita al alumno a motivarse y desarrollar sus competencias socioemocionales, lingüísticas y matemáticas a través del Sistema de Aprendizaje LEGO.",
       "La codificación de bloques basada en iconos y palabras con hardware simple, que incluye un concentrador inteligente de dos puertos, motores, una matriz de luz y un sensor de color, ayuda a los estudiantes a dar vida a sus creaciones.",
     ],
     img: "/img/headerPrimariaBaja.png",
     imgAlt: "/img/headerPrimariaBajaAlt.png",
+    cursoTarjeta: {
+      id: "primaria-baja",
+      titulo: "Primaria Baja",
+      subtitulo: "De 6 a 8 años",
+      img: "/img/primariaBajaCurso.png",
+      icon: "/img/roboticonprimariabaja.png",
+      descripcion:
+        "Los niños aprenden sobre ingeniería, el análisis de datos y la comunicación, desarrollando habilidades como el pensamiento crítico y la colaboración.",
+    },
     dif: [
       {
         id: "dif-primaria-baja-1",
@@ -149,29 +165,28 @@ export const data = [
         {
           id: "item1",
           descripcion:
-            "Desarrollo de habilidades y actividades de programación",
+            "Desarrollan habilidades y  realizan actividades de programación",
           descripcion2:
-            "Desarrollo de habilidades y actividades de programación a través del lenguaje de codificación intuitivo de arrastrar y soltar que se basa en Scratch",
+            "Desarrollan habilidades y  realizan actividades de programación a través del lenguaje de codificación intuitivo de arrastrar y soltar que se basa en Scratch",
         },
         {
           id: "item2",
-          descripcion: "Dale vida a tu robot a través de la creación",
+          descripcion: "Le dan vida a robots a través de la creación",
           descripcion2:
-            "Dale vida a tu robot a través de la creación y modificación de secuencias y el uso de bucles.",
+            "Le dan vida a robots a través de la creación y modificación de secuencias y el uso de bucles.",
         },
         {
           id: "item3",
           descripcion:
-            "En el proceso de construcción de tu robot explora elementos asociados al diseño técnico.",
+            "En el proceso de construcción del robot exploran elementos asociados al diseño técnico.",
           descripcion2:
-            "En el proceso de construcción de tu robot explora elementos asociados al diseño técnico.",
+            "En el proceso de construcción del robot exploran elementos asociados al diseño técnico.",
         },
         {
           id: "item4",
-          descripcion:
-            "Desarrollo competencias socioemocionales, lingüísticas y matemáticas",
+          descripcion: "Desarrollan competencias socioemocionales",
           descripcion2:
-            "Desarrollo competencias socioemocionales, lingüísticas y matemáticas",
+            "Desarrollan competencias socioemocionales, lingüísticas y matemáticas",
         },
       ],
     },
@@ -207,11 +222,20 @@ export const data = [
       "expansion-de-neumatica",
     ],
     descripcion: [
-      "Invita al alumno a desarrollar habilidades de pensamiento crítico, a desarrollar problemas que involucran las matemáticas, la ciencia y la tecnología en la construcción de cada robot.",
-      "Spike Prime enseña robótica y programación de forma sencilla e intuitiva a través del sistema familiar de codificación de bloques basado en Scratch con la APP LEGO Education SPIKE PRIME.",
+      "Invita al alumno a desarrollar habilidades de pensamiento crítico, a resolver problemas que involucran las matemáticas, la ciencia y la tecnología en la construcción de cada robot.",
+      "A través de los sets los niños aprenden de robótica y programación de forma sencilla e intuitiva a través del sistema familiar de codificación de bloques basado en Python con la APP LEGO Education SPIKE PRIME.",
     ],
     img: "/img/headerPrimariaAlta.png",
     imgAlt: "/img/headerPrimariaAltaAlt.png",
+    cursoTarjeta: {
+      id: "primaria-alta",
+      titulo: "Primaria Alta",
+      subtitulo: "De 9 a 11 años",
+      img: "/img/primariaAltaCurso.png",
+      icon: "/img/roboticonprimariaalta.png",
+      descripcion:
+        "Tu hijo desarrolla y gana confianza en habilidades STEAM como la codificación, la robótica y la informática. Al mismo tiempo trabaja y mejora su colaboración con otros y su pensamiento crítico. ",
+    },
     dif: [
       {
         id: "dif-primaria-alta-1",
@@ -246,29 +270,29 @@ export const data = [
         {
           id: "item1",
           descripcion:
-            "Aplica habilidades de diseño, construcción y programación",
+            "Aplican habilidades de diseño, construcción y programación",
           descripcion2:
-            "Aplica habilidades de diseño, construcción y programación por medio de conocimientos en ingeniería",
+            "Aplican habilidades de diseño, construcción y programación por medio de conocimientos en ingeniería.",
         },
         {
           id: "item2",
-          descripcion: "Analiza los datos en el proceso de codificación",
+          descripcion: "Analizan los datos en el proceso de codificación",
           descripcion2:
-            "Analiza los datos en el proceso de codificación de tu robot para mejorar sus soluciones y movimientos.",
+            "Analizan los datos en el proceso de codificación de su robot para mejorar sus soluciones y movimientos.",
         },
         {
           id: "item3",
           descripcion:
-            "Desarrollar habilidades relacionadas con la colaboración y el trabajo en equipo.",
+            "Desarrollan habilidades relacionadas con la colaboración y el trabajo en equipo.",
           descripcion2:
-            "Desarrollar habilidades relacionadas con la colaboración y el trabajo en equipo.",
+            "Desarrollan habilidades relacionadas con la colaboración y el trabajo en equipo.",
         },
         {
           id: "item4",
           descripcion:
-            "Identifica los posibles errores durante el desarrollo de cada actividad",
+            "Identifican los posibles errores durante el desarrollo de cada actividad",
           descripcion2:
-            "Identifica los posibles errores durante el desarrollo de cada actividad de forma sistemática con la finalidad de corregirlos.",
+            "Identifican los posibles errores durante el desarrollo de cada actividad de forma sistemática con la finalidad de corregirlos.",
         },
       ],
     },

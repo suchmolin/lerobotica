@@ -1,8 +1,7 @@
 import Image from "next/image"
-import { data } from "@/data/cursos"
 
 export default function CardCursos({ data }) {
-  const { titulo, subtitulo, icon, img } = data
+  const { title, edad, icon, img } = data.cursoTarjeta
   return (
     <div className="cardFace front rounded-t-[40px] overflow-hidden">
       <div className="relative w-full h-[320px]">
@@ -23,8 +22,10 @@ export default function CardCursos({ data }) {
           />
         </div>
         <div className="w-9/12 flex flex-col text-black">
-          <h3 className="text-2xl xs:text-3xl font-[baloo-bold]">{titulo}</h3>
-          <p className="text-xl">{subtitulo}</p>
+          <h3 className="text-2xl xs:text-3xl font-[baloo-bold]">
+            {data.title}
+          </h3>
+          <p className="text-xl">{data.edad}</p>
         </div>
       </div>
     </div>

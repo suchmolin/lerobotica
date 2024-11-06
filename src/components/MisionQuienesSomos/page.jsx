@@ -38,9 +38,9 @@ export default function MisionQuienesSomos() {
               Basados en:
             </h2>
             <p className="text-lg xs:text-xl sm:text-2xl text-justify">
-              Nuestro propósito es ser aliado en la educación, con el fin de
-              maximizar el potencial de nuestros estudiantes a través de un
-              aprendizaje intuitivo adaptable, lúdico e incluyente.
+              El sistema de aprendizaje LEGO que a través de soluciones brinda
+              experiencias de aprendizaje STEAM,  de forma práctica, intuitiva y
+              adaptable para estudiantes de preescolar a secundaria.
             </p>
           </div>
         </div>

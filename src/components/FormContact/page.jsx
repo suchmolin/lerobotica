@@ -5,7 +5,7 @@ export default function FormContact() {
     <div className="w-full flex justify-center items-center">
       <form className="dropShadow2 w-[500px] py-5 px-7 rounded-t-[40px] bg-azulClaroLR">
         <h2 className="text-5xl font-[baloo-bold] py-7 text-white">
-          Contactanos
+          Contáctanos
         </h2>
         <input
           type="text"
@@ -37,7 +37,7 @@ export default function FormContact() {
           <input
             type="submit"
             className="bg-azulLR text-white py-2 px-4 font-[baloo-bold] text-xl cursor-pointer"
-            value="solicitar"
+            value="Enviar"
           />
         </div>
       </form>

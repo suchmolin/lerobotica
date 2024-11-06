@@ -11,7 +11,7 @@ export default function SetsEtapa({ data }) {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 1,
     appendDots: (dots) => <ul>{dots}</ul>,
     customPaging: (i) => (

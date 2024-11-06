@@ -183,7 +183,7 @@ export const data = [
   {
     id: "nuestra-comunidad",
     name: "Nuestra Comunidad",
-    img: "/img/nuestraComunidad.png",
+    img: "/img/nuestracomunidad.png",
     caracteristicas: [
       {
         titulo: "Exploración de roles sociales",
