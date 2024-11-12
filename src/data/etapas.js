@@ -217,9 +217,9 @@ export const data = [
       "spike-prime",
       "bricq-motion-prime",
       "mindstorms-ev3",
-      "mindstorms-ev3",
+      "maquinas-simples-y-motorizadas",
       "ampliacion-de-energias-renovables",
-      "expansion-de-neumatica",
+      "ampliacion-de-energías-renovables",
     ],
     descripcion: [
       "Invita al alumno a desarrollar habilidades de pensamiento crítico, a resolver problemas que involucran las matemáticas, la ciencia y la tecnología en la construcción de cada robot.",

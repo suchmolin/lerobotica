@@ -251,7 +251,7 @@ export const data = [
   {
     id: "spike-essential-primaria-baja",
     name: "Spike Essential",
-    img: "/img/spikeessential2.png",
+    img: "/img/spike-essential-primaria-baja.png",
     caracteristicas: [
       {
         titulo: "Aprendizaje práctico de ciencias",
@@ -273,7 +273,7 @@ export const data = [
   {
     id: "bricq-motion-essential",
     name: "BricQ Motion Essential",
-    img: "/img/",
+    img: "/img/bricq-motion-essential.png",
     caracteristicas: [
       {
         titulo: "Comprensión del movimiento",
@@ -295,7 +295,7 @@ export const data = [
   {
     id: "set-principal-wedo-2.0",
     name: "Set principal WeDo 2.0",
-    img: "/img/",
+    img: "/img/set-principal-wedo-2-0.png",
     caracteristicas: [
       {
         titulo: "Interactividad",
@@ -317,7 +317,7 @@ export const data = [
   {
     id: "maquinas-simples",
     name: "Máquinas Simples",
-    img: "/img/",
+    img: "/img/maquinas-simples.png",
     caracteristicas: [
       {
         titulo: "Comprensión de conceptos físicos",
@@ -339,7 +339,7 @@ export const data = [
   {
     id: "spike-prime",
     name: "Spike Prime",
-    img: "/img/",
+    img: "/img/spike-prime.png",
     caracteristicas: [
       {
         titulo: "Sensores avanzados",
@@ -356,7 +356,7 @@ export const data = [
   {
     id: "bricq-motion-prime",
     name: "BricQ Motion Prime",
-    img: "/img/",
+    img: "/img/bricq-motion-prime.png",
     caracteristicas: [
       {
         titulo: "Interacción física",
@@ -373,7 +373,7 @@ export const data = [
   {
     id: "mindstorms-ev3",
     name: "Mindstorms EV3",
-    img: "/img/",
+    img: "/img/mindstorms-ev3.png",
     caracteristicas: [
       {
         titulo: "Programación avanzada",
@@ -388,9 +388,9 @@ export const data = [
     ],
   },
   {
-    id: "mindstorms-ev3",
+    id: "maquinas-simples-y-motorizadas",
     name: "Máquinas Simples y Motorizadas",
-    img: "/img/",
+    img: "/img/maquinas-simples-y-motorizadas.png",
     caracteristicas: [
       {
         titulo: "Aprendizaje de mecánica básica",
@@ -407,7 +407,7 @@ export const data = [
   {
     id: "ampliacion-de-energias-renovables",
     name: "Ampliación de Energías Renovables",
-    img: "/img/",
+    img: "/img/ampliacion-de-energias-renovables.png",
     caracteristicas: [
       {
         titulo: "Conciencia ecológica",
@@ -422,9 +422,9 @@ export const data = [
     ],
   },
   {
-    id: "expansion-de-neumatica",
+    id: "ampliacion-de-energías-renovables",
     name: "Ampliación de Energías Renovables",
-    img: "/img/",
+    img: "/img/ampliacion-de-energías-renovables.png",
     caracteristicas: [
       {
         titulo: "Introducción a la neumática",
