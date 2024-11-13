@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { Slide } from "react-awesome-reveal"
 import { IoClose } from "react-icons/io5"
 
 export default function ModalSets({ set, setOpenModalSet }) {
@@ -24,16 +25,17 @@ export default function ModalSets({ set, setOpenModalSet }) {
         <div className="w-full h-full flex flex-col lg:flex-row justify-center">
           <div className="w-full flex justify-center lg:w-5/12 h-full relative">
             <div className="absolute bg-azulLR w-full h-[200px] sm:h-[240px] lg:h-[350px] rounded-tr-[100px]"></div>
-
-            <div className="relative -top-5 w-[250px] sm:w-[300px] lg:w-[450px] aspect-square">
-              <Image
-                src={set.imgAlt}
-                objectFit="contain"
-                layout="fill"
-                alt={set.name}
-                priority
-              />
-            </div>
+            <Slide direction="left">
+              <div className="relative -top-5 w-[250px] sm:w-[300px] lg:w-[450px] aspect-square">
+                <Image
+                  src={set.imgAlt}
+                  objectFit="contain"
+                  layout="fill"
+                  alt={set.name}
+                  priority
+                />
+              </div>
+            </Slide>
           </div>
           <div className="lg:w-7/12 pl-10 sm:pl-20 xl:px-20">
             <h2 className="font-[baloo-bold] text-4xl sm:text-5xl lg:text-6xl text-azulLR mb-5">
