@@ -4,7 +4,7 @@ import { Slide } from "react-awesome-reveal"
 
 export default function HeaderEtapa({ data }) {
   return (
-    <div className="firstSec relative w-full flex flex-col justify-center items-center pb-20 sm:pb-0 overflow-hidden">
+    <div className="firstSec relative w-full flex flex-col justify-center items-center pb-10 sm:pb-0 overflow-hidden">
       <div className="w-full h-full flex flex-col lg:flex-row justify-center items-center">
         <Slide
           triggerOnce

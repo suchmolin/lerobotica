@@ -3,8 +3,8 @@ import FormContact from "../FormContact/page"
 
 export default function ContactoEtapa({ data }) {
   return (
-    <div className="relative w-full flex justify-center">
-      <div className="w-8/12 flex justify-center items-center pt-20">
+    <div className="relative w-full flex justify-center overflow-hidden">
+      <div className="flex justify-center items-center pt-20">
         <FormContact />
       </div>
       <div className="absolute top-0 -right-10">
@@ -18,7 +18,7 @@ export default function ContactoEtapa({ data }) {
           />
         </div>
       </div>
-      <div className="absolute bottom-0 -right-5">
+      <div className="hidden sm:block absolute bottom-0 -right-5">
         <div className="relative w-[130px] aspect-square">
           <Image
             src="/img/legoVerde.png"

@@ -3,6 +3,7 @@ export const data = [
     id: "parque-steam",
     name: "Parque STEAM",
     img: "/img/parquesteam.png",
+    imgAlt: "/img/parquesteamAlt.png",
     caracteristicas: [
       {
         titulo: "Explora conceptos STEAM",
@@ -26,6 +27,7 @@ export const data = [
     id: "mi-mundo-xl",
     name: "Mi Mundo XL",
     img: "/img/mimundoxl.png",
+    imgAlt: "/img/mimundoxlAlt.png",
     caracteristicas: [
       {
         titulo: "Fomenta la imaginación",
@@ -52,6 +54,7 @@ export const data = [
     id: "set-de-las-emociones",
     name: "Set de las Emociones",
     img: "/img/setdelasemociones.png",
+    imgAlt: "/img/setdelasemocionesAlt.png",
     caracteristicas: [
       {
         titulo: "Facilita el reconocimiento de emociones",
@@ -78,6 +81,7 @@ export const data = [
     id: "coding-express",
     name: "Coding Express",
     img: "/img/codingexpress2.png",
+    imgAlt: "/img/codingexpress2Alt.png",
     caracteristicas: [
       {
         titulo: "Introduce conceptos básicos de programación",
@@ -99,6 +103,7 @@ export const data = [
     id: "mis-primeros-cuentos",
     name: "Mis primeros cuentos",
     img: "/img/misprimeroscuentos.png",
+    imgAlt: "/img/misprimeroscuentosAlt.png",
     caracteristicas: [
       {
         titulo: "Fomenta la expresión verbal",
@@ -121,6 +126,7 @@ export const data = [
     id: "maquinas-tecnologicas",
     name: "Máquinas Tecnológicas",
     img: "/img/maquinastecnologicas.png",
+    imgAlt: "/img/maquinastecnologicasAlt.png",
     caracteristicas: [
       {
         titulo: "Con este set los niños exploran conceptos de ingeniería",
@@ -142,6 +148,7 @@ export const data = [
     id: "cafe",
     name: "Café+",
     img: "/img/cafe.png",
+    imgAlt: "/img/cafeAlt.png",
     caracteristicas: [
       {
         titulo: "Simula situaciones del mundo real",
@@ -162,6 +169,7 @@ export const data = [
     id: "tren-de-las-matematicas",
     name: "Tren de las Matemáticas",
     img: "/img/trendelasmatematicas.png",
+    imgAlt: "/img/trendelasmatematicasAlt.png",
     caracteristicas: [
       {
         titulo: "Este set enseña a los niños a sumar y restar",
@@ -184,6 +192,7 @@ export const data = [
     id: "nuestra-comunidad",
     name: "Nuestra Comunidad",
     img: "/img/nuestracomunidad.png",
+    imgAlt: "/img/nuestracomunidadAlt.png",
     caracteristicas: [
       {
         titulo: "Exploración de roles sociales",
@@ -201,6 +210,7 @@ export const data = [
     id: "spike-essential-pre-escolar",
     name: "Spike Essential",
     img: "/img/spikeessential3.png",
+    imgAlt: "/img/spikeessential3Alt.png",
     caracteristicas: [
       {
         titulo: "Introducción a la tecnología",
@@ -218,6 +228,7 @@ export const data = [
     id: "maquinas-simples-iniciales",
     name: "Máquinas Simples Iniciales",
     img: "/img/maquinassimplesiniciales.png",
+    imgAlt: "/img/maquinassimplesinicialesAlt.png",
     caracteristicas: [
       {
         titulo: "Conceptos básicos de ingeniería",
@@ -235,6 +246,7 @@ export const data = [
     id: "set-de-letras",
     name: "Set de Letras",
     img: "/img/setdeletras.png",
+    imgAlt: "/img/setdeletrasAlt.png",
     caracteristicas: [
       {
         titulo: "Facilita el aprendizaje de letras",
@@ -252,6 +264,7 @@ export const data = [
     id: "spike-essential-primaria-baja",
     name: "Spike Essential",
     img: "/img/spike-essential-primaria-baja.png",
+    imgAlt: "/img/spike-essential-primaria-bajaAlt.png",
     caracteristicas: [
       {
         titulo: "Aprendizaje práctico de ciencias",
@@ -274,6 +287,7 @@ export const data = [
     id: "bricq-motion-essential",
     name: "BricQ Motion Essential",
     img: "/img/bricq-motion-essential.png",
+    imgAlt: "/img/bricq-motion-essentialAlt.png",
     caracteristicas: [
       {
         titulo: "Comprensión del movimiento",
@@ -296,6 +310,7 @@ export const data = [
     id: "set-principal-wedo-2.0",
     name: "Set principal WeDo 2.0",
     img: "/img/set-principal-wedo-2-0.png",
+    imgAlt: "/img/set-principal-wedo-2-0Alt.png",
     caracteristicas: [
       {
         titulo: "Interactividad",
@@ -318,6 +333,7 @@ export const data = [
     id: "maquinas-simples",
     name: "Máquinas Simples",
     img: "/img/maquinas-simples.png",
+    imgAlt: "/img/maquinas-simplesAlt.png",
     caracteristicas: [
       {
         titulo: "Comprensión de conceptos físicos",
@@ -340,6 +356,7 @@ export const data = [
     id: "spike-prime",
     name: "Spike Prime",
     img: "/img/spike-prime.png",
+    imgAlt: "/img/spike-primeAlt.png",
     caracteristicas: [
       {
         titulo: "Sensores avanzados",
@@ -357,6 +374,7 @@ export const data = [
     id: "bricq-motion-prime",
     name: "BricQ Motion Prime",
     img: "/img/bricq-motion-prime.png",
+    imgAlt: "/img/bricq-motion-primeAlt.png",
     caracteristicas: [
       {
         titulo: "Interacción física",
@@ -374,6 +392,7 @@ export const data = [
     id: "mindstorms-ev3",
     name: "Mindstorms EV3",
     img: "/img/mindstorms-ev3.png",
+    imgAlt: "/img/mindstorms-ev3Alt.png",
     caracteristicas: [
       {
         titulo: "Programación avanzada",
@@ -391,6 +410,7 @@ export const data = [
     id: "maquinas-simples-y-motorizadas",
     name: "Máquinas Simples y Motorizadas",
     img: "/img/maquinas-simples-y-motorizadas.png",
+    imgAlt: "/img/maquinas-simples-y-motorizadasAlt.png",
     caracteristicas: [
       {
         titulo: "Aprendizaje de mecánica básica",
@@ -408,6 +428,7 @@ export const data = [
     id: "ampliacion-de-energias-renovables",
     name: "Ampliación de Energías Renovables",
     img: "/img/ampliacion-de-energias-renovables.png",
+    imgAlt: "/img/ampliacion-de-energias-renovablesAlt.png",
     caracteristicas: [
       {
         titulo: "Conciencia ecológica",
@@ -422,9 +443,10 @@ export const data = [
     ],
   },
   {
-    id: "ampliacion-de-energías-renovables",
-    name: "Ampliación de Energías Renovables",
-    img: "/img/ampliacion-de-energías-renovables.png",
+    id: "expansion-de-neumatica",
+    name: "Expansión de Neumática",
+    img: "/img/expansion-neumatica.png",
+    imgAlt: "/img/expansion-neumaticaAlt.png",
     caracteristicas: [
       {
         titulo: "Introducción a la neumática",

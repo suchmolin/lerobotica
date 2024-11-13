@@ -8,7 +8,6 @@ import { data } from "@/data/etapas"
 export default function EtapaPage({ params }) {
   const { etapa } = params
   const etapaData = data.find((etapaData) => etapaData.id === etapa)
-  console.log(etapaData)
 
   return (
     <>

@@ -219,7 +219,7 @@ export const data = [
       "mindstorms-ev3",
       "maquinas-simples-y-motorizadas",
       "ampliacion-de-energias-renovables",
-      "ampliacion-de-energías-renovables",
+      "expansion-de-neumatica",
     ],
     descripcion: [
       "Invita al alumno a desarrollar habilidades de pensamiento crítico, a resolver problemas que involucran las matemáticas, la ciencia y la tecnología en la construcción de cada robot.",

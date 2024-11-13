@@ -3,12 +3,12 @@ import Image from "next/image"
 export default function HabilidadesEtapa({ data }) {
   const { habilidades } = data
   return (
-    <div className="relative w-full flex justify-center pt-20 overflow-hidden">
-      <div className="w-5/12 flex flex-col">
-        <h2 className="ml-20 text-azulLR text-6xl font-[baloo-bold]">
+    <div className="relative w-full flex flex-col items-center lg:flex-row justify-center pt-20 overflow-hidden">
+      <div className="lg:w-6/12 xl:w-5/12 flex flex-col">
+        <h2 className="lg:ml-20 text-azulLR text-5xl sm:text-6xl font-[baloo-bold] text-center lg:text-start">
           Habilidades <br /> que obtendrá
         </h2>
-        <div className="w-[600px] h-[300px] aspect-square relative">
+        <div className="w-[360px] sm:w-[600px] h-[250px] sm:h-[300px] aspect-square relative">
           <Image
             src="/img/habilidades.png"
             alt="Habilidades que obtendra"
@@ -17,11 +17,11 @@ export default function HabilidadesEtapa({ data }) {
           />
         </div>
       </div>
-      <div className="w-5/12 grid grid-cols-2 justify-center">
+      <div className="lg:w-6/12 xl:w-5/12 grid grid-cols-2 justify-center gap-5">
         {habilidades.map((habilidad) => (
           <div
             key={habilidad.titulo}
-            className="w-[200px] flex flex-col items-center text-center"
+            className="w-[150px] sm:w-[200px] flex flex-col items-center text-center"
           >
             <div className="w-[100px] aspect-square relative">
               <Image
@@ -31,7 +31,7 @@ export default function HabilidadesEtapa({ data }) {
                 fill="layout"
               />
             </div>
-            <h3 className="text-azulLR text-2xl font-bold">
+            <h3 className="text-azulLR text-xl sm:text-2xl font-bold">
               {habilidad.titulo}
             </h3>
           </div>
