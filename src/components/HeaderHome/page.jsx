@@ -48,7 +48,7 @@ export default function HeaderHome(props) {
           />
         </div>
       </div>
-      <div className="absolute hidden lg:block -bottom-[10%] left-0">
+      <div className="absolute hidden lg:block -bottom-0 left-0">
         <div className="relative w-[230px] aspect-square">
           <Image
             src="/img/legoVerdeBlur.png"
