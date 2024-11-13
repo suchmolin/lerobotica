@@ -5,13 +5,16 @@ import { useEffect } from "react"
 export default function HelicopterMove() {
   useEffect(() => {
     let body = document.querySelector("body")
-    let helicopter = document.querySelector(".helicopter")
+    let helicopter = document.querySelectorAll(".helicopter")
 
     body.addEventListener("mousemove", (e) => {
       let x = 20 - e.clientX * 0.07
       let y = 20 - e.clientY * 0.07
+      console.log(helicopter)
 
-      helicopter.style.transform = `translate(${x}px, ${y}px)`
+      helicopter.forEach((hel) => {
+        hel.style.transform = `translate(${x}px, ${y}px)`
+      })
     })
   }, [])
 

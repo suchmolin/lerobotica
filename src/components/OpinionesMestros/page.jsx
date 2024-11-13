@@ -25,7 +25,7 @@ export default function OpinionesMestros() {
           ></video>
         ))}
       </div>
-      <div className="absolute -top-10 left-0 hidden md:block">
+      <div className="helicopter absolute -top-10 left-0 hidden md:block">
         <div className="relative w-[250px] aspect-square">
           <Image
             src="/img/legoRojo2.png"
@@ -36,7 +36,7 @@ export default function OpinionesMestros() {
           />
         </div>
       </div>
-      <div className="absolute -top-62 right-0 hidden sm:block">
+      <div className="helicopter absolute -top-62 right-0 hidden sm:block">
         <div className="relative w-[150px] aspect-square">
           <Image
             src="/img/legoAzulBlur.png"

@@ -7,7 +7,7 @@ export default function NuestrosCursosHome() {
   return (
     <>
       <div className="relative w-full flex flex-col items-center">
-        <div className="md:absolute md:top-10 md:left-0">
+        <div className="helicopter md:absolute md:top-10 md:left-0">
           <div className="relative w-[130px] aspect-square">
             <Image
               src="/img/legoVerde.png"
@@ -25,7 +25,7 @@ export default function NuestrosCursosHome() {
             <div className="w-4/6 md:w-3/6 h-20 bg-azulLR rounded-t-[40px]"></div>
           </div>
         </div>
-        <div className="absolute top-0 right-0 hidden md:block">
+        <div className="helicopter absolute top-0 right-0 hidden md:block">
           <div className="relative w-[180px] aspect-square">
             <Image
               src="/img/legoAmarillo.png"

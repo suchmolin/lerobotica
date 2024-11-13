@@ -37,7 +37,7 @@ export default function HeaderHome(props) {
         </div>
         <HelicopterMove />
       </div>
-      <div className="absolute top-60 sm:top-72 lg:-top-16 right-1 sm:right-10 lg:left-[20%]">
+      <div className="helicopter absolute top-60 sm:top-72 lg:-top-16 right-1 sm:right-10 lg:left-[20%]">
         <div className="relative w-[100px] sm:w-[200px] aspect-square">
           <Image
             src="/img/legoAmarillo.png"
@@ -48,7 +48,7 @@ export default function HeaderHome(props) {
           />
         </div>
       </div>
-      <div className="absolute hidden lg:block -bottom-0 left-0">
+      <div className="helicopter absolute hidden lg:block -bottom-0 left-0">
         <div className="relative w-[230px] aspect-square">
           <Image
             src="/img/legoVerdeBlur.png"
