@@ -1,11 +1,10 @@
 "use client"
-import Link from "next/link"
-import ModalContacto from "../ModalContacto/page"
-import { useState } from "react"
-import { Button } from "flowbite-react"
+import { OpenModalContext } from "@/context/openModal"
+import { useContext } from "react"
 
 const RequestMeetingButton = ({ size }) => {
-  const [openModalContact, setOpenModalContact] = useState(false)
+  const { setOpenModalContact } = useContext(OpenModalContext)
+
   return (
     <>
       <button
@@ -14,10 +13,6 @@ const RequestMeetingButton = ({ size }) => {
       >
         Contáctanos
       </button>
-      <ModalContacto
-        openModalContact={openModalContact}
-        setOpenModalContact={setOpenModalContact}
-      />
     </>
   )
 }

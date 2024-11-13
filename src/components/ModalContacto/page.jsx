@@ -3,14 +3,14 @@ import { IoClose } from "react-icons/io5"
 
 import FormContact from "../FormContact/page"
 import Image from "next/image"
+import { useContext } from "react"
+import { OpenModalContext } from "@/context/openModal"
 
-export default function ModalContacto({
-  openModalContact,
-  setOpenModalContact,
-}) {
+export default function ModalContacto() {
+  const { openModalContact, setOpenModalContact } = useContext(OpenModalContext)
   return (
     <div
-      className={`${openModalContact ? "block" : "hidden"} fixed top-0 left-0 bg-black/40 w-full h-full flex items-center justify-center`}
+      className={`${openModalContact ? "block" : "hidden"} fixed top-0 left-0 bg-black/40 w-full h-full flex items-center justify-center z-50`}
     >
       <div
         onClick={() => setOpenModalContact(false)}

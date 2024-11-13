@@ -74,7 +74,7 @@ export default function HeaderContactanos() {
           />
         </div>
       </div>
-      <div className="absolute bottom-52 sm:bottom-10 xl:bottom-20 left-0 xl:left-10 lg:right-10">
+      <div className="absolute w-fit bottom-52 sm:bottom-10 xl:bottom-20 left-0 xl:left-10 lg:right-10">
         <div className="relative w-[100px] sm:w-[130px] aspect-square">
           <Image
             src="/img/legoAmarillo.png"

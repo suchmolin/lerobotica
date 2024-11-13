@@ -5,6 +5,7 @@ import OpinionesMestros from "@/components/OpinionesMestros/page"
 import SistemaHome from "@/components/SistemaHome/page"
 
 import FAQ from "@/components/FAQ/page"
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center ">

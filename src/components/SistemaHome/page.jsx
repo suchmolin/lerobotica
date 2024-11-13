@@ -49,7 +49,7 @@ export default function SistemaHome() {
                 tu hijo con habilidades y conocimientos STEAM.
               </p>
             </div>
-            <div className="helicopter absolute -top-10 sm:top-0 xxl:top-10 right-[30%] sm:right-[40%] lg:right-32">
+            <div className="absolute -top-10 sm:top-0 xxl:top-10 right-[30%] sm:right-[40%] lg:right-32">
               <div className="relative aspect-square w-[130px]">
                 <Image
                   src="/img/legoAzul.png"
@@ -59,7 +59,7 @@ export default function SistemaHome() {
                 />
               </div>
             </div>
-            <div className="helicopter absolute hidden lg:block -bottom-10 xxl:bottom-0 right-52">
+            <div className="absolute hidden lg:block -bottom-10 xxl:bottom-0 right-52">
               <div className="relative aspect-square w-[175px]">
                 <Image
                   src="/img/legoRojo.png"
@@ -75,7 +75,7 @@ export default function SistemaHome() {
       <p className="text-2xl xl:text-3xl py-2 lg:hidden px-2 xs:px-5 text-center relative pb-10 flex flex-col items-center">
         Práctico, intuitivo, inclusivo, lúdico y adaptable preparando al
         estudiante con habilidades y conocimientos STEAM.
-        <div className="helicopter lg:hidden ">
+        <div className="lg:hidden ">
           <div className="relative aspect-square w-[175px]">
             <Image
               src="/img/legoRojo.png"
