@@ -31,6 +31,7 @@ export default function ModalSets({ set, setOpenModalSet }) {
                 objectFit="contain"
                 layout="fill"
                 alt={set.name}
+                priority
               />
             </div>
           </div>

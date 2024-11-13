@@ -78,6 +78,7 @@ export default function SetsEtapa({ data }) {
                             alt={currentSet.id}
                             objectFit="contain"
                             fill="layout"
+                            priority
                           />
                         </div>
                         <h2 className="text-azulLR text-2xl sm:text-3xl font-[baloo-bold]">
