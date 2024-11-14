@@ -3,6 +3,8 @@ import RequestMeetingButton from "../RequestMeetingButton/page"
 import Image from "next/image"
 import Link from "next/link"
 import TeacherResourcesButton from "../TeacherResourcesButton/page"
+import { FaInstagram } from "react-icons/fa6"
+import { FaFacebook } from "react-icons/fa6"
 
 const Footer = () => {
   const imgFooter = [
@@ -78,7 +80,7 @@ const Footer = () => {
                 alt="logo de lerobotica"
               />
             </div>
-            <div className="w-11/12 sm:w-9/12 px-4 mt-5 md:mt-0 flex flex-col items-center justify-center md:justify-start md:text-start  text-center sm:text-start">
+            <div className="w-11/12 sm:w-9/12 px-4 mt-5 md:mt-0 flex flex-col justify-center md:justify-start md:text-start  text-center sm:text-start pl-10 xl:pl-20">
               <p className="w-64 xs:w-80 sm:w-8/12 mb-4 py-1">
                 Mantente al día con todas las iniciativas y actividades de
                 Lerobótica
@@ -153,6 +155,20 @@ const Footer = () => {
               </Link>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="w-full h-32 sm:h-14  bg-azulLR text-white flex flex-col sm:flex-row justify-center sm:justify-between items-center px-10 py-5 sm:py-0 gap-4 ">
+        <div className="flex gap-7 text-2xl">
+          <Link href="#">
+            <FaInstagram />
+          </Link>
+          <Link href="#">
+            <FaFacebook />
+          </Link>
+        </div>
+        <div className="flex flex-col sm:flex-row sm:gap-10 md:gap-20 justify-center text-center">
+          <Link href="/PoliticasdePrivacidad">Términos y condiciones</Link>
+          <p>Desarrollado y creado por Lerobotica</p>
         </div>
       </div>
     </footer>

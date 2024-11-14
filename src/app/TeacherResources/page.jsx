@@ -10,15 +10,8 @@ const TeacherResources = () => {
 
   return (
     <div translate="no" className="firstSec ">
-      {/*
-        <NavLang />
-        <NavMenu />
-        */}
       <div className="w-full flex items-center justify-center">
         <WelcomeTeacherResources />
-      </div>
-      <div className="w-full flex items-center justify-center">
-        <TeacherResourcesCards />
       </div>
     </div>
   )

@@ -6,7 +6,7 @@ export default function NuestrosSetsDesk({ data }) {
   const [selected, setSelected] = useState("coding-express")
 
   return (
-    <div className="hidden lg:block">
+    <div className="hidden lg:block w-full">
       <div className="flex justify-center">
         {data.map((sol, i) => (
           <button

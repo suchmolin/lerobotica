@@ -41,9 +41,9 @@ const FilterLessons = (props) => {
 
   return (
     <div
-      className={`bg-[#f5f5f5] lg:px-24 w-full min-h-12 px-3 py-1 flex flex-col lg:flex-row gap-6  justify-between z-50 ${isScrolled ? "fixed top-0" : ""}`}
+      className={`bg-white lg:px-24 w-full min-h-12 px-3 pb-3 flex flex-col lg:flex-row gap-6  justify-between z-30 ${isScrolled ? "fixed pt-8" : "pt-3"} dropShadow6 `}
       style={{
-        background: "#f5f5f5",
+        background: "white",
         top: "60px",
         width: "100%",
       }}
@@ -51,7 +51,7 @@ const FilterLessons = (props) => {
       {filterOpen && (
         <>
           <div className="flex flex-col lg:flex-row  gap-6 justify-start ">
-            <div className="z-50">
+            <div className="z-[10]">
               <MultiSelect
                 data={filter1}
                 placeHolder={"Productos"}
@@ -60,7 +60,7 @@ const FilterLessons = (props) => {
                 size={"mr-32"}
               />
             </div>
-            <div className="z-40">
+            <div className="z-[9]">
               <MultiSelect
                 data={filter2}
                 placeHolder={"Etapa"}
@@ -69,7 +69,7 @@ const FilterLessons = (props) => {
                 size={"mr-0"}
               />
             </div>
-            <div className="z-30">
+            <div className="z-[8]">
               {!edadDisabled && (
                 <MultiSelect
                   data={filter3}
@@ -80,7 +80,7 @@ const FilterLessons = (props) => {
                 />
               )}
             </div>
-            <div className="z-20">
+            <div className="z-[7]">
               {!lapsoDisabled && (
                 <MultiSelect
                   data={filter4}
@@ -92,7 +92,7 @@ const FilterLessons = (props) => {
               )}
             </div>
           </div>
-          <div className="">
+          <div className="z-[6]">
             <SearcherLessons search={search} setSearch={setSearch} />
           </div>
         </>

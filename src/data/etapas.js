@@ -135,7 +135,7 @@ export const data = [
       {
         id: "dif-primaria-baja-1",
         title: "Robótica y programación",
-        img: "/img/difRobot.png",
+        img: "/img/difRobot2.png",
       },
       {
         id: "dif-primaria-baja-2",
@@ -193,19 +193,19 @@ export const data = [
     habilidades: [
       {
         titulo: "Da vida a los modelos con programación gradual",
-        img: "/img/habilidadesPreEscolar1.png",
+        img: "/img/compu.png",
       },
       {
         titulo: "Desarrollo con sus competencias lingüísticas",
-        img: "/img/habilidadesPreEscolar2.png",
+        img: "/img/abc.png",
       },
       {
         titulo: "Conocimiento temprano de las matemáticas y las ciencias.",
-        img: "/img/habilidadesPreEscolar3.png",
+        img: "/img/123.png",
       },
       {
         titulo: "Contribuye al desarrollo socio-emocional",
-        img: "/img/habilidadesPreEscolar4.png",
+        img: "/img/cerebroluz.png",
       },
     ],
   },
@@ -240,7 +240,7 @@ export const data = [
       {
         id: "dif-primaria-alta-1",
         title: "Robótica y programación",
-        img: "/img/difRobot.png",
+        img: "/img/difRobot3.png",
       },
       {
         id: "dif-primaria-alta-2",
@@ -254,7 +254,7 @@ export const data = [
       },
       {
         id: "dif-primaria-alta-4",
-        title: "Lenguaje programación PYTHON",
+        title: "Lenguaje programación",
         img: "/img/difScratch.png",
       },
       {
@@ -299,20 +299,20 @@ export const data = [
     habilidades: [
       {
         titulo: "Exploran la codificación basada en texto con Python",
-        img: "/img/habilidadesPreEscolar1.png",
+        img: "/img/compu.png",
       },
       {
         titulo:
           "Desarrollan el pensamiento criticó y la resolución de problemas.",
-        img: "/img/habilidadesPreEscolar2.png",
+        img: "/img/rompecabezas.png",
       },
       {
         titulo: "Exploran su confianza y resiliencia",
-        img: "/img/habilidadesPreEscolar3.png",
+        img: "/img/pulgarhab.png",
       },
       {
         titulo: "Dan vida a robots con programación gradual.",
-        img: "/img/habilidadesPreEscolar4.png",
+        img: "/img/habrobot.png",
       },
     ],
   },

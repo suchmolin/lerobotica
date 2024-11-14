@@ -22,10 +22,10 @@ export default function MultiSelect(props) {
   return (
     <Combobox value={state} onChange={seter} multiple>
       <div className="relative cursor-pointer">
-        <div className="flex relative w-full cursor-pointer overflow-hidden rounded-lg bg-white text-left shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-[#00528c] md:text-xs">
-          <Combobox.Button className="">
+        <div className="flex relative w-full cursor-pointer overflow-hidden rounded-lg text-left shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-[#00528c] md:text-xs">
+          <Combobox.Button className="w-full">
             <Combobox.Input
-              className={`w-full border-none py-2 pl-3 pr-10 text-sm leading-5 text-gray-900 focus:ring-0 focus:outline-none cursor-pointer ${size}`}
+              className={`w-full border-none py-2 pl-3 pr-10 text-sm leading-5 text-gray-900 focus:ring-0 focus:outline-none cursor-pointer ${size} bg-gray-100 `}
               displayValue={(people) =>
                 people.map((person) => person.name).join(", ")
               }

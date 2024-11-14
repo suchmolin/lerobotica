@@ -19,7 +19,7 @@ export default function HeaderSoluciones() {
         <div className="w-[370px] sm:w-[950px] h-[200px] sm:h-[400px] lg:h-[500px] relative">
           <Image
             src="/img/headerSoluciones.png"
-            objectFit="cover"
+            objectFit="contain"
             layout="fill"
             alt="soluciones header"
           />

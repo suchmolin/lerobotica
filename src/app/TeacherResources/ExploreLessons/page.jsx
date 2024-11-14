@@ -193,11 +193,7 @@ export default function ExploreLessons(props) {
   }, [selectedProducts, selectedEtapas, search, selectedEdad, selectedLapso])
 
   return (
-    <div className="firstSec ">
-      {/*
-        <NavLang />
-        <NavMenu />
-        */}
+    <div className="firstSec">
       <FilterLessons
         selectedEtapas={selectedEtapas}
         setSelectedEtapas={setSelectedEtapas}
@@ -216,7 +212,7 @@ export default function ExploreLessons(props) {
         lapsoDisabled={lapsoDisabled}
         edadDisabled={edadDisabled}
       />
-      <div className="m-3 flex flex-row gap-3 sm:gap-8 flex-wrap justify-center items-center">
+      <div className="firstSec m-3 flex flex-row gap-3 sm:gap-8 flex-wrap justify-center">
         <LessonCard count={count} data={showLessons} />
       </div>
       <ButtonLessonsSection
