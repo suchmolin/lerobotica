@@ -18,9 +18,9 @@ const WelcomeTeacherResources = () => {
               Bienvenido a los <br /> recursos para <br /> maestros
             </h1>
             <p className=" text-xl xs:text-2xl sm:text-3xl py-2 lg:pr-10 xl:pr-32 px-3 xs:px-8 sm:px-0">
-              Explore nuestros completos recursos para profesores, profundice en
-              nuestras más de 400 lecciones o conéctese con compañeros en
-              nuestra comunidad en línea para obtener apoyo e inspiración.
+              Explora nuestros recursos para profesores, profundiza en nuestras
+              más de 400 lecciones, conoce nuestras construcciones y descubre
+              todo lo que puedes aprender con cada una de ellas
             </p>
             <div className="pl-8 sm:pl-0 mt-10">
               <Link
