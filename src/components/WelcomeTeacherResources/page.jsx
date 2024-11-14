@@ -37,17 +37,9 @@ const WelcomeTeacherResources = () => {
           <Slide
             triggerOnce
             direction="right"
-            className="absolute top-0 right-0"
+            className="absolute top-10 sm:top-20 right-0"
           >
-            <div className="relative w-[260px] xs:w-[320px] sm:w-[580px] lg:w-[450px] xl:w-[550px] aspect-square">
-              <Image
-                src="/img/cuadroAzul.png"
-                layout="fill"
-                objectFit="contain"
-                objectPosition="right"
-                alt="cuadro Azul"
-              />
-            </div>
+            <div className="relative w-[260px] xs:w-[320px] sm:w-[580px] lg:w-[450px] xl:w-[550px] h-[200px] sm:h-[350px] lg:h-[300px] xl:h-[400px] aspect-square bg-violetaLR rounded-tl-[100px]"></div>
           </Slide>
           <Slide
             triggerOnce
@@ -55,9 +47,9 @@ const WelcomeTeacherResources = () => {
             delay={100}
             className="absolute -top-2 right-0"
           >
-            <div className="relative w-[290px] xs:w-[350px] sm:w-[650px] lg:w-[500px] xl:w-[600px] aspect-square">
+            <div className="relative w-[290px] xs:w-[350px] sm:w-[650px] lg:w-[500px] xl:w-[700px] aspect-square">
               <Image
-                src="/img/robotcuadroazul.png"
+                src="/img/headerrpm.png"
                 layout="fill"
                 objectPosition="right"
                 objectFit="contain"
@@ -78,8 +70,8 @@ const WelcomeTeacherResources = () => {
           />
         </div>
       </div>
-      <div className="hidden sm:block absolute w-fit bottom-52 sm:bottom-10 xl:bottom-20 left-[50%]">
-        <div className="relative w-[150px] sm:w-[200px] aspect-square">
+      <div className="hidden sm:block absolute w-fit bottom-52 sm:bottom-10 xl:bottom-20 left-[45%]">
+        <div className="relative w-[150px] sm:w-[150px] aspect-square">
           <Image
             src="/img/legoAzulCompleto.png"
             layout="fill"
