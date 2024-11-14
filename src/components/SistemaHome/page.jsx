@@ -1,6 +1,7 @@
 "use client"
 import Image from "next/image"
 import { Slide } from "react-awesome-reveal"
+import RobotsEscondidos from "../RobotsEscondidos/page"
 
 export default function SistemaHome() {
   return (
@@ -71,8 +72,9 @@ export default function SistemaHome() {
             </div>
           </div>
         </Slide>
+        <RobotsEscondidos idRobot="sistemahomerobot" />
       </div>
-      <p className="text-2xl xl:text-3xl py-2 lg:hidden px-2 xs:px-5 text-center relative pb-10 flex flex-col items-center">
+      <div className="text-2xl xl:text-3xl py-2 lg:hidden px-2 xs:px-5 text-center relative pb-10 flex flex-col items-center">
         Práctico, intuitivo, inclusivo, lúdico y adaptable preparando al
         estudiante con habilidades y conocimientos STEAM.
         <div className="lg:hidden ">
@@ -85,7 +87,7 @@ export default function SistemaHome() {
             />
           </div>
         </div>
-      </p>
+      </div>
     </>
   )
 }

@@ -3,6 +3,7 @@ import { Slide } from "react-awesome-reveal"
 import FAQBox from "../FAQBox/page"
 import { data } from "@/data/faq"
 import Image from "next/image"
+import RobotsEscondidos from "../RobotsEscondidos/page"
 
 export default function FAQ() {
   return (
@@ -24,9 +25,17 @@ export default function FAQ() {
         <Slide
           triggerOnce
           direction="left"
-          className="w-11/12 lg:w-11/12 xl:w-7/12 flex justify-center lg:justify-end items-center"
+          className="realtive w-11/12 lg:w-11/12 xl:w-7/12 z-10"
         >
-          <FAQBox data={data} />
+          <div className="w-full h-full flex justify-center lg:justify-end items-center">
+            <FAQBox data={data} />
+            <RobotsEscondidos
+              idRobot="faqhomerobot"
+              mirror={true}
+              size="sm"
+              position={"top-0 -right-10"}
+            />
+          </div>
         </Slide>
 
         <div className="relative w-full lg:w-6/12 h-[360px] sm:h-[600px] lg:h-[500px] xl:h-[600px]">

@@ -46,7 +46,7 @@ const Footer = () => {
   ]
   return (
     <footer className="w-full mt-24">
-      <div className="flex gap-5 justify-center w-full z-10 mb-10 ">
+      <div className="flex gap-5 justify-center w-full z-10 mb-10">
         {imgFooter.map((img) => {
           return (
             <div

@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { data } from "@/data/sedes.js"
+import RobotsEscondidos from "../RobotsEscondidos/page"
 
 export default function InfoSedes() {
   return (
@@ -23,7 +24,7 @@ export default function InfoSedes() {
               />
             </div>
             <div
-              className={`w-full md:w-7/12  ${flip ? "rounded-br-[100px]" : "rounded-br-[100px] md:rounded-br-none md:rounded-ss-[100px]"} h-full p-4 xs:p-10 xl:p-16  text-white ${sede.colorTarjeta || "bg-violetaLR"}`}
+              className={`relative w-full md:w-7/12  ${flip ? "rounded-br-[100px]" : "rounded-br-[100px] md:rounded-br-none md:rounded-ss-[100px]"} h-full p-4 xs:p-10 xl:p-16  text-white ${sede.colorTarjeta || "bg-violetaLR"}`}
             >
               <h2 className="text-4xl font-[baloo-bold]">{sede.name}</h2>
               <p className="text-2xl">
@@ -38,6 +39,9 @@ export default function InfoSedes() {
                   {tel}
                 </p>
               ))}
+              {i === 1 && (
+                <RobotsEscondidos idRobot="contactanosrobot" size="sm" />
+              )}
             </div>
           </div>
         )

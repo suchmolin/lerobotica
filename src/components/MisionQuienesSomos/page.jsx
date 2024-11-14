@@ -1,4 +1,5 @@
 import Image from "next/image"
+import RobotsEscondidos from "../RobotsEscondidos/page"
 
 export default function MisionQuienesSomos() {
   return (
@@ -33,7 +34,7 @@ export default function MisionQuienesSomos() {
               <div className="w-3/6 h-14 sm:h-20 bg-verdeLR rounded-t-2xl sm:rounded-t-[40px]"></div>
             </div>
           </div>
-          <div className="w-full p-7 xs:p-10 sm:p-16 bg-verdeLR text-white rounded-t-[40px]">
+          <div className="relative w-full p-7 xs:p-10 sm:p-16 bg-verdeLR text-white rounded-t-[40px]">
             <h2 className="text-4xl xs:text-5xl sm:text-6xl mb-3 font-[baloo-bold] text-center">
               Basados en:
             </h2>
@@ -42,6 +43,12 @@ export default function MisionQuienesSomos() {
               experiencias de aprendizaje STEAM,  de forma práctica, intuitiva y
               adaptable para estudiantes de preescolar a secundaria.
             </p>
+            <RobotsEscondidos
+              idRobot="quienessomosrobot"
+              mirror={true}
+              size="sm"
+              position={"bottom-0 left-0"}
+            />
           </div>
         </div>
       </div>

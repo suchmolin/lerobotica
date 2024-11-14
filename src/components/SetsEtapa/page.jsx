@@ -6,6 +6,7 @@ import { data as setsData } from "@/data/sets"
 import Image from "next/image"
 import { useState } from "react"
 import ModalSets from "../ModalSets/page"
+import RobotsEscondidos from "../RobotsEscondidos/page"
 
 export default function SetsEtapa({ data }) {
   const [setSelected, setSetSelected] = useState("")
@@ -59,7 +60,7 @@ export default function SetsEtapa({ data }) {
 
   return (
     <>
-      <div className="w-full flex justify-center bg-amarilloLR pb-20 px-7 mt-20">
+      <div className="w-full relative flex justify-center bg-amarilloLR pb-20 px-7 mt-20">
         <div className="w-11/12 slider-container -mt-10">
           <Slider {...settings}>
             {data.sets.map((set) => {
@@ -92,6 +93,12 @@ export default function SetsEtapa({ data }) {
             })}
           </Slider>
         </div>
+        <RobotsEscondidos
+          idRobot={`setsrobot${data.id}`}
+          mirror={true}
+          size="sm"
+          position={"bottom-0 left-0"}
+        />
       </div>
       {openModalSet && (
         <ModalSets

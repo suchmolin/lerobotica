@@ -10,7 +10,6 @@ export default function HelicopterMove() {
     body.addEventListener("mousemove", (e) => {
       let x = 20 - e.clientX * 0.07
       let y = 20 - e.clientY * 0.07
-      console.log(helicopter)
 
       helicopter.forEach((hel) => {
         hel.style.transform = `translate(${x}px, ${y}px)`

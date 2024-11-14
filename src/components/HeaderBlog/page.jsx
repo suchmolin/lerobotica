@@ -1,4 +1,5 @@
 import Image from "next/image"
+import RobotsEscondidos from "../RobotsEscondidos/page"
 
 export default function HeaderBlog() {
   return (
@@ -40,6 +41,7 @@ export default function HeaderBlog() {
           />
         </div>
       </div>
+      <RobotsEscondidos idRobot="blogrobot" size="sm" />
     </div>
   )
 }

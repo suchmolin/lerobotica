@@ -2,6 +2,7 @@ import Image from "next/image"
 import CardCursos from "../CardCursos/page"
 import { data } from "@/data/etapas"
 import CardCursosBack from "../CardCursosBack/page"
+import RobotsEscondidos from "../RobotsEscondidos/page"
 
 export default function NuestrosCursosHome() {
   return (
@@ -37,7 +38,7 @@ export default function NuestrosCursosHome() {
         </div>
       </div>
       <div className="w-full flex justify-center -mt-1">
-        <div className="w-full xl:w-11/12 sm:rounded-t-[40px] bg-azulLR text-white xs:px-10 pb-20">
+        <div className="relative w-full xl:w-11/12 sm:rounded-t-[40px] bg-azulLR text-white xs:px-10 pb-20">
           <h2 className="text-6xl py-10 font-[baloo-bold] text-center">
             Nuestros cursos
           </h2>
@@ -49,6 +50,12 @@ export default function NuestrosCursosHome() {
               </div>
             ))}
           </div>
+          <RobotsEscondidos
+            idRobot="cursoshomerobot"
+            mirror={true}
+            size="sm"
+            position={"bottom-0 left-0"}
+          />
         </div>
       </div>
     </>
