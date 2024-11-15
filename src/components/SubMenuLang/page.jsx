@@ -1,6 +1,9 @@
 "use client"
+import { OpenModalContext } from "@/context/openModal"
 import Link from "next/link"
-const SubMenuLang = ({ setMenuResp }) => {
+import { useContext } from "react"
+const SubMenuLang = () => {
+  const { setMenuResp } = useContext(OpenModalContext)
   return (
     <ul className="flex gap-3 lg:gap-7 h-fit lg:h-full w-10/12 text-lg flex-col lg:flex-row lg:items-center lg:justify-end mt-3 lg:mt-0 ">
       <li className="hover:scale-105 cursor-pointer transition-all duration-300 ">

@@ -4,13 +4,12 @@ import SubMenuNav from "../SubMenuNav/page"
 import TeacherResourcesButton from "../TeacherResourcesButton/page"
 import RequestMeetingButton from "../RequestMeetingButton/page"
 const MenuResponsive = (props) => {
-  const { setMenuResp } = props
   return (
     <div className="pl-8 fixed lg:hidden top-0 left-0 w-full pb-8 bg-[#f5f5f5] pt-[80px] z-30">
-      <SubMenuNav setMenuResp={setMenuResp} />
-      <SubMenuLang setMenuResp={setMenuResp} />
+      <SubMenuNav />
+      <SubMenuLang />
       <div className="flex flex-col gap-2 sm:hidden mt-3">
-        <TeacherResourcesButton setMenuResp={setMenuResp} />
+        <TeacherResourcesButton />
         <RequestMeetingButton />
       </div>
     </div>

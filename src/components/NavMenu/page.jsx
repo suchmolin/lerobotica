@@ -14,9 +14,9 @@ import ConteoRobots from "../ConteoRobots/page"
 import ConteoRobotsFinal from "../ConteoRobotsFinal/page"
 
 export default function NavMenu(props) {
+  const { menuResp, setMenuResp } = useContext(OpenModalContext)
   const { openRobotsMsg, openRobotsMsgFinal } = useContext(OpenModalContext)
   const [isScrolled, setIsScrolled] = useState(false)
-  const [menuResp, setMenuResp] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -84,7 +84,7 @@ export default function NavMenu(props) {
             </li>
           </ul>
         </div>
-        {menuResp && <MenuResponsive setMenuResp={setMenuResp} />}
+        {menuResp && <MenuResponsive />}
       </nav>
       {openRobotsMsg && <ConteoRobots />}
       {openRobotsMsgFinal && <ConteoRobotsFinal />}
