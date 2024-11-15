@@ -9,7 +9,7 @@ export default function ConteoRobots() {
   return (
     <div className="fixed w-full bottom-20 sm:bottom-10 left-0 h-[80px] flex justify-center items-center z-50">
       <Fade direction="up" triggerOnce>
-        <div className="dropShadow3 relative flex flex-col px-10 py-4 bg-gray-50 rounded-xl  items-center">
+        <div className="dropShadow3 relative flex flex-col px-2 xs:px-7 sm:px-10 py-4 bg-gray-50 rounded-xl  items-center">
           <div className="flex gap-3 items-center">
             <FaCheckCircle className="text-[#cdea80] text-base sm:text-xl" />
             <p className="text-base sm:text-xl">
