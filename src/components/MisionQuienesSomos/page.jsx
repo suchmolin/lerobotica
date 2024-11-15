@@ -43,13 +43,23 @@ export default function MisionQuienesSomos() {
               experiencias de aprendizaje STEAM,  de forma práctica, intuitiva y
               adaptable para estudiantes de preescolar a secundaria.
             </p>
-            <RobotsEscondidos
-              idRobot="quienessomosrobot"
-              mirror={true}
-              size="sm"
-              position={"bottom-0 left-0"}
-            />
+            <div className="hidden sm:block">
+              <RobotsEscondidos
+                idRobot="quienessomosrobot"
+                mirror={true}
+                size="sm"
+                position={"bottom-0 left-0"}
+              />
+            </div>
           </div>
+        </div>
+        <div className="sm:hidden">
+          <RobotsEscondidos
+            idRobot="quienessomosrobot"
+            mirror={true}
+            size="sm"
+            position={"-bottom-28 left-0"}
+          />
         </div>
       </div>
       <div className="absolute -bottom-20 sm:-bottom-40 right-0 ">

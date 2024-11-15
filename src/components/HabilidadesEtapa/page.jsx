@@ -31,14 +31,14 @@ export default function HabilidadesEtapa({ data }) {
                 fill="layout"
               />
             </div>
-            <h3 className="text-azulLR text-xl sm:text-2xl font-bold">
+            <h3 className="text-azulLR text-lg sm:text-2xl font-bold">
               {habilidad.titulo}
             </h3>
           </div>
         ))}
       </div>
-      <div className="absolute -top-16 -left-28">
-        <div className="relative w-[230px] aspect-square">
+      <div className="absolute -top-3 sm:-top-16 -left-10 sm:-left-28">
+        <div className="relative w-[100px] sm:w-[230px] aspect-square">
           <Image
             src="/img/legoVerdeGrande.png"
             layout="fill"
@@ -49,7 +49,7 @@ export default function HabilidadesEtapa({ data }) {
         </div>
       </div>
       <div className="absolute -top-7 -right-10">
-        <div className="relative w-[130px] aspect-square scale-x-[-1]">
+        <div className="relative w-[80px] sm:w-[130px] aspect-square scale-x-[-1]">
           <Image
             src="/img/legoAmarillo.png"
             layout="fill"

@@ -42,7 +42,7 @@ export default function SistemaHome() {
         >
           <div className="w-full h-full relative flex items-center pt-20 sm:pt-32 lg:pt-0 justify-center lg:justify-normal">
             <div className="flex flex-col justify-center xxl:pr-20 sm:pl-7 xl:pl-5">
-              <h2 className="text-azulLR text-5xl sm:text-6xl xl:text-7xl font-[baloo-bold] text-center lg:text-start">
+              <h2 className="text-azulLR text-4xl sm:text-6xl xl:text-7xl font-[baloo-bold] text-center lg:text-start">
                 Descubre el Sistema <br /> de Aprendizaje LEGO
               </h2>
               <p className="text-2xl xl:text-3xl py-2 hidden lg:block">
@@ -72,7 +72,12 @@ export default function SistemaHome() {
             </div>
           </div>
         </Slide>
-        <RobotsEscondidos idRobot="sistemahomerobot" />
+        <div className="hidden sm:block">
+          <RobotsEscondidos idRobot="sistemahomerobot" />
+        </div>
+        <div className="sm:hidden">
+          <RobotsEscondidos idRobot="sistemahomerobot" size="sm" />
+        </div>
       </div>
       <div className="text-2xl xl:text-3xl py-2 lg:hidden px-2 xs:px-5 text-center relative pb-10 flex flex-col items-center">
         Práctico, intuitivo, inclusivo, lúdico y adaptable preparando al

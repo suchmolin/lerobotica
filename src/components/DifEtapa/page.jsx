@@ -11,7 +11,7 @@ export default function DifEtapa({ data }) {
               key={item.id}
               className="w-[90px] xs:w-[110px] sm:w-[140px] flex flex-col items-center"
             >
-              <div className="relative w-[50px] xs:w-[60px] sm:w-[100px] aspect-square ">
+              <div className="relative w-[80px] xs:w-[90px] sm:w-[100px] aspect-square ">
                 <Image
                   src={item.img}
                   layout="fill"
@@ -19,7 +19,7 @@ export default function DifEtapa({ data }) {
                   alt={item.id}
                 />
               </div>
-              <p className="text-lg xs:text-xl sm:text-2xl font-[baloo-bold] text-azulLR text-center pt-3">
+              <p className="text-base xs:text-xl sm:text-2xl font-[baloo-bold] text-azulLR text-center pt-3 leading-none sm:leading-normal">
                 {item.title}
               </p>
             </div>

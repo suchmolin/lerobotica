@@ -8,9 +8,13 @@ export default function ValoresEtapa({ data }) {
   const colores = ["#AF1685", "#309B42", "#005EB8", "#2DADBE"]
   const [selected, setSelected] = useState()
   return (
-    <div className="relative w-full h-[990px] xs:h-[900px] sm:h-[1000px] md:h-[1000px] xl:h-[600px] flex flex-col lg:flex-row pt-10">
-      <div className="relative w-6/12 xl:w-6/12 h-[700px]">
-        <Slide triggerOnce direction="left" className="absolute top-0 left-0">
+    <div className="relative w-full xl:h-[600px] flex flex-col lg:flex-row py-20">
+      <div className="relative w-6/12 xl:w-6/12">
+        <Slide
+          triggerOnce
+          direction="left"
+          className="lg:absolute top-0 left-0 pb-10 lg:pb-0"
+        >
           <div className="relative w-[205px] xs:w-[280px] sm:w-[535px] md:w-[500px] lg:w-[400px] xl:w-[500px] aspect-square">
             <Image
               src={valores.imgAlt}
@@ -44,7 +48,7 @@ export default function ValoresEtapa({ data }) {
       >
         <div className="w-full flex flex-col ">
           <div className="text-center">
-            <h2 className="text-4xl xs:text-5xl sm:text-6xl font-[baloo-bold] text-azulLR mb-12 text center">
+            <h2 className="text-4xl xs:text-4xl sm:text-6xl font-[baloo-bold] text-azulLR mb-12 text center">
               Conoce nuestras características
             </h2>
           </div>
@@ -62,7 +66,7 @@ export default function ValoresEtapa({ data }) {
                   {i + 1}
                 </div>
                 <div
-                  className={`w-10/12 text-start text-xl transition-all duration-500`}
+                  className={`w-11/12 sm:w-10/12 text-start text-lg sm:text-xl transition-all duration-500`}
                 >
                   {selected === item.id ? item.descripcion2 : item.descripcion}
                 </div>

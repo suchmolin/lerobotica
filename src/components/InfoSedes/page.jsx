@@ -26,21 +26,29 @@ export default function InfoSedes() {
             <div
               className={`relative w-full md:w-7/12  ${flip ? "rounded-br-[100px]" : "rounded-br-[100px] md:rounded-br-none md:rounded-ss-[100px]"} h-full p-4 xs:p-10 xl:p-16  text-white ${sede.colorTarjeta || "bg-violetaLR"}`}
             >
-              <h2 className="text-4xl font-[baloo-bold]">{sede.name}</h2>
-              <p className="text-2xl">
+              <h2 className="text-3xl md:text-4xl font-[baloo-bold]">
+                {sede.name}
+              </h2>
+              <p className="text-xl md:text-2xl">
                 Centro Ciudad Comercial Tamanaco, torre A, piso 3, local A302,
                 Caracas 8050
               </p>
               {sede.phone && (
-                <p className="text-2xl font-[baloo-bold]">Teléfonos:</p>
+                <p className="text-xl md:text-2xl font-[baloo-bold]">
+                  Teléfonos:
+                </p>
               )}
               {sede.phone?.map((tel) => (
-                <p key={tel} className="text-2xl">
+                <p key={tel} className="text-xl md:text-2xl">
                   {tel}
                 </p>
               ))}
               {i === 1 && (
-                <RobotsEscondidos idRobot="contactanosrobot" size="sm" />
+                <RobotsEscondidos
+                  idRobot="contactanosrobot"
+                  size="sm"
+                  position={"bottom-20 md:bottom-0 right-0"}
+                />
               )}
             </div>
           </div>

@@ -13,22 +13,24 @@ const WelcomeTeacherResources = () => {
           direction="left"
           className="sm:w-9/12 xl:w-8/12 xxl:w-7/12 flex justify-center lg:justify-end items-center"
         >
-          <div className="relative w-full flex flex-col justify-center  lg:pl-32 xxl:pl-60 mt-5 mb-5 sm:mb-20 z-10">
-            <h1 className="text-azulLR text-4xl xs:text-5xl sm:text-6xl xl:text-7xl font-[baloo-bold] px-3 xs:px-8 sm:px-0">
+          <div className="relative w-full flex flex-col justify-center  lg:pl-32 xxl:pl-60 mt-5 mb-5 sm:mb-20 z-10 text-center">
+            <h1 className="text-azulLR text-4xl xs:text-4xl sm:text-6xl xl:text-7xl font-[baloo-bold] px-3 xs:px-8 sm:px-0">
               Bienvenido a los <br /> recursos para <br /> maestros
             </h1>
-            <p className=" text-xl xs:text-2xl sm:text-3xl py-2 lg:pr-10 xl:pr-32 px-3 xs:px-8 sm:px-0">
-              Explora nuestros recursos para profesores, profundiza en nuestras
-              más de 400 lecciones, conoce nuestras construcciones y descubre
-              todo lo que puedes aprender con cada una de ellas
-            </p>
-            <div className="pl-8 sm:pl-0 mt-10">
-              <Link
-                href="/TeacherResources/ExploreLessons"
-                className="py-2 px-4 bg-azulLR text-white text-3xl font-[baloo-bold]"
-              >
-                Explorar recursos
-              </Link>
+            <div className="hidden lg:block">
+              <p className=" text-xl xs:text-xl sm:text-3xl py-2 lg:pr-10 xl:pr-32 px-3 xs:px-8 sm:px-0">
+                Explora nuestros recursos para profesores, profundiza en
+                nuestras más de 400 lecciones, conoce nuestras construcciones y
+                descubre todo lo que puedes aprender con cada una de ellas
+              </p>
+              <div className="pl-8 sm:pl-0 mt-10">
+                <Link
+                  href="/TeacherResources/ExploreLessons"
+                  className="py-2 px-4 bg-azulLR text-white text-3xl font-[baloo-bold]"
+                >
+                  Explorar recursos
+                </Link>
+              </div>
             </div>
           </div>
         </Slide>
@@ -57,6 +59,21 @@ const WelcomeTeacherResources = () => {
               />
             </div>
           </Slide>
+        </div>
+        <div className="lg:hidden text-center pt-10">
+          <p className=" text-xl xs:text-xl sm:text-3xl py-2 lg:pr-10 xl:pr-32 px-3 xs:px-8 sm:px-0">
+            Explora nuestros recursos para profesores, profundiza en nuestras
+            más de 400 lecciones, conoce nuestras construcciones y descubre todo
+            lo que puedes aprender con cada una de ellas
+          </p>
+          <div className="pl-8 sm:pl-0 mt-10">
+            <Link
+              href="/TeacherResources/ExploreLessons"
+              className="py-2 px-4 bg-azulLR text-white text-3xl font-[baloo-bold]"
+            >
+              Explorar recursos
+            </Link>
+          </div>
         </div>
       </div>
       <div className="absolute top-20 -left-10 lg:right-10 hidden lg:block">

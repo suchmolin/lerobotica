@@ -37,7 +37,7 @@ export const data = [
       },
       {
         id: "dif-pre-escolar-2",
-        title: "24 horas por módulo",
+        title: "48 horas por módulo",
         img: "/img/difReloj.png",
       },
       {
@@ -139,7 +139,7 @@ export const data = [
       },
       {
         id: "dif-primaria-baja-2",
-        title: "24 horas por módulo",
+        title: "48 horas por módulo",
         img: "/img/difReloj.png",
       },
       {
@@ -244,7 +244,7 @@ export const data = [
       },
       {
         id: "dif-primaria-alta-2",
-        title: "24 horas por módulo",
+        title: "48 horas por módulo",
         img: "/img/difReloj.png",
       },
       {
@@ -255,7 +255,7 @@ export const data = [
       {
         id: "dif-primaria-alta-4",
         title: "Lenguaje programación",
-        img: "/img/difScratch.png",
+        img: "/img/difScratch2.png",
       },
       {
         id: "dif-primaria-alta-5",

@@ -3,8 +3,8 @@ import Image from "next/image"
 export default function HeaderSoluciones() {
   return (
     <div className="firstSec relative w-full flex flex-col-reverse lg:flex-row items-center  lg:justify-end">
-      <div className="w-11/12 sm:w-8/12 md:w-6/12 lg:w-3/12 flex flex-col justify-center text-azulLR  mb-10 xs:mb-20 lg:mb-0">
-        <h1 className="text-5xl xs:text-6xl font-[baloo-bold]">
+      <div className="w-11/12 sm:w-8/12 md:w-7/12 lg:w-3/12 flex flex-col justify-center text-azulLR  mb-10 xs:mb-20 lg:mb-0 text-center lg:text-start">
+        <h1 className="text-5xl xs:text-5xl sm:text-6xl font-[baloo-bold]">
           Aprenden,
           <br />
           programan

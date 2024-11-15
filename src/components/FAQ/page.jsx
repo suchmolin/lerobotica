@@ -7,7 +7,7 @@ import RobotsEscondidos from "../RobotsEscondidos/page"
 
 export default function FAQ() {
   return (
-    <div className="relative w-full flex flex-col justify-center items-center pb-20 sm:pb-0  overflow-hidden">
+    <div className="relative w-full flex flex-col justify-center items-center  overflow-hidden">
       <div className="sm:absolute -top-36 lg:-top-5 xl:top-0 right-0">
         <div className="relative aspect-square w-[175px]">
           <Image
@@ -29,12 +29,14 @@ export default function FAQ() {
         >
           <div className="w-full h-full flex justify-center lg:justify-end items-center">
             <FAQBox data={data} />
-            <RobotsEscondidos
-              idRobot="faqhomerobot"
-              mirror={true}
-              size="sm"
-              position={"top-0 -right-10"}
-            />
+            <div className="hidden lg:block">
+              <RobotsEscondidos
+                idRobot="faqhomerobot"
+                mirror={true}
+                size="sm"
+                position={"top-0 -right-10"}
+              />
+            </div>
           </div>
         </Slide>
 
@@ -84,7 +86,7 @@ export default function FAQ() {
         </div>
       </div>
 
-      <div className="absolute bottom-0 right-0">
+      <div className="sm:absolute bottom-0 right-0">
         <div className="relative aspect-square w-[175px]">
           <Image
             src="/img/legoAmarillo2.png"
@@ -94,6 +96,13 @@ export default function FAQ() {
             alt="logo de lego"
           />
         </div>
+      </div>
+      <div className="block lg:hidden">
+        <RobotsEscondidos
+          idRobot="faqhomerobot"
+          size="sm"
+          position={"right-0 -bottom-32"}
+        />
       </div>
     </div>
   )

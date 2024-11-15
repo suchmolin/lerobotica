@@ -14,7 +14,8 @@ export default function NuestrosSets() {
       <NuestrosSetsMovil data={data} />
       <RobotsEscondidos
         idRobot="solucionesrobot"
-        position={"-bottom-32 right-0"}
+        position={"bottom-0 right-0"}
+        size="sm"
       />
     </div>
   )
