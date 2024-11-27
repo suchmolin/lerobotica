@@ -118,7 +118,7 @@ export const data = [
     ],
     descripcion: [
       "Esta etapa presenta una divertida metodología que invita al alumno a motivarse y desarrollar sus competencias socioemocionales, lingüísticas y matemáticas a través del Sistema de Aprendizaje LEGO.",
-      "La codificación de bloques basada en iconos y palabras con hardware simple, que incluye un concentrador inteligente de dos puertos, motores, una matriz de luz y un sensor de color, ayuda a los estudiantes a dar vida a sus creaciones.",
+      "La codificación de bloques basada en iconos y palabras con hardware simple, que incluye un concentrador inteligente de dos puertos, motores, una matriz de luz y un sensor de color que ayuda a los estudiantes a dar vida a sus creaciones.",
     ],
     img: "/img/headerPrimariaBaja.png",
     imgAlt: "/img/headerPrimariaBajaAlt.png",
