@@ -27,7 +27,7 @@ export default function SistemaHome() {
           >
             <div className="relative w-[250px] xs:w-[330px] sm:w-[590px] md:w-[700px] lg:w-[600px] xl:w-[700px] aspect-square">
               <Image
-                src="/img/legoCruz.png"
+                src="/img/legoCruznueva.png"
                 layout="fill"
                 objectFit="contain"
                 alt="cuadro verde"
