@@ -34,12 +34,15 @@ export default function FAQBox({ data, fondo, texto }) {
                   </span>
                 </summary>
                 {item.respuesta.map((res, i) => (
-                  <p
-                    key={i}
-                    className={`group-open:animate-fadeIn mt-3 ${texto || "text-neutral-600"} flex items-center gap-2`}
-                  >
-                    {res}
-                  </p>
+                  <>
+                    <p
+                      key={i}
+                      className={`group-open:animate-fadeIn mt-3 ${texto || "text-neutral-600"} flex gap-2`}
+                    >
+                      {res.tit && <span className="font-bold">{res.tit}</span>}{" "}
+                      {res.res}
+                    </p>
+                  </>
                 ))}
               </details>
             </div>

@@ -38,7 +38,7 @@ export default function ModalSets({ set, setOpenModalSet }) {
             </Slide>
           </div>
           <div className="lg:w-7/12 pl-10 sm:pl-20 xl:px-20">
-            <h2 className="font-[baloo-bold] text-4xl sm:text-5xl lg:text-6xl text-azulLR mb-5">
+            <h2 className="font-[baloo-bold] text-4xl sm:text-5xl lg:text-5xl text-azulLR mb-5">
               {set.name}
             </h2>
             <ul className="list-disc">

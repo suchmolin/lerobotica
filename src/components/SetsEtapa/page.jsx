@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css"
 import Slider from "react-slick"
 import { data as setsData } from "@/data/sets"
 import Image from "next/image"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import ModalSets from "../ModalSets/page"
 import RobotsEscondidos from "../RobotsEscondidos/page"
 
@@ -21,20 +21,24 @@ export default function SetsEtapa({ data }) {
     slidesToScroll: 1,
     appendDots: (dots) => <ul>{dots}</ul>,
     customPaging: (i) => (
-      <div
-        style={{
-          width: "25px",
-          color: "white",
-          backgroundImage: "url('/img/legoazul2d.png')",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "contain",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          paddingTop: "2px",
-        }}
-      >
-        {i + 1}
+      <div>
+        <div
+          onClick={() => setSetSelected(data.sets[i])}
+          key={`button${i}`}
+          style={{
+            width: "25px",
+            color: "white",
+            backgroundImage: "url('/img/legoazul2d.png')",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "contain",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            paddingTop: "2px",
+          }}
+        >
+          {i + 1}
+        </div>
       </div>
     ),
     responsive: [
@@ -61,10 +65,11 @@ export default function SetsEtapa({ data }) {
   return (
     <>
       <div className="w-full relative flex justify-center bg-amarilloLR pb-20 px-7 mt-20">
-        <div className="w-11/12 slider-container -mt-10">
+        <div className="w-11/12 slider-container -mt-20">
           <Slider {...settings}>
             {data.sets.map((set) => {
               const currentSet = setsData.find((setData) => setData.id === set)
+
               return (
                 <div key={currentSet.id}>
                   <div className="flex justify-center">
@@ -72,7 +77,7 @@ export default function SetsEtapa({ data }) {
                       onClick={() => handleSelectedSet(currentSet)}
                       className="w-fit"
                     >
-                      <div className="flex flex-col items-center text-center justify-center pb-7">
+                      <div className="flex flex-col items-center text-center justify-center pb-7 pt-10">
                         <div className="w-[100px] aspect-square relative">
                           <Image
                             src={currentSet.img}
@@ -82,7 +87,9 @@ export default function SetsEtapa({ data }) {
                             priority
                           />
                         </div>
-                        <h2 className="text-azulLR text-2xl sm:text-3xl font-[baloo-bold]">
+                        <h2
+                          className={` text-xl sm:text-2xl font-[baloo-bold] ${setSelected === set || setSelected.id === set ? "text-violetaLR" : "text-azulLR"} transition-all duration-300`}
+                        >
                           {currentSet.name}
                         </h2>
                       </div>

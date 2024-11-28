@@ -86,7 +86,7 @@ export default function NuestrosSetsMovil({ data }) {
                             {i + 1}
                           </p>
                         </div>
-                        <p className="text-xl w-10/12 text-center lg:text-normal">
+                        <p className="text-xl w-10/12 text-center lg:text-normal pb-10">
                           {habilidad}
                         </p>
                       </div>

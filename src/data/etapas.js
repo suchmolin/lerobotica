@@ -112,8 +112,8 @@ export const data = [
     edad: "6 a 8 años",
     sets: [
       "spike-essential-primaria-baja",
-      "bricq-motion-essential",
       "set-principal-wedo-2.0",
+      "bricq-motion-essential",
       "maquinas-simples",
     ],
     descripcion: [
