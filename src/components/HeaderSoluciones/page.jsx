@@ -4,21 +4,18 @@ export default function HeaderSoluciones() {
   return (
     <div className="firstSec relative w-full flex flex-col-reverse lg:flex-row items-center  lg:justify-end">
       <div className="w-11/12 sm:w-8/12 md:w-7/12 lg:w-3/12 flex flex-col justify-center text-azulLR  mb-10 xs:mb-20 lg:mb-0 text-center lg:text-start">
-        <h1 className="text-5xl xs:text-5xl sm:text-6xl font-[baloo-bold]">
-          Aprenden,
-          <br />
-          programan
-          <br />y construyen
+        <h1 className="text-5xl xs:text-5xl sm:text-5xl font-[baloo-bold]">
+          Aprenden, construyen y programan
         </h1>
-        <p className="text-2xl xs:text-3xl">
-          Los niños desarrollan habilidades que los preparan para una vida junto
-          a la tecnología
+        <p className="text-2xl xs:text-2xl">
+          Los niños aprenden a programar de forma divertida mientras construyen
+          robots y resuelven desafíos
         </p>
       </div>
       <div className="w-full lg:w-7/12 flex justify-center items-center">
         <div className="w-[370px] sm:w-[950px] h-[200px] sm:h-[400px] lg:h-[500px] relative">
           <Image
-            src="/img/headerSoluciones.png"
+            src="/img/headerSolucionesnueva.png"
             objectFit="contain"
             layout="fill"
             alt="soluciones header"

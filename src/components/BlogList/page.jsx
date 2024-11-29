@@ -3,7 +3,6 @@ import { data } from "@/data/blog"
 import CardBlog from "../CardBlog/page"
 import { useEffect, useState } from "react"
 import BlogContentBox from "../BlogContentBox/page"
-import { Carousel } from "flowbite-react"
 
 export default function BlogList() {
   const [selected, setSelected] = useState()

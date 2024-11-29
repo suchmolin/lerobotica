@@ -29,10 +29,7 @@ export default function InfoSedes() {
               <h2 className="text-3xl md:text-4xl font-[baloo-bold]">
                 {sede.name}
               </h2>
-              <p className="text-xl md:text-2xl">
-                Centro Ciudad Comercial Tamanaco, torre A, piso 3, local A302,
-                Caracas 8050
-              </p>
+              <p className="text-xl md:text-2xl">{sede.direction}</p>
               {sede.phone && (
                 <p className="text-xl md:text-2xl font-[baloo-bold]">
                   Teléfonos:

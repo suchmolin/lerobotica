@@ -21,7 +21,7 @@ export default function HeaderContactanos() {
               que necesitas!
             </h1>
             <p className=" text-xl xs:text-2xl sm:text-3xl py-2 lg:pr-10 xl:pr-32 px-3 xs:px-8 sm:px-0">
-              Puedes comunicarte con nosotros a través del siguiente enlace:
+              Si tienes alguna duda, estamos aquí para ti.
             </p>
             <div className="pl-3 sm:pl-0">
               <RequestMeetingButton size={"3xl"} />

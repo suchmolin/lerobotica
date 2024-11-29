@@ -13,15 +13,15 @@ const WelcomeTeacherResources = () => {
           direction="left"
           className="sm:w-9/12 xl:w-8/12 xxl:w-7/12 flex justify-center lg:justify-end items-center"
         >
-          <div className="relative w-full flex flex-col justify-center  lg:pl-32 xxl:pl-60 mt-5 mb-5 sm:mb-20 z-10 text-center">
-            <h1 className="text-azulLR text-4xl xs:text-4xl sm:text-6xl xl:text-7xl font-[baloo-bold] px-3 xs:px-8 sm:px-0">
+          <div className="relative w-full flex flex-col justify-center  lg:pl-32 xxl:pl-60 mt-5 mb-5 sm:mb-20 z-10 ">
+            <h1 className="text-azulLR text-3xl xs:text-4xl sm:text-5xl font-[baloo-bold] px-3 xs:px-8 sm:px-0 text-center sm:text-start">
               Bienvenido a los <br /> recursos para <br /> maestros
             </h1>
             <div className="hidden lg:block">
-              <p className=" text-xl xs:text-xl sm:text-3xl py-2 lg:pr-10 xl:pr-32 px-3 xs:px-8 sm:px-0">
-                Explora nuestros recursos para profesores, profundiza en
-                nuestras más de 400 lecciones, conoce nuestras construcciones y
-                descubre todo lo que puedes aprender con cada una de ellas
+              <p className=" text-2xl py-2 lg:pr-10 xl:pr-32 px-3 xs:px-8 sm:px-0">
+                Sumérgete en un mundo de conocimiento con nuestras más de 400
+                lecciones y desbloquea todo el potencial de aprendizaje que cada
+                una de ellas.
               </p>
               <div className="pl-8 sm:pl-0 mt-10">
                 <Link
@@ -62,9 +62,9 @@ const WelcomeTeacherResources = () => {
         </div>
         <div className="lg:hidden text-center pt-10">
           <p className=" text-xl xs:text-xl sm:text-3xl py-2 lg:pr-10 xl:pr-32 px-3 xs:px-8 sm:px-0">
-            Explora nuestros recursos para profesores, profundiza en nuestras
-            más de 400 lecciones, conoce nuestras construcciones y descubre todo
-            lo que puedes aprender con cada una de ellas
+            Sumérgete en un mundo de conocimiento con nuestras más de 400
+            lecciones y desbloquea todo el potencial de aprendizaje que cada una
+            de ellas.
           </p>
           <div className="pl-8 sm:pl-0 mt-10">
             <Link
@@ -87,7 +87,7 @@ const WelcomeTeacherResources = () => {
           />
         </div>
       </div>
-      <div className="hidden sm:block absolute w-fit bottom-52 sm:bottom-10 xl:bottom-20 left-[45%]">
+      <div className="hidden lg:block absolute w-fit bottom-52 sm:bottom-10 xl:bottom-20 left-[40%]">
         <div className="relative w-[150px] sm:w-[150px] aspect-square">
           <Image
             src="/img/legoAzulCompleto.png"
@@ -98,8 +98,8 @@ const WelcomeTeacherResources = () => {
           />
         </div>
       </div>
-      <div className="absolute -top-9 -right-40 sm:-right-20 lg:left-[50%] lg:right-10 hidden sm:block">
-        <div className="relative w-[230px] aspect-square">
+      <div className="absolute -top-9 -right-40 sm:-right-20 lg:left-[45%] lg:right-10 hidden sm:block">
+        <div className="relative w-[200px] aspect-square">
           <Image
             src="/img/legoVerdeGrande.png"
             layout="fill"

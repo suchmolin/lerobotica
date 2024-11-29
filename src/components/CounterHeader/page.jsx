@@ -22,7 +22,7 @@ export default function CounterHeader() {
             duration={4}
           />
           <p className="text-xl leading-none font-bold">
-            Paises <br /> alcanzados
+            Países <br /> alcanzados
           </p>
         </div>
       </div>

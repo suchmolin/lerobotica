@@ -41,10 +41,15 @@ export default function ModalSets({ set, setOpenModalSet }) {
             <h2 className="font-[baloo-bold] text-4xl sm:text-5xl lg:text-5xl text-azulLR mb-5">
               {set.name}
             </h2>
-            <ul className="list-disc">
+            <ul className="list-disc marker:text-azulLR">
               {set.caracteristicas.map((car) => (
-                <li key={car.titulo} className="text-xl lg:text-2xl">
-                  <span className="font-bold">{car.titulo} </span>
+                <li
+                  key={car.titulo}
+                  className="text-xl text-black lg:text-2xl mb-3"
+                >
+                  <span className="font-bold font-[baloo-bold] text-azulLR">
+                    {car.titulo}{" "}
+                  </span>
                   {car.subtitulo}
                 </li>
               ))}

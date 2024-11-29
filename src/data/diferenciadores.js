@@ -15,9 +15,9 @@ export const data = [
   },
   {
     id: "3",
-    title: "42 años trabajando por la educación",
+    title: "Desarrollan sus habilidades blandas",
     description:
-      "Sistema de aprendizaje LEGO práctico, intuitivo, inclusivo, lúdico y adaptable preparando al estudiante con habilidades y conocimientos STEAM",
+      "Tu hijo aprende a trabajar en equipo, desarrolla su pensamiento lógico y mejora en la resolución de problemas.",
     icon: "/img/difCohete.png",
   },
 ]

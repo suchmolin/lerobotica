@@ -6,7 +6,7 @@ export default function HabilidadesEtapa({ data }) {
     <div className="relative w-full flex flex-col items-center lg:flex-row justify-center pt-20 overflow-hidden">
       <div className="lg:w-6/12 xl:w-5/12 flex flex-col">
         <h2 className="lg:ml-20 text-azulLR text-5xl sm:text-6xl font-[baloo-bold] text-center lg:text-start">
-          Habilidades <br /> que obtendrá
+          Habilidades <br /> que obtendrá <br /> tu hijo
         </h2>
         <div className="w-[360px] sm:w-[600px] h-[250px] sm:h-[300px] aspect-square relative">
           <Image

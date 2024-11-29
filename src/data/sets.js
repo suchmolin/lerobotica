@@ -269,7 +269,7 @@ export const data = [
       {
         titulo: "Aprendizaje práctico de ciencias",
         subtitulo:
-          ": A través de la construcción de robots, los niños exploran conceptos de mecánica y física, y entendien cómo funcionan las máquinas en el mundo real.",
+          ": A través de la construcción de robots, los niños exploran conceptos de mecánica y física y entendien cómo funcionan las máquinas en el mundo real.",
       },
       {
         titulo: "Programación interactiva",
@@ -292,7 +292,7 @@ export const data = [
       {
         titulo: "Comprensión del movimiento",
         subtitulo:
-          ": Los niños exploran cómo funcionan las fuerzas y el movimiento, y aprenden sobre la relación entre la energía y el desplazamiento de los objetos.",
+          ": Los niños exploran cómo funcionan las fuerzas y el movimiento y aprenden sobre la relación entre la energía y el desplazamiento de los objetos.",
       },
       {
         titulo: "Construcción activa",
@@ -315,7 +315,7 @@ export const data = [
       {
         titulo: "Interactividad",
         subtitulo:
-          ": Los niños interactuan con suscreaciones a través de la  programación con Scratch y transforma el aprendizaje en una experiencia dinámica y divertida.",
+          ": Los niños interactuan con sus creaciones a través de la  programación con Scratch, transformando el aprendizaje en una experiencia dinámica y divertida.",
       },
       {
         titulo: "Integración de arte y ciencia",
@@ -397,7 +397,7 @@ export const data = [
       {
         titulo: "Programación avanzada",
         subtitulo:
-          ": los niños aprenden a programar robots utilizando un software intuitivo potenciado por Python y Scratch, y desarrollan habilidades en programación visual y textual.",
+          ": los niños aprenden a programar robots utilizando un software intuitivo potenciado por Python y Scratch y desarrollan habilidades en programación visual y textual.",
       },
       {
         titulo: "Integración de sensores",
@@ -438,7 +438,7 @@ export const data = [
       {
         titulo: "Exploración de fuentes de energía",
         subtitulo:
-          ":  Aprenden sobre diversas fuentes de energía renovable, como la solar y la eólica, y cómo se pueden utilizar para generarla de manera sostenible.",
+          ":  Aprenden sobre diversas fuentes de energía renovable, como la solar y la eólica y cómo se pueden utilizar para generarla de manera sostenible.",
       },
     ],
   },

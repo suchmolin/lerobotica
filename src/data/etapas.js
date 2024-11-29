@@ -18,8 +18,7 @@ export const data = [
       "set-de-letras",
     ],
     descripcion: [
-      "En esta etapa los niños aprenden sobre sus emociones, como entenderlas y como actuar ante ellas, desarrollan habilidades matemáticas y de lectoescritura.",
-      "Hacemos énfasis en su desarrollo motriz a través de actividades y contrucciones con enfoque en la resolución de problemas y trabajo en equipo. ",
+      "En esta etapa, tu hijo crece y aprende de manera integral, desarrollando habilidades como la gestión emocional, el pensamiento matemático y la lectoescritura, a través de actividades prácticas.",
     ],
     img: "/img/headerPreEscolar.png",
     imgAlt: "/img/headerPreEscolarAlt.png",
@@ -97,7 +96,7 @@ export const data = [
         img: "/img/habilidadesPreEscolar2.png",
       },
       {
-        titulo: "Pensamiento Creativo",
+        titulo: "Pensamiento Creativo y Gestión emocional",
         img: "/img/habilidadesPreEscolar3.png",
       },
       {
@@ -117,8 +116,7 @@ export const data = [
       "maquinas-simples",
     ],
     descripcion: [
-      "Esta etapa presenta una divertida metodología que invita al alumno a motivarse y desarrollar sus competencias socioemocionales, lingüísticas y matemáticas a través del Sistema de Aprendizaje LEGO.",
-      "La codificación de bloques basada en iconos y palabras con hardware simple, que incluye un concentrador inteligente de dos puertos, motores, una matriz de luz y un sensor de color que ayuda a los estudiantes a dar vida a sus creaciones.",
+      "Esta etapa presenta una divertida metodología que invita al alumno a motivarse y desarrollar sus competencias socioemocionales, lingüísticas y matemáticas a través del Sistema de Aprendizaje LEGO.‍",
     ],
     img: "/img/headerPrimariaBaja.png",
     imgAlt: "/img/headerPrimariaBajaAlt.png",
@@ -129,7 +127,7 @@ export const data = [
       img: "/img/primariaBajaCurso.png",
       icon: "/img/roboticonprimariabaja.png",
       descripcion:
-        "Los niños aprenden sobre ingeniería, el análisis de datos y la comunicación, desarrollando habilidades como el pensamiento crítico y la colaboración.",
+        "Los niños desarrollan habilidades clave como el pensamiento crítico mientras aprenden sobre ingeniería, análisis de datos y comunicación",
     },
     dif: [
       {
@@ -192,11 +190,11 @@ export const data = [
     },
     habilidades: [
       {
-        titulo: "Da vida a los modelos con programación gradual",
+        titulo: "Programación gradual",
         img: "/img/compu.png",
       },
       {
-        titulo: "Desarrollo con sus competencias lingüísticas",
+        titulo: "Desarrollo competencias lingüísticas",
         img: "/img/abc.png",
       },
       {
@@ -204,7 +202,7 @@ export const data = [
         img: "/img/123.png",
       },
       {
-        titulo: "Contribuye al desarrollo socio-emocional",
+        titulo: "Desarrollo socio-emocional",
         img: "/img/cerebroluz.png",
       },
     ],
@@ -222,8 +220,7 @@ export const data = [
       "expansion-de-neumatica",
     ],
     descripcion: [
-      "Invita al alumno a desarrollar habilidades de pensamiento crítico, a resolver problemas que involucran las matemáticas, la ciencia y la tecnología en la construcción de cada robot.",
-      "A través de los sets los niños aprenden de robótica y programación de forma sencilla e intuitiva a través del sistema familiar de codificación de bloques basado en Python con la APP LEGO Education SPIKE PRIME.",
+      "Por medio de los sets los niños aprenden de robótica y programación de forma sencilla e intuitiva a través del sistema familiar de codificación de bloques basado en Python con la APP LEGO Education SPIKE PRIME.",
     ],
     img: "/img/headerPrimariaAlta.png",
     imgAlt: "/img/headerPrimariaAltaAlt.png",
@@ -234,7 +231,7 @@ export const data = [
       img: "/img/primariaAltaCurso.png",
       icon: "/img/roboticonprimariaalta.png",
       descripcion:
-        "Tu hijo desarrolla y gana confianza en habilidades STEAM como la codificación, la robótica y la informática. Al mismo tiempo trabaja y mejora su colaboración con otros y su pensamiento crítico. ",
+        "Tu hijo desarrolla habilidades STEAM como codificación, robótica e informática, mientras fortalece su capacidad de colaboración y confianza en sí mismo.",
     },
     dif: [
       {
@@ -298,20 +295,19 @@ export const data = [
     },
     habilidades: [
       {
-        titulo: "Exploran la codificación basada en texto con Python",
+        titulo: " Codificación con Python",
         img: "/img/compu.png",
       },
       {
-        titulo:
-          "Desarrollan el pensamiento criticó y la resolución de problemas.",
+        titulo: "Desarrollo del pensamiento criticó",
         img: "/img/rompecabezas.png",
       },
       {
-        titulo: "Exploran su confianza y resiliencia",
+        titulo: " Confianza  y resiliencia",
         img: "/img/pulgarhab.png",
       },
       {
-        titulo: "Dan vida a robots con programación gradual.",
+        titulo: "Mejora en la resolución de problemas",
         img: "/img/habrobot.png",
       },
     ],

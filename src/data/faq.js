@@ -4,7 +4,7 @@ export const data = [
     pregunta: "¿Cómo inscribo a mi hijo en un curso?",
     respuesta: [
       {
-        res: "Comunicate a través de nuestro número de contacto (0412-203-0567) y serás atendido por nuestro Departamento de Ventas, que te brindará toda la información necesaria sobre nuestros cursos de robótica y programación.",
+        res: "Comunicate con nuestro Departamento de Atención al Cliente, que te brindará toda la información necesaria sobre nuestros cursos y horarios disponibles.",
       },
     ],
   },
@@ -13,7 +13,8 @@ export const data = [
     pregunta: "¿Cómo aprende mi hijo en LeRobotica?",
     respuesta: [
       {
-        res: "Los niños aprenden a través de nuestra metodología: Aprender Jugando. Mediante actividades y construcciones que los inspiren a  a desarrollar su lógica y su creatividad. ",
+        tit: "Nuestra metodología: Aprender Jugando,",
+        res: "impulsa a los niños a desarrollar su lógica, mediante actividades creativas y construcciones.",
       },
     ],
   },

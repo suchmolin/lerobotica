@@ -62,7 +62,7 @@ export default function FormContact({ inModal }) {
         <div className="absolute top-0 left-36 w-full h-full">
           <div className="relative w-full h-full">
             <Image
-              src="/img/contacto.png"
+              src="/img/contactonueva.png"
               layout="fill"
               objectFit="contain"
               objectPosition="left"

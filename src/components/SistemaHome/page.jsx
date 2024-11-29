@@ -43,11 +43,12 @@ export default function SistemaHome() {
           <div className="w-full h-full relative flex items-center pt-20 sm:pt-32 lg:pt-0 justify-center lg:justify-normal">
             <div className="flex flex-col justify-center xxl:pr-20 sm:pl-7 xl:pl-5">
               <h2 className="text-azulLR text-4xl sm:text-6xl xl:text-7xl font-[baloo-bold] text-center lg:text-start">
-                Descubre el Sistema <br /> de Aprendizaje LEGO
+                Descubre el Sistema de Aprendizaje LEGO
               </h2>
               <p className="text-2xl xl:text-3xl py-2 hidden lg:block">
-                Práctico, intuitivo, lúdico, inclusivo y adaptable preparando a
-                tu hijo con habilidades y conocimientos STEAM.
+                Su diseño práctico, intuitivo y adaptable, junto con su enfoque
+                lúdico e inclusivo, estimula la creatividad y el pensamiento
+                crítico de tu hijo.
               </p>
             </div>
             <div className="absolute -top-10 sm:top-0 xxl:top-10 right-[30%] sm:right-[40%] lg:right-32">
