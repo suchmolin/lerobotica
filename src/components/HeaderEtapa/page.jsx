@@ -68,7 +68,7 @@ export default function HeaderEtapa({ data }) {
         <div className="block lg:hidden sm:px-5 text-center">
           {data.descripcion.map((item) => (
             <p
-              key={item.id}
+              key={`parrafo${item.id}`}
               className="text-xl py-2 lg:pr-10 xl:pr-32 px-3 xs:px-8 sm:px-0 mb-3"
             >
               {item}
