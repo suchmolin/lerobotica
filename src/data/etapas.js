@@ -61,28 +61,30 @@ export const data = [
       items: [
         {
           id: "item1",
+          titulo:
+            "Tu hijo aprende las bases de la codificación y la programación",
           descripcion:
-            "Aprenden las bases de la codificación y la programación temprana",
-          descripcion2:
-            "Aprenden las bases de la codificación y la programación temprana a través de secuencias, bucles y condicionales que le darán movimiento a sus creaciones.",
+            "temprana a través de secuencias, bucles y condicionales.",
+          icon: "/img/valoresPreEscolar1.png",
         },
         {
           id: "item2",
-          descripcion: "Resuelven problemas y conocen emociones",
-          descripcion2:
-            "Resuelven problemas y conocen emociones, expresan ideas, exploran soluciones, utilizando elementos digitales",
+          titulo: "Los niños resuelven problemas y conocen sus emociones,",
+          descripcion:
+            "expresan ideas, exploran soluciones, utilizando elementos digitales",
+          icon: "/img/valoresPreEscolar2.png",
         },
         {
           id: "item3",
-          descripcion: "Mejoran las habilidades lingüísticas y matemáticas",
-          descripcion2:
-            "Mejoran las habilidades lingüísticas y matemáticas a través del aprendizaje lúdico y práctico.",
+          titulo: "Tu hijo mejora sus habilidades lingüísticas y matemáticas",
+          descripcion: "a través del aprendizaje lúdico y práctico",
+          icon: "/img/valoresPreEscolar3.png",
         },
         {
           id: "item4",
-          descripcion: "Resolución de problemas y pensamiento crítico",
-          descripcion2:
-            "Resolución de problemas, pensamiento crítico y desarrollo motriz por medio de unidades y actividades interactivas que les permiten diseñar y optimizar soluciones comunes.",
+          descripcion:
+            "Mediante actividades interactivas, los niños aprenden a resolver problemas y a pensar de manera crítica",
+          icon: "/img/valoresPreEscolar4.png",
         },
       ],
     },
@@ -162,29 +164,28 @@ export const data = [
       items: [
         {
           id: "item1",
-          descripcion:
-            "Desarrollan habilidades y  realizan actividades de programación",
-          descripcion2:
-            "Desarrollan habilidades y  realizan actividades de programación a través del lenguaje de codificación intuitivo de arrastrar y soltar que se basa en Scratch",
+          titulo: "Los niños desarrollan habilidades programación",
+          descripcion: "a través del lenguaje Scratch",
+          icon: "/img/valoresPrimariaBaja1.png",
         },
         {
           id: "item2",
-          descripcion: "Le dan vida a robots a través de la creación",
-          descripcion2:
-            "Le dan vida a robots a través de la creación y modificación de secuencias y el uso de bucles.",
+          titulo: "Tu hijo le dará vida a robots a través de la creación",
+          descripcion: "y modificación de secuencias y el uso de bucles.",
+          icon: "/img/valoresPrimariaBaja2.png",
         },
         {
           id: "item3",
-          descripcion:
-            "En el proceso de construcción del robot exploran elementos asociados al diseño técnico.",
-          descripcion2:
-            "En el proceso de construcción del robot exploran elementos asociados al diseño técnico.",
+          titulo:
+            "Los niños se sumergen en los fundamentos del diseño técnico,",
+          descripcion: "explorando elementos como la geometría.",
+          icon: "/img/valoresPrimariaBaja3.png",
         },
         {
           id: "item4",
-          descripcion: "Desarrollan competencias socioemocionales",
-          descripcion2:
-            "Desarrollan competencias socioemocionales, lingüísticas y matemáticas",
+          titulo: "Tu hijo desarrolla competencias socioemocionales,",
+          descripcion: "lingüísticas y matemáticas",
+          icon: "/img/valoresPrimariaBaja4.png",
         },
       ],
     },
@@ -266,30 +267,31 @@ export const data = [
       items: [
         {
           id: "item1",
-          descripcion:
-            "Aplican habilidades de diseño, construcción y programación",
-          descripcion2:
-            "Aplican habilidades de diseño, construcción y programación por medio de conocimientos en ingeniería.",
+          titulo:
+            "Los niños aplican habilidades de diseño, construcción y programación",
+          descripcion: " por medio de conocimientos en ingeniería.",
+          icon: "/img/valoresPrimariaAlta1.png",
         },
         {
           id: "item2",
-          descripcion: "Analizan los datos en el proceso de codificación",
-          descripcion2:
-            "Analizan los datos en el proceso de codificación de su robot para mejorar sus soluciones y movimientos.",
+          titulo:
+            "Tu hijo aprende a analizar los datos en el proceso de codificación",
+          descripcion:
+            " de su robot para mejorar su construcción y movimientos.",
+          icon: "/img/valoresPrimariaAlta2.png",
         },
         {
           id: "item3",
           descripcion:
-            "Desarrollan habilidades relacionadas con la colaboración y el trabajo en equipo.",
-          descripcion2:
-            "Desarrollan habilidades relacionadas con la colaboración y el trabajo en equipo.",
+            "Los niños desarrollan habilidades relacionadas con la colaboración y el trabajo en equipo.",
+          icon: "/img/valoresPrimariaAlta3.png",
         },
         {
           id: "item4",
-          descripcion:
-            "Identifican los posibles errores durante el desarrollo de cada actividad",
-          descripcion2:
-            "Identifican los posibles errores durante el desarrollo de cada actividad de forma sistemática con la finalidad de corregirlos.",
+          titulo:
+            "Tu hijo aprende a identificar los posibles errores durante el desarrollo de cada actividad",
+          descripcion: "con la finalidad de corregirlos.",
+          icon: "/img/valoresPrimariaAlta4.png",
         },
       ],
     },

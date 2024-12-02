@@ -10,14 +10,14 @@ export const data = [
     id: "2",
     title: "Expresan ideas, exploran soluciones",
     description:
-      "Resuelven problemas, conocen sus emociones y mejoran sus habilidades lingüísticas y matemáticas a través del aprendizaje lúdico y práctico.",
+      "En LeRobótica, la imaginación de tu hijo no tendra límites. A través de actividades creativas y construcciones innovadoras, aprende a transformar sus ideas en realidad.",
     icon: "/img/difLego.png",
   },
   {
     id: "3",
     title: "Desarrollan sus habilidades blandas",
     description:
-      "Tu hijo aprende a trabajar en equipo, desarrolla su pensamiento lógico y mejora en la resolución de problemas.",
+      "Tu hijo desarrolla habilidades clave para la vida como el trabajo en equipo, el pensamiento lógico y la resolución de problemas.",
     icon: "/img/difCohete.png",
   },
 ]
