@@ -11,7 +11,7 @@ export default function DifEtapa({ data }) {
           {dif.map((item, i) => (
             <div
               key={`card${i}`}
-              className="card w-[220px] sm:w-[120px] md:w-[150px] lg:w-[190px] h-[230px] sm:h-[180px] md:h-[200px] lg:h-[270px] flex flex-col items-center py-5 rounded-t-3xl "
+              className="card w-[220px] sm:w-[120px] md:w-[150px] lg:w-[200px] h-[230px] sm:h-[180px] md:h-[220px] lg:h-[270px] flex flex-col items-center py-5 rounded-t-3xl "
             >
               <CardDifEtapa item={item} />
               <CardDifEtapaBack item={item} />
