@@ -1,27 +1,17 @@
 import Image from "next/image"
+import CardDifEtapa from "../CardDifEtapa/page"
+import CardDifEtapaBack from "../CardDifEtapaBack/page"
 
 export default function DifEtapa({ data }) {
   const { dif } = data
   return (
-    <div className="w-full flex justify-center pt-10 lg:pt-0">
-      <div className="w-11/12 bg-amarilloLR rounded-t-3xl flex justify-center pb-3">
-        <div className="flex gap-x-9 sm:gap-x-20 gap-y-3 sm:gap-y-0 -mt-7 flex-wrap px-3 sm:px-7 justify-center">
+    <div className="w-full flex justify-center pt-24">
+      <div className="w-10/12 sm:w-11/12 bg-amarilloLR rounded-t-3xl flex justify-center pb-12">
+        <div className="flex gap-x-7 lg:gap-x-16 gap-y-3 sm:gap-y-0 -mt-20 px-3 sm:px-7 justify-center  flex-col sm:flex-row">
           {dif.map((item) => (
-            <div
-              key={item.id}
-              className="w-[90px] xs:w-[110px] sm:w-[140px] flex flex-col items-center"
-            >
-              <div className="relative w-[80px] xs:w-[90px] sm:w-[100px] aspect-square ">
-                <Image
-                  src={item.img}
-                  layout="fill"
-                  objectFit="contain"
-                  alt={item.id}
-                />
-              </div>
-              <p className="text-base xs:text-xl sm:text-2xl font-[baloo-bold] text-azulLR text-center pt-3 leading-none sm:leading-normal">
-                {item.title}
-              </p>
+            <div className="card w-[220px] sm:w-[120px] md:w-[150px] lg:w-[190px] h-[230px] sm:h-[180px] md:h-[200px] lg:h-[230px] flex flex-col items-center py-5 rounded-t-3xl ">
+              <CardDifEtapa item={item} />
+              <CardDifEtapaBack item={item} />
             </div>
           ))}
         </div>

@@ -31,28 +31,31 @@ export const data = [
     dif: [
       {
         id: "dif-pre-escolar-1",
-        title: "Robótica y programación",
-        img: "/img/difRobot.png",
+        title: "Codificación Básica",
+        description:
+          "Tu hijo  aprende a crear animaciones divertidas, diseñar juegos sencillos y hasta construir robots",
+        img: "/img/difPreescolar1.png",
       },
       {
         id: "dif-pre-escolar-2",
-        title: "48 horas por módulo",
-        img: "/img/difReloj.png",
+        title: "Steam",
+        description:
+          "STEAM es una metodología educativa que integra: Ciencia, Tecnología, Ingeniería, Arte y Matemáticas.",
+        img: "/img/difPreescolar2.png",
       },
       {
         id: "dif-pre-escolar-3",
-        title: "8 alumnos por salón",
-        img: "/img/difGrupos.png",
+        title: "48 horas por módulo",
+        description:
+          "Cada módulo dura 3 meses y requiere una dedicación de 16 horas semanales.",
+        img: "/img/difPreescolar3.png",
       },
       {
         id: "dif-pre-escolar-4",
-        title: "STEAM",
-        img: "/img/difLegos.png",
-      },
-      {
-        id: "dif-pre-escolar-5",
-        title: "Profesores Certificados",
-        img: "/img/difCertificados.png",
+        title: "8 Alumnos por salón",
+        description:
+          "Tu hijo recibira la atención personalizada que necesita para desarrollar todo su potencial.",
+        img: "/img/difPreescolar4.png",
       },
     ],
     valores: {
@@ -134,28 +137,31 @@ export const data = [
     dif: [
       {
         id: "dif-primaria-baja-1",
-        title: "Robótica y programación",
-        img: "/img/difRobot2.png",
+        title: "Resolución de problemas",
+        description:
+          "Tu hijo aprende a pensar de manera lógica y a descomponer problemas complejos en partes manejables",
+        img: "/img/difPrimariaBaja1.png",
       },
       {
         id: "dif-primaria-baja-2",
-        title: "48 horas por módulo",
-        img: "/img/difReloj.png",
+        title: "Programación básica",
+        description:
+          "Tu hijo aprende a convertir sus ideas en realidad y a entender cómo funciona la tecnología que los rodea.",
+        img: "/img/difPrimariaBaja2.png",
       },
       {
         id: "dif-primaria-baja-3",
-        title: "8 alumnos por salón",
-        img: "/img/difGrupos.png",
+        title: "48 horas por módulo",
+        description:
+          "Cada módulo dura 3 meses y requiere una dedicación de 16 horas semanales.",
+        img: "/img/difPreescolar3.png",
       },
       {
         id: "dif-primaria-baja-4",
-        title: "Lenguaje programación SCRATCH",
-        img: "/img/difScratch.png",
-      },
-      {
-        id: "dif-primaria-baja-5",
-        title: "Profesores Certificados",
-        img: "/img/difCertificados.png",
+        title: "8 Alumnos por salón",
+        description:
+          "Tu hijo recibira la atención personalizada que necesita para desarrollar todo su potencial.",
+        img: "/img/difPreescolar4.png",
       },
     ],
     valores: {
@@ -238,27 +244,30 @@ export const data = [
       {
         id: "dif-primaria-alta-1",
         title: "Robótica y programación",
-        img: "/img/difRobot3.png",
+        description:
+          "Los niños aprenden a diseñar y programar robots, desarrollando su creatividad",
+        img: "/img/difPrimariaAlta1.png",
       },
       {
-        id: "dif-primaria-alta-2",
-        title: "48 horas por módulo",
-        img: "/img/difReloj.png",
+        id: "Python básico",
+        title: "Python básico",
+        description:
+          "Tu hijo aprende a usar bloques de codigos para construir sus propios juegos, animaciones y mucho más.",
+        img: "/img/difPrimariaAlta2.png",
       },
       {
         id: "dif-primaria-alta-3",
-        title: "8 alumnos por salón",
-        img: "/img/difGrupos.png",
+        title: "48 horas por módulo",
+        description:
+          "Cada módulo dura 3 meses y requiere una dedicación de 16 horas semanales.",
+        img: "/img/difPreescolar3.png",
       },
       {
         id: "dif-primaria-alta-4",
-        title: "Lenguaje programación",
-        img: "/img/difScratch2.png",
-      },
-      {
-        id: "dif-primaria-alta-5",
-        title: "Profesores Certificados",
-        img: "/img/difCertificados.png",
+        title: "8 Alumnos por salón",
+        description:
+          "Tu hijo recibira la atención personalizada que necesita para desarrollar todo su potencial.",
+        img: "/img/difPreescolar4.png",
       },
     ],
     valores: {
