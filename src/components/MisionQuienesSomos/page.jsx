@@ -19,7 +19,7 @@ export default function MisionQuienesSomos() {
               Misión
             </h2>
             <p className="text-lg xs:text-xl sm:text-2xl text-justify">
-              Nuestro propósito es ser aliado en la educación, con el fin de
+              Nuestro propósito es ser un aliado en la educación, con el fin de
               maximizar el potencial de nuestros estudiantes a través de un
               aprendizaje intuitivo adaptable, lúdico e incluyente.
             </p>

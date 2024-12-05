@@ -3,26 +3,26 @@ import CountUp from "react-countup"
 
 export default function CounterHeader() {
   return (
-    <div className="w-11/12 sm:w-fit bg-amarilloLR text-azulLR sm:px-16 flex flex-col sm:flex-row justify-between items-center py-4 rounded-t-2xl gap-6 xl:gap-10 dropShadow5 mb-10">
+    <div className="w-11/12 sm:w-fit bg-amarilloLR text-azulLR sm:px-28 flex flex-col sm:flex-row justify-between items-center py-4 rounded-t-2xl gap-6 xl:gap-10 dropShadow5 mb-10">
       <div className=" flex gap-6 xl:gap-10">
         <div className="flex flex-col text-center">
           <CountUp
             className="text-5xl font-[baloo-bold]"
-            end={42}
+            end={3}
             duration={4}
           />
           <p className="text-xl leading-none font-bold">
-            Años de <br /> experiencia
+            Sedes a nivel <br /> nacional
           </p>
         </div>
         <div className="flex flex-col text-center">
           <CountUp
             className="text-5xl font-[baloo-bold]"
-            end={66}
+            end={26}
             duration={4}
           />
           <p className="text-xl leading-none font-bold">
-            Países <br /> alcanzados
+            Años de <br /> experiencia
           </p>
         </div>
       </div>
@@ -30,21 +30,12 @@ export default function CounterHeader() {
         <div className="flex flex-col text-center">
           <CountUp
             className="text-5xl font-[baloo-bold]"
-            end={65}
+            end={1772}
             duration={4}
+            separator=""
           />
           <p className="text-xl leading-none font-bold">
-            Millones de <br /> usuarios
-          </p>
-        </div>
-        <div className="flex flex-col text-center">
-          <CountUp
-            className="text-5xl font-[baloo-bold]"
-            end={22}
-            duration={4}
-          />
-          <p className="text-xl leading-none font-bold">
-            Soluciones <br /> creadas
+            Alumnos <br /> alcanzados
           </p>
         </div>
       </div>

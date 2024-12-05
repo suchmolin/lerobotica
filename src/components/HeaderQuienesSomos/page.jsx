@@ -11,8 +11,8 @@ export default function HeaderQuienesSomos() {
         </h1>
         <div className="text-lg sm:text-2xl flex flex-col gap-3 xl:pr-20 mx-8 sm:mx-0">
           <p>
-            Somos un instituto de Robótica y Programación fundamentado en el
-            Sistema de Aprendizaje LEGO para niños de preescolar a secundaria.
+            Somos un instituto de Robótica y Programación para niños
+            fundamentado en el Sistema de Aprendizaje LEGO.
           </p>
           <p className="">
             Nuestras construcciones estimulan la creatividad de tu hijo,
