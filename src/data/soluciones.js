@@ -11,7 +11,6 @@ export const data = [
     habilidades: [
       "Introduce conceptos básicos de programación",
       "Favorece el desarrollo de habilidades tempranas en STEAM",
-      "Proporciona una experiencia lúdica multisensorial.",
     ],
     img: "/img/codingExpress.png",
     color: "#FF8200",
@@ -26,8 +25,8 @@ export const data = [
       "El hardware incluye un concentrador de 2 puertos, 3 motores y un HUB ",
     ],
     habilidades: [
-      "Sensores avanzados: Los niños pueden interactuar con el entorno utilizando sensores de distancia y color.",
-      "Diseño modular: Los componentes del set permiten una construcción flexible y facilitan la creación de proyectos únicos y personalizados.",
+      "Interactuar con el entorno, utilizando sensores de distancia y color.",
+      "Diseño modular y principios de construcción flexible. ",
     ],
     img: "/img/spikePrime.png",
     color: "#005EB8",
@@ -42,9 +41,9 @@ export const data = [
       "Un paquete de elementos de reemplazo, que contiene duplicados de las piezas que se pierden con mayor frecuencia.",
     ],
     habilidades: [
-      "Comprensión del movimiento: Los niños exploran cómo funcionan las fuerzas y el movimiento.",
-      "Construcción activa: Fomenta el aprendizaje a través de la acción.",
-      "Desarrollo de la curiosidad científica: Invita a los niños a formular preguntas y experimentar con diferentes diseños para ver cómo afectan el rendimiento de sus creaciones.",
+      " Cómo funcionan las fuerzas y el movimiento.",
+      "El aprendizaje a través de la acción.",
+      "La curiosidad científica: Invita a los niños a formular preguntas y experimentar con diferentes diseños para ver cómo afectan el rendimiento de sus creaciones.",
     ],
     img: "/img/bricqMotionEssential.png",
     color: "#309B42",
@@ -61,7 +60,6 @@ export const data = [
     habilidades: [
       "Aprendizaje práctico de ciencias: A través de la construcción de robots, los niños exploran conceptos de mecánica y física.",
       "Programación interactiva: Los alumnos aprenden a programar de forma sencilla y visual con Scratch.",
-      "Desarrollo de la curiosidad: Al experimentar con diferentes configuraciones y programaciones.",
     ],
     img: "/img/spikeEssential.png",
     color: "#2DADBE",
