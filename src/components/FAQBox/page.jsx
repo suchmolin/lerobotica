@@ -37,9 +37,13 @@ export default function FAQBox({ data, fondo, texto }) {
                   <>
                     <p
                       key={i}
-                      className={`group-open:animate-fadeIn mt-3 ${texto || "text-neutral-600"} flex gap-2`}
+                      className={`group-open:animate-fadeIn mt-3 ${texto || "text-neutral-600"}`}
                     >
-                      {res.tit && <span className="font-bold">{res.tit}</span>}{" "}
+                      {res.tit && (
+                        <span className="font-bold whitespace-nowrap">
+                          {res.tit}
+                        </span>
+                      )}{" "}
                       {res.res}
                     </p>
                   </>

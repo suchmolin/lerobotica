@@ -24,9 +24,9 @@ export default function HeaderHome(props) {
       </div>
       <div className="relative w-full lg:w-7/12 xl:w-6/12 h-full flex items-end justify-center lg:pr-10 pt-24 lg:pt-0">
         <div className="flex flex-col items-center">
-          <div className="relative w-[280px] xs:w-[360px] sm:w-[450px] aspect-square ml-10">
+          <div className="relative w-[280px] xs:w-[360px] sm:w-[450px] aspect-square ml-10 -mb-2">
             <Image
-              src="/img/ninoHero.png"
+              src="/img/ninoHeronueva.png"
               layout="fill"
               objectFit="contain"
               objectPosition="bottom"
