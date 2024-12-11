@@ -34,7 +34,7 @@ export default function OpinionesMestros() {
               <div className="w-11/12 justify-center items-center rounded-xl sm:rounded-2xl bg-amarilloLR p-3 sm:p-5">
                 <video
                   key={item.id}
-                  className={`rounded-lg sm:rounded-xl`}
+                  className={`rounded-lg sm:rounded-xl w-full`}
                   controls
                   src={item.src}
                   poster={item.poster}
