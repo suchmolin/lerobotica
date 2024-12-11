@@ -13,7 +13,7 @@ export default function Home() {
       <SistemaHome />
       <DifHome />
       <NuestrosCursosHome />
-      <OpinionesMestros />
+      {<OpinionesMestros />}
       <FAQ />
     </main>
   )

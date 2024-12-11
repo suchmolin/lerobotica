@@ -7,8 +7,8 @@ import RobotsEscondidos from "../RobotsEscondidos/page"
 
 export default function FAQ() {
   return (
-    <div className="relative w-full flex flex-col justify-center items-center  overflow-hidden">
-      <div className="sm:absolute -top-36 lg:-top-5 xl:top-0 right-0">
+    <div className="relative w-full flex flex-col justify-center items-center  overflow-hidden pt-10">
+      <div className="sm:absolute -top-36 lg:-top-5 xl:top-10 right-0">
         <div className="relative aspect-square w-[175px]">
           <Image
             src="/img/legoRojo3.png"
@@ -74,7 +74,7 @@ export default function FAQ() {
           </Slide>
         </div>
       </div>
-      <div className="absolute top-20 lg:top-0 left-0 hidden sm:block">
+      <div className="absolute top-20 lg:top-10 left-0 hidden sm:block">
         <div className="relative aspect-square w-[175px]">
           <Image
             src="/img/legoAzulBlur2.png"

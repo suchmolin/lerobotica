@@ -51,8 +51,8 @@ export default function SistemaHome() {
                 crítico de tu hijo.
               </p>
             </div>
-            <div className="absolute -top-10 sm:top-0 xxl:top-10 right-[30%] sm:right-[40%] lg:right-32">
-              <div className="relative aspect-square w-[130px]">
+            <div className="absolute -top-10 sm:top-0 xxl:top-0 right-[30%] sm:right-[40%] lg:right-32">
+              <div className="relative aspect-square w-[110px]">
                 <Image
                   src="/img/legoAzul.png"
                   layout="fill"
@@ -62,7 +62,7 @@ export default function SistemaHome() {
               </div>
             </div>
             <div className="absolute hidden lg:block -bottom-10 xxl:bottom-0 right-52">
-              <div className="relative aspect-square w-[175px]">
+              <div className="relative aspect-square w-[130px]">
                 <Image
                   src="/img/legoRojo.png"
                   layout="fill"
