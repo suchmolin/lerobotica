@@ -12,11 +12,14 @@ export default function HeaderEtapa({ data }) {
           className="sm:w-9/12 xl:w-8/12 xxl:w-7/12 flex justify-center lg:justify-end items-center"
         >
           <div className="relative w-full flex flex-col justify-center  lg:pl-32 xxl:pl-60 mt-5 mb-5 sm:mb-20 z-10">
-            <h1 className="text-azulLR text-4xl xs:text-5xl sm:text-6xl xl:text-7xl font-[baloo-bold] px-3 xs:px-8 sm:px-0 text-center sm:text-start">
+            <h1 className="text-azulLR text-4xl xs:text-5xl sm:text-6xl xl:text-7xl font-[baloo-bold] px-3 xs:px-8 sm:px-0 text-center sm:text-start ">
               {data.title}
-              <br />
-              {data.edad}
             </h1>
+
+            <h2 className="text-azulLR text-3xl font-[baloo-bold] text-center sm:text-start ">
+              {data.edad}
+            </h2>
+
             <div className="hidden lg:block">
               {data.descripcion.map((item) => (
                 <p
