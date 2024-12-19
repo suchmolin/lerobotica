@@ -18,12 +18,12 @@ export default function NuestrosCursosHome() {
             />
           </div>
         </div>
-        <div className="w-full flex justify-between sm:justify-center">
-          <div className="w-6/12 md:w-5/12 flex md:justify-center items-end">
-            <div className="w-4/6 md:w-3/6 h-20 bg-azulLR rounded-t-[40px]"></div>
+        <div className="w-full flex justify-between sm:justify-center px-5 sm:px-20">
+          <div className="w-6/12 flex md:justify-center items-center">
+            <div className="w-5/6 sm:w-4/6 h-16 sm:h-24 bg-azulLR rounded-t-[10px]"></div>
           </div>
-          <div className="w-6/12 md:w-5/12 flex justify-end md:justify-center items-end">
-            <div className="w-4/6 md:w-3/6 h-20 bg-azulLR rounded-t-[40px]"></div>
+          <div className="w-6/12 flex justify-end md:justify-center items-end">
+            <div className="w-5/6 sm:w-4/6 h-16 sm:h-24 bg-azulLR rounded-t-[10px]"></div>
           </div>
         </div>
         <div className="absolute top-0 right-0 hidden md:block z-20">
@@ -38,7 +38,7 @@ export default function NuestrosCursosHome() {
         </div>
       </div>
       <div className="w-full flex justify-center -mt-1">
-        <div className="relative w-full xl:w-11/12 sm:rounded-t-[40px] bg-azulLR text-white xs:px-10 pb-20">
+        <div className="relative w-full xl:w-11/12 sm:rounded-t-[10px] bg-azulLR text-white xs:px-10 pb-20">
           <h2 className="text-6xl py-10 font-[baloo-bold] text-center">
             Nuestros cursos
           </h2>

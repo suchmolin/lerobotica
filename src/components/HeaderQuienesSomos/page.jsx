@@ -22,7 +22,7 @@ export default function HeaderQuienesSomos() {
       </div>
       <div className="relative w-full lg:w-7/12 xl:w-6/12 h-full flex items-end justify-center lg:pr-10 lg:pt-0">
         <div className="flex flex-col items-center">
-          <div className="relative w-[280px] xs:w-[360px] sm:w-[500px] aspect-square ml-10">
+          <div className="relative w-[280px] xs:w-[360px] sm:w-[500px] aspect-square">
             <Image
               src="/img/robotQuienesSomos.png"
               layout="fill"

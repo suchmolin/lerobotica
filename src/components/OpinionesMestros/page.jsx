@@ -27,15 +27,15 @@ export default function OpinionesMestros() {
           const sel = vidSelected === item.id
           return sel ? (
             <div className="w-full flex flex-col items-center">
-              <div className="w-full px-10 sm:px-32 flex justify-between -mb-1">
+              <div className="w-full px-12 sm:px-24 md:px-32 flex justify-between -mb-1">
                 {[...Array(2)].map(() => (
-                  <div className="w-4/12 h-[35px] sm:h-[50px] bg-amarilloLR rounded-t-2xl"></div>
+                  <div className="w-5/12 h-[30px] sm:h-[45px] lg:h-[65px] bg-amarilloLR rounded-t-[5px] sm:rounded-t-[10px]"></div>
                 ))}
               </div>
-              <div className="w-11/12 justify-center items-center rounded-xl sm:rounded-2xl bg-amarilloLR p-3 sm:p-5">
+              <div className="w-11/12 justify-center items-center rounded-t-xl sm:rounded-t-[10px] bg-amarilloLR p-3 sm:p-5">
                 <video
                   key={item.id}
-                  className={`rounded-lg sm:rounded-xl w-full`}
+                  className={`rounded-lg sm:rounded-t-xl w-full`}
                   controls
                   src={item.src}
                   poster={item.poster}
