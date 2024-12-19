@@ -3,7 +3,13 @@ import { OpenModalContext } from "@/context/openModal"
 import Image from "next/image"
 import { useContext } from "react"
 
-export default function RobotsEscondidos({ idRobot, mirror, size, position }) {
+export default function RobotsEscondidos({
+  idRobot,
+  mirror,
+  size,
+  position,
+  click,
+}) {
   const { robotsCount, checkRobotsCount } = useContext(OpenModalContext)
   const sizeRobot = size === "sm" ? "w-10 h-24" : "w-20 h-52"
 

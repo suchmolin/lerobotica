@@ -58,7 +58,7 @@ export default function NavMenu(props) {
           <Link
             aria-label="Home LeRobotica"
             href="/"
-            className="cursor-pointer h-fit"
+            className="cursor-pointer h-fit hover:scale-105 transition-all duration-300"
           >
             <SvgLogoHorizontal />
           </Link>

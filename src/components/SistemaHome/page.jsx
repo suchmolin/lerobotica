@@ -89,6 +89,7 @@ export default function SistemaHome() {
           <RobotsEscondidos
             position="bottom-[40%] md:bottom-0 xl:bottom-32 right-0"
             idRobot="sistemahomerobot"
+            click={true}
           />
         </div>
         <div className="sm:hidden">
