@@ -4,7 +4,7 @@ export const data = [
     pregunta: "¿Cómo inscribo a mi hijo en un curso?",
     respuesta: [
       {
-        res: "Comunicate con nuestro Departamento de Atención al Cliente, que te brindará toda la información necesaria sobre nuestros cursos y horarios disponibles.",
+        res: "Comunícate con nuestro Departamento de Atención al Cliente, que te brindará toda la información necesaria sobre nuestros cursos y horarios disponibles.",
       },
     ],
   },
@@ -14,7 +14,7 @@ export const data = [
     respuesta: [
       {
         tit: "Nuestra metodología: Aprender Jugando,",
-        res: "impulsa a los niños a desarrollar su lógica, mediante actividades creativas y construcciones.",
+        res: "impulsa a los niños a desarrollar su lógica mediante actividades creativas y construcciones.",
       },
     ],
   },

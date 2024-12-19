@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 export default function CardCursos({ data }) {
-  const { title, edad, icon, img } = data.cursoTarjeta
+  const { icon, img } = data.cursoTarjeta
   return (
     <div className="cardFace front rounded-t-[40px] overflow-hidden">
       <div className="relative w-full h-[320px]">

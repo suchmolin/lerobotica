@@ -66,7 +66,7 @@ const Footer = () => {
       <div className="w-full border-t-2 border-t-gray-100 flex justify-center items-center flex-col bg-gray-100">
         <div className="w-10/12 lg:w-7/12 flex flex-col sm:flex-row gap-4 items-center justify-center px-10 md:px-0 py-5 bg-[#FFD100] -mt-9">
           <h2 className="text-lg md:text-2xl  font-[baloo-bold] text-center sm:text-start">
-            Trae a Lerobotica a tu escuela o ciudad
+            Trae a LeRobotica a tu escuela o ciudad
           </h2>
           <RequestMeetingButton />
         </div>
@@ -77,13 +77,12 @@ const Footer = () => {
                 src="/img/Logo-Lerobotica-RGB.png"
                 layout="fill"
                 objectFit="contain"
-                alt="logo de lerobotica"
+                alt="logo de LeRobotica"
               />
             </div>
-            <div className="w-11/12 sm:w-9/12 px-4 mt-5 md:mt-0 flex flex-col justify-center md:justify-start md:text-start  text-center sm:text-start sm:pl-10 xl:pl-20">
+            <div className="w-11/12 sm:w-9/12 px-4 mt-5 md:mt-0 flex flex-col justify-center md:justify-start md:text-start  text-center sm:text-start sm:pl-10 xl:pl-20 items-center sm:items-start">
               <p className="w-64 xs:w-80 sm:w-8/12 mb-4 py-1">
-                Mantente al día con todas las iniciativas y actividades de
-                Lerobótica
+                Mantente al día con nuestras novedades
               </p>
               <div className="flex items-center">
                 <input
@@ -168,7 +167,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col sm:flex-row sm:gap-10 md:gap-20 justify-center text-center">
           <Link href="/PoliticasdePrivacidad">Términos y condiciones</Link>
-          <p>Desarrollado y creado por Lerobotica</p>
+          <p>Desarrollado y creado por LeRobotica</p>
         </div>
       </div>
     </footer>

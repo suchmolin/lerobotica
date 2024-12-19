@@ -5,11 +5,11 @@ import CounterHeader from "../CounterHeader/page"
 export default function HeaderQuienesSomos() {
   return (
     <div className="firstSec relative w-full lg:h-[700px] flex flex-col lg:flex-row justify-end overflow-hidden mb-20">
-      <div className="relative sm:w-8/12 lg:w-5/12 flex flex-col justify-center sm:pl-10 lg:pl-10 mt-5 z-10">
+      <div className="relative sm:w-8/12 md:w-[650px] xxl:w-5/12 flex flex-col justify-center sm:pl-10 lg:pl-10 mt-5 z-10">
         <h1 className="text-azulLR text-4xl xs:text-5xl sm:text-6xl lg:text-7xl font-[baloo-bold] px-8 sm:px-0 mb-3">
           ¿Qué es <br /> LeRobotica?
         </h1>
-        <div className="text-lg sm:text-2xl flex flex-col gap-3 xl:pr-20 mx-8 sm:mx-0">
+        <div className="text-lg sm:text-2xl flex flex-col gap-3 px-8 xs:px-10 sm:px-0">
           <p>
             Somos un instituto de Robótica y Programación para niños
             fundamentado en el Sistema de Aprendizaje LEGO.

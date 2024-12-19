@@ -56,7 +56,7 @@ export default function NavMenu(props) {
           </div>
 
           <Link
-            aria-label="Home Lerobotica"
+            aria-label="Home LeRobotica"
             href="/"
             className="cursor-pointer h-fit"
           >

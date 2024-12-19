@@ -41,9 +41,9 @@ export const data = [
       "Un paquete de elementos de reemplazo, que contiene duplicados de las piezas que se pierden con mayor frecuencia.",
     ],
     habilidades: [
-      " Cómo funcionan las fuerzas y el movimiento.",
+      "Conocimiento de cómo funcionan las fuerzas y el movimiento.",
       "El aprendizaje a través de la acción.",
-      "La curiosidad científica: Invita a los niños a formular preguntas y experimentar con diferentes diseños para ver cómo afectan el rendimiento de sus creaciones.",
+      "La curiosidad científica",
     ],
     img: "/img/bricqMotionEssential.png",
     color: "#309B42",
@@ -58,8 +58,8 @@ export const data = [
       "El hardware incluye un concentrador de 2 puertos, 2 motores pequeños, una matriz de luz y un sensor de color.",
     ],
     habilidades: [
-      "Aprendizaje práctico de ciencias: A través de la construcción de robots, los niños exploran conceptos de mecánica y física.",
-      "Programación interactiva: Los alumnos aprenden a programar de forma sencilla y visual con Scratch.",
+      "Aprendizaje práctico de ciencias.",
+      "Programación interactiva.",
     ],
     img: "/img/spikeEssential.png",
     color: "#2DADBE",
@@ -74,8 +74,8 @@ export const data = [
       "Un paquete de elementos de reemplazo, que contiene duplicados de las piezas que se pierden con mayor frecuencia",
     ],
     habilidades: [
-      "Interacción física: Los niños construyen y experimentan con mecanismos de movimiento.",
-      "Exploración de la energía: A través de actividades que involucran la energía cinética y potencial.",
+      "Interacción con la física del movimiento.",
+      "Exploración de la energía cinética y potencial.",
     ],
     img: "/img/bqmp.png",
     color: "#AF1685",

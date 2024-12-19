@@ -51,7 +51,7 @@ const WelcomeTeacherResources = () => {
           >
             <div className="relative w-[290px] xs:w-[350px] sm:w-[650px] lg:w-[500px] xl:w-[700px] aspect-square">
               <Image
-                src="/img/headerrpm.png"
+                src="/img/headerrpmnueva.png"
                 layout="fill"
                 objectPosition="right"
                 objectFit="contain"

@@ -5,11 +5,13 @@ export default function CardBlog({ data, selected, setSelected }) {
     <button
       onClick={() => {
         setSelected(data.id)
-        if (screen.width < 768) {
-          document
-            .getElementById("blogBox")
-            .scrollIntoView({ behavior: "smooth" })
-        }
+
+        const element = document.getElementById("blogBox")
+        const offset = screen.width > 768 ? -60 : -90 // Ajuste de 20px más arriba
+        const elementPosition =
+          element.getBoundingClientRect().top + window.pageYOffset + offset
+
+        window.scrollTo({ top: elementPosition, behavior: "smooth" })
       }}
       className={`group w-[300px] md:w-[240px] lg:w-[300px] p-4 rounded-t-2xl bg-gray-100 flex flex-col border-amarilloLR transition-all duration-300 ${selected === data.id ? "border-b-4 dropShadow3 scale-105" : ""} hover:scale-105`}
     >

@@ -28,8 +28,9 @@ export default function OpinionesMestros() {
           return sel ? (
             <div className="w-full flex flex-col items-center">
               <div className="w-full px-10 sm:px-32 flex justify-between -mb-1">
-                <div className="w-4/12 h-[35px] sm:h-[50px] bg-amarilloLR rounded-t-2xl"></div>
-                <div className="w-4/12 h-[35px] sm:h-[50px] bg-amarilloLR rounded-t-2xl"></div>
+                {[...Array(2)].map(() => (
+                  <div className="w-4/12 h-[35px] sm:h-[50px] bg-amarilloLR rounded-t-2xl"></div>
+                ))}
               </div>
               <div className="w-11/12 justify-center items-center rounded-xl sm:rounded-2xl bg-amarilloLR p-3 sm:p-5">
                 <video
@@ -50,7 +51,7 @@ export default function OpinionesMestros() {
                 }, 300)
               }}
               key={item.id}
-              className={`relative rounded-2xl w-3/12 h-[100px] sm:h-[130px] lg:h-[170px] order-2 transition-all duration-700 cursor-pointer flex items-center justify-center overflow-hidden group`}
+              className={`relative rounded-2xl w-3/12 h-[100px] sm:h-[130px] lg:h-[140px] order-2 transition-all duration-700 cursor-pointer flex items-center justify-center overflow-hidden group`}
             >
               <Image
                 src={item.poster}
@@ -60,7 +61,7 @@ export default function OpinionesMestros() {
                 alt="item.id"
                 className="blur-[2px] group-hover:blur-0 transition-all duration-300"
               />
-              <FaPlay className="text-3xl sm:text-5xl opacity-20 text-white" />
+              <FaPlay className="text-3xl sm:text-4xl opacity-90 text-white group-hover:opacity-20 transition-all duration-300" />
             </button>
           )
         })}

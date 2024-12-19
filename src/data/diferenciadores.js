@@ -3,14 +3,14 @@ export const data = [
     id: "1",
     title: "¡Aprenden jugando!",
     description:
-      "Tu hijo, aprende divirtiéndose a través de clases dinámicas y juegos. Aprender mediante el juego fomenta el compromiso de los niños con las clases y en LeRobotica lo sabemos.",
+      "Tu hijo aprende divirtiéndose a través de clases dinámicas y juegos. Aprender mediante el juego fomenta el compromiso de los niños con las clases y en LeRobotica lo sabemos.",
     icon: "/img/difBombillo.png",
   },
   {
     id: "2",
     title: "Expresan ideas, exploran soluciones",
     description:
-      "En LeRobótica, la imaginación de tu hijo no tendra límites. A través de actividades creativas y construcciones innovadoras, aprende a transformar sus ideas en realidad.",
+      "En LeRobótica, la imaginación de tu hijo no tendrá límites. A través de actividades creativas y construcciones innovadoras, aprende a transformar sus ideas en realidad.",
     icon: "/img/difLego.png",
   },
   {

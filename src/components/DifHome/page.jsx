@@ -4,7 +4,7 @@ export default function DifHome() {
   return (
     <div className="w-full flex flex-col items-center pt-5 pb-20">
       <h2 className="text-4xl xs:text-5xl font-[baloo-bold] text-azulLR text-center mb-7">
-        Los niños en Lerobotica:
+        Los niños en LeRobotica:
       </h2>
       <div className="flex gap-7 justify-center flex-wrap">
         {data?.map((dif) => (

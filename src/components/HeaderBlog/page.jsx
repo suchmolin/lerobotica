@@ -6,7 +6,7 @@ export default function HeaderBlog() {
     <div className="firstSec relative w-full flex flex-col-reverse lg:flex-row items-center  lg:justify-end">
       <div className="w-10/12 md:w-8/12 lg:w-5/12 flex flex-col justify-center text-azulLR mb-10 xs:mb-20 lg:mb-0">
         <h1 className="text-4xl ml-5 sm:text-6xl xl:text-7xl font-[baloo-bold]">
-          La Robotica y la Programación presentes en el día a día
+          La Robótica y la Programación presentes en el día a día
         </h1>
       </div>
       <div className="w-full lg:w-6/12 flex justify-center items-center">

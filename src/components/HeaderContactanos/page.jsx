@@ -49,11 +49,11 @@ export default function HeaderContactanos() {
             triggerOnce
             direction="right"
             delay={100}
-            className="absolute -top-2 right-0"
+            className="absolute top-8 sm:top-12 lg:top-10 xxl:top-6 right-16 sm:right-20"
           >
-            <div className="relative w-[290px] xs:w-[350px] sm:w-[650px] lg:w-[500px] xl:w-[600px] aspect-square">
+            <div className="relative w-[290px] xs:w-[350px] sm:w-[650px] lg:w-[500px] xl:w-[650px] aspect-square">
               <Image
-                src="/img/robotcuadroazul.png"
+                src="/img/robotcuadroazulnueva.png"
                 layout="fill"
                 objectPosition="right"
                 objectFit="contain"

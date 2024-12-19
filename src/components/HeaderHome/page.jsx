@@ -31,6 +31,7 @@ export default function HeaderHome(props) {
               objectFit="contain"
               objectPosition="bottom"
               alt="niño sonriendo mientras juega con legos"
+              priority
             />
           </div>
           <CounterHeader />

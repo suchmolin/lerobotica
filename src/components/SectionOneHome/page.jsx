@@ -9,7 +9,7 @@ const SectionOneHome = () => {
       <div className="w-full text-center overflow-hidden transition-all duration-[1500ms] h-[515px] bg-[#ffd500] flex flex-col flex-wrap items-center  lg:justify-center pt-28 lg:pt-0">
         <div className="w-12/12 md:w-10/12 lg:w-8/12">
           <h1 className="flex flex-col text-4xl md:text-5xl lg:text-6xl font-bold">
-            Lerobotica{" "}
+            LeRobotica{" "}
             <span className="text-2xl sm:text-3xl">
               inspira un aprendizaje sobre el que puedes construir
             </span>

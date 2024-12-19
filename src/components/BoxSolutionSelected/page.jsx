@@ -17,7 +17,7 @@ export default function BoxSolutionSelected({ data }) {
           ))}
         </ul>
         <h2 className="text-5xl font-[baloo-bold] mb-5 text-azulLR">
-          Desarrollan habilidades como:
+          Tu hijo desarrolla habilidades como:
         </h2>
         {data.habilidades.map((habilidad, i) => (
           <div key={i} className="flex gap-4 items-center mb-2">
