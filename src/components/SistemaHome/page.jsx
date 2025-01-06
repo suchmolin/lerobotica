@@ -66,9 +66,9 @@ export default function SistemaHome() {
                   Descubre el Sistema de Aprendizaje LEGO
                 </h2>
                 <p className="text-xl xs:text-2xl xl:text-2xl py-2 text-center lg:text-start pb-10 xs:pb-0">
-                  Su diseño práctico, intuitivo y adaptable, junto con su
-                  enfoque lúdico e inclusivo, estimula la creatividad y el
-                  pensamiento crítico de tu hijo.
+                  Estimula la creatividad y el pensamiento crítico de tu hijo,
+                  gracias a su enfoque lúdico e inclusivo con diseño práctico e
+                  intuitivo.
                 </p>
               </div>
 

@@ -21,14 +21,31 @@ export default function HeaderEtapa({ data }) {
             </h2>
 
             <div className="hidden lg:block">
-              {data.descripcion.map((item) => (
-                <p
-                  key={item.id}
-                  className="text-xl py-2 lg:pr-10 xl:pr-32 px-3 xs:px-8 sm:px-0 mb-3"
-                >
-                  {item}
-                </p>
-              ))}
+              {data.descripcion.map((item) => {
+                return item.indexOf("<b>") >= 0 ? (
+                  <p
+                    key={"texto" + item.id}
+                    className="text-xl py-2 lg:pr-10 xl:pr-32 px-3 xs:px-8 sm:px-0 mb-3"
+                  >
+                    {item.slice(0, item.indexOf("<b>"))}
+                    <b>
+                      {item.slice(
+                        item.indexOf("<b>") + 3,
+                        item.indexOf("</b>")
+                      )}
+                    </b>
+
+                    {item.slice(item.indexOf("</b>") + 4, item.lenght)}
+                  </p>
+                ) : (
+                  <p
+                    key={item.id}
+                    className="text-xl py-2 lg:pr-10 xl:pr-32 px-3 xs:px-8 sm:px-0 mb-3"
+                  >
+                    {item}
+                  </p>
+                )
+              })}
             </div>
           </div>
         </Slide>

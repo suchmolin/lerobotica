@@ -18,7 +18,7 @@ export const data = [
       "set-de-letras",
     ],
     descripcion: [
-      "En esta etapa, tu hijo crece y aprende de manera integral, desarrollando habilidades como la gestión emocional, el pensamiento matemático y la lectoescritura, a través de actividades prácticas.",
+      "En esta etapa, tu hijo crece y aprende de manera integral, desarrollando habilidades como la <b>gestión emocional, el pensamiento matemático y la lectoescritura</b>, a través de actividades prácticas.",
     ],
     img: "/img/headerPreEscolar.png",
     imgAlt: "/img/headerPreEscolarAlt.png",
@@ -33,28 +33,27 @@ export const data = [
         id: "dif-pre-escolar-1",
         title: "Codificación Básica",
         description:
-          "Tu hijo  aprende a crear animaciones divertidas, diseñar juegos sencillos y hasta construir robots.",
+          "Tu pequeño aprende a crear animaciones divertidas, diseñar juegos sencillos y a construir robots.",
         img: "/img/difPreescolar1.png",
       },
       {
         id: "dif-pre-escolar-2",
         title: "Steam",
         description:
-          "STEAM es una metodología educativa que integra: Ciencia, Tecnología, Ingeniería, Arte y Matemáticas.",
+          "Con la metodología STEAM los niños desarrollan  habilidades en: Ciencia, Tecnología, Ingeniería, Arte y Matemáticas.",
         img: "/img/difPreescolar2.png",
       },
       {
         id: "dif-pre-escolar-3",
         title: "48 horas por módulo",
-        description:
-          "Cada módulo dura 3 meses y requiere una dedicación de 16 horas mensuales.",
+        description: "Cada módulo dura 3 meses.",
         img: "/img/difPreescolar3.png",
       },
       {
         id: "dif-pre-escolar-4",
         title: "8 Alumnos por salón",
         description:
-          "Tu hijo recibirá la atención personalizada que necesita para desarrollar todo su potencial.",
+          " Tu hijo recibe atención personalizada que le permite desarrollar todo su potencial.",
         img: "/img/difPreescolar4.png",
       },
     ],
@@ -79,14 +78,14 @@ export const data = [
         },
         {
           id: "item3",
-          titulo: "Tu hijo mejora sus habilidades lingüísticas y matemáticas",
-          descripcion: "a través del aprendizaje lúdico y práctico.",
+          titulo: "Mejoramos las habilidades lingüísticas y matemáticas",
+          descripcion: " a través del aprendizaje lúdico y práctico.",
           icon: "/img/valoresPreEscolar3.png",
         },
         {
           id: "item4",
-          descripcion:
-            "Mediante actividades interactivas, los niños aprenden a resolver problemas y a pensar de manera crítica. ",
+          titulo: "Desarrollamos el pensamientoh de manera crítica.",
+
           icon: "/img/valoresPreEscolar4.png",
         },
       ],
@@ -121,7 +120,7 @@ export const data = [
       "maquinas-simples",
     ],
     descripcion: [
-      "Esta etapa presenta una divertida metodología que invita al alumno a motivarse y desarrollar sus competencias socioemocionales, lingüísticas y matemáticas a través del Sistema de Aprendizaje LEGO.",
+      "Con una divertida metodología motivamos a los alumnos a desarrollar sus competencias <b>socioemocionales, lingüísticas y matemáticas</b> a través del Sistema de Aprendizaje LEGO.",
     ],
     img: "/img/headerPrimariaBaja.png",
     imgAlt: "/img/headerPrimariaBajaAlt.png",
@@ -139,28 +138,27 @@ export const data = [
         id: "dif-primaria-baja-1",
         title: "Resolución de problemas",
         description:
-          "Tu hijo aprende a pensar de manera lógica y a descomponer problemas complejos en partes manejables.",
+          "Los niños desarrollan el pensamiento lógico y a descomponer problemas complejos en partes manejables.",
         img: "/img/difPrimariaBaja1.png",
       },
       {
         id: "dif-primaria-baja-2",
         title: "Programación básica",
         description:
-          "Tu hijo aprende a convertir sus ideas en realidad y a entender cómo funciona la tecnología que lo rodea.",
+          "Tu hijo aprende a convertir sus ideas en realidad y a entender cómo funciona la tecnología que los rodea.",
         img: "/img/difPrimariaBaja2.png",
       },
       {
         id: "dif-primaria-baja-3",
         title: "48 horas por módulo",
-        description:
-          "Cada módulo dura 3 meses y requiere una dedicación de 16 horas mensuales.",
+        description: "Cada módulo dura 3 meses ",
         img: "/img/difPreescolar3.png",
       },
       {
         id: "dif-primaria-baja-4",
         title: "8 Alumnos por salón",
         description:
-          "Tu hijo recibirá la atención personalizada que necesita para desarrollar todo su potencial.",
+          "Tu pequeño recibe la atención personalizada que necesita para desarrollar todo su potencial.",
         img: "/img/difPreescolar4.png",
       },
     ],
@@ -183,14 +181,14 @@ export const data = [
         {
           id: "item3",
           titulo:
-            "Los niños se sumergen en los fundamentos del diseño técnico,",
-          descripcion: "explorando elementos como la geometría.",
+            "Sumergimos a los alumnos en los fundamentos del diseño técnico,",
+          descripcion: " explorando elementos como la geometría.",
           icon: "/img/valoresPrimariaBaja3.png",
         },
         {
           id: "item4",
-          titulo: "Tu hijo desarrolla competencias socioemocionales,",
-          descripcion: "lingüísticas y matemáticas.",
+          titulo: "Desarrollamos competencias socioemocionales,",
+          descripcion: " lingüísticas y matemáticas.",
           icon: "/img/valoresPrimariaBaja4.png",
         },
       ],
@@ -227,7 +225,7 @@ export const data = [
       "expansion-de-neumatica",
     ],
     descripcion: [
-      "Con los sets, los niños aprenden robótica y programación de forma sencilla e intuitiva con bloques de programación basados en Python, utilizando la aplicación LEGO Education SPIKE PRIME.",
+      "Los niños aprenden <b>robótica y programación</b> de forma sencilla e intuitiva con bloques de programación basados en Python, utilizando la aplicación LEGO Education SPIKE PRIME.",
     ],
     img: "/img/headerPrimariaAltanueva.png",
     imgAlt: "/img/headerPrimariaAltaAlt.png",
@@ -243,23 +241,22 @@ export const data = [
     dif: [
       {
         id: "dif-primaria-alta-1",
-        title: "Robótica y programación",
+        title: "Robótica",
         description:
-          "Los niños aprenden a diseñar y programar robots, desarrollando su creatividad.",
+          "Los niños aprenden a diseñar y programar robots, mientras desarrollan su creatividad",
         img: "/img/difPrimariaAlta1.png",
       },
       {
         id: "Python básico",
         title: "Python básico",
         description:
-          "Tu hijo aprende a usar bloques de codigo para construir sus propios juegos, animaciones y mucho más.",
+          "Tu pequeño aprende a usar bloques de códigos para construir sus propios juegos, animaciones y mucho más.",
         img: "/img/difPrimariaAlta2.png",
       },
       {
         id: "dif-primaria-alta-3",
         title: "48 horas por módulo",
-        description:
-          "Cada módulo dura 3 meses y requiere una dedicación de 16 horas mensuales.",
+        description: "Cada módulo dura 3 meses.",
         img: "/img/difPreescolar3.png",
       },
       {
@@ -298,8 +295,8 @@ export const data = [
         {
           id: "item4",
           titulo:
-            "Tu hijo aprende a identificar los posibles errores durante el desarrollo de cada actividad",
-          descripcion: "con la finalidad de corregirlos.",
+            "Se aprende a identificar los posibles errores durante el desarrollo de cada actividad",
+          descripcion: " con la finalidad de corregirlos.",
           icon: "/img/valoresPrimariaAlta4.png",
         },
       ],

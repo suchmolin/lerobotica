@@ -1,7 +1,7 @@
 export const data = [
   {
     id: "video1",
-    src: "https://firebasestorage.googleapis.com/v0/b/jsuchmolin-394bd.appspot.com/o/ENTREVISTAANA%202.mp4?alt=media&token=71e680ec-cd92-4128-a66d-725c94eaea57",
+    src: "https://firebasestorage.googleapis.com/v0/b/jsuchmolin-394bd.appspot.com/o/ENTREVISTA%20ANA.mp4?alt=media&token=ea509091-8370-463f-b70b-be73d2f4a6c3",
     poster: "/img/poster1.png",
   },
   {

@@ -22,7 +22,7 @@ export const data = [
     descripcion: [
       "El SPIKE Prime Set contiene 528 elementos",
       "Un hardware inteligente y una colorida selección de ladrillos LEGO familiares, apilables y apropiados para la edad.",
-      "El hardware incluye un concentrador de 2 puertos, 3 motores y un HUB ",
+      "Incluye un concentrador de 2 puertos, 3 motores y un HUB ",
     ],
     habilidades: [
       "Interactuar con el entorno, utilizando sensores de distancia y color.",
@@ -38,7 +38,7 @@ export const data = [
     descripcion: [
       "El BricQ Motion Essential Set contiene 523 elementos de ladrillos LEGO",
       "Dos (2) manuales de construcción para los robots ",
-      "Un paquete de elementos de reemplazo, que contiene duplicados de las piezas que se pierden con mayor frecuencia.",
+      "Un paquete de elementos de reemplazo",
     ],
     habilidades: [
       "Conocimiento de cómo funcionan las fuerzas y el movimiento.",
@@ -55,7 +55,7 @@ export const data = [
     descripcion: [
       "El SPIKE Essential Set contiene 449 elementos.",
       "Un hardware inteligente y una colorida selección de ladrillos LEGO familiares, apilables y apropiados para la edad. ",
-      "El hardware incluye un concentrador de 2 puertos, 2 motores pequeños, una matriz de luz y un sensor de color.",
+      "Incluye un concentrador de 2 puertos, 2 motores pequeños, una matriz de luz y un sensor de color.",
     ],
     habilidades: [
       "Aprendizaje práctico de ciencias.",

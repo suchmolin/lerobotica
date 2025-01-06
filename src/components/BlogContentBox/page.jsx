@@ -32,7 +32,7 @@ export default function BlogContentBox({ data }) {
                 ))
               : ""}
             {item.img ? (
-              <div className="w-full aspect-video relative mb-3">
+              <div className="w-full aspect-video relative mb-3 rounded-xl overflow-hidden">
                 <Image
                   src={item.img}
                   alt={item.id}

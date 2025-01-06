@@ -165,7 +165,7 @@ const Footer = () => {
             <FaFacebook />
           </Link>
         </div>
-        <div className="flex flex-col sm:flex-row sm:gap-10 md:gap-20 justify-center text-center">
+        <div className="flex flex-col sm:flex-row sm:gap-10 md:gap-20 justify-center text-center sm:pr-10 md:pr-20">
           <Link href="/PoliticasdePrivacidad">Términos y condiciones</Link>
           <p>Desarrollado y creado por LeRobotica</p>
         </div>

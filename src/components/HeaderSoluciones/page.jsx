@@ -9,7 +9,7 @@ export default function HeaderSoluciones() {
         </h1>
         <p className="text-2xl xs:text-2xl">
           Los niños aprenden a programar de forma divertida mientras construyen
-          robots y resuelven desafíos
+          robots y resuelven desafíos.
         </p>
       </div>
       <div className="w-full lg:w-7/12 flex justify-center items-center">
