@@ -29,7 +29,9 @@ export default function BlogList() {
           ))}
         </div>
       </div>
-      {currentBlog && <BlogContentBox data={currentBlog} />}
+      <div id="blogBox">
+        {currentBlog && <BlogContentBox data={currentBlog} />}
+      </div>
     </>
   )
 }

@@ -9,7 +9,7 @@ export default function CardBlog({ data, selected, setSelected }) {
         const element = document.getElementById("blogBox")
         const offset = screen.width > 768 ? -60 : -90 // Ajuste de 20px más arriba
         const elementPosition =
-          element.getBoundingClientRect().top + window.pageYOffset + offset
+          element?.getBoundingClientRect().top + window.pageYOffset + offset
 
         window.scrollTo({ top: elementPosition, behavior: "smooth" })
       }}

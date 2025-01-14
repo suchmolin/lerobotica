@@ -1,10 +1,10 @@
-import React from "react"
 import RequestMeetingButton from "../RequestMeetingButton/page"
 import Image from "next/image"
 import Link from "next/link"
 import TeacherResourcesButton from "../TeacherResourcesButton/page"
 import { FaInstagram } from "react-icons/fa6"
 import { FaFacebook } from "react-icons/fa6"
+import FormNewsLetter from "../FormNewsLetter/page"
 
 const Footer = () => {
   const imgFooter = [
@@ -84,19 +84,7 @@ const Footer = () => {
               <p className="w-64 xs:w-80 sm:w-8/12 mb-4 py-1">
                 Mantente al día con nuestras novedades
               </p>
-              <div className="flex items-center">
-                <input
-                  className="w-64 xs:w-80 sm:w-96 h-8 px-3"
-                  placeholder="Correo Electrónico"
-                  type="email"
-                />
-                <button className="-ml-7 hover:scale-110 transition-all duration-300">
-                  <img
-                    className="w-[19px] aspect-square"
-                    src="/img/sendIcon.png"
-                  />
-                </button>
-              </div>
+              <FormNewsLetter />
             </div>
           </div>
           <div className="flex flex-col sm:flex-row justify-center text-center sm:text-start">
@@ -158,10 +146,10 @@ const Footer = () => {
       </div>
       <div className="w-full h-32 sm:h-14  bg-azulLR text-white flex flex-col sm:flex-row justify-center sm:justify-between items-center px-10 py-5 sm:py-0 gap-4 ">
         <div className="flex gap-7 text-2xl">
-          <Link href="#">
+          <Link href="https://www.instagram.com/lerobotica/">
             <FaInstagram />
           </Link>
-          <Link href="#">
+          <Link href="https://www.facebook.com/profile.php?id=100070314396454">
             <FaFacebook />
           </Link>
         </div>

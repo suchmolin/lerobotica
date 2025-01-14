@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function BlogContentBox({ data }) {
   const { contenido } = data
   return (
-    <div id="blogBox" className="w-full flex justify-center sm:pt-10">
+    <div className="w-full flex justify-center sm:pt-10">
       <div className="w-11/12 md:w-8/12 sm:pt-20 md:pt-0">
         {contenido.map((item, i) => (
           <div key={i}>
