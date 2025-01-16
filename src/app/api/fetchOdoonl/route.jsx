@@ -11,9 +11,6 @@ export async function POST(req, res) {
     mode: "no-cors",
     cache: "no-cache",
   })
-  console.log(url)
-  console.log(data)
-  console.log(response)
 
   return response
 }

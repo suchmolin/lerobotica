@@ -61,11 +61,11 @@ export default function SistemaHome() {
             className="w-[360px] sm:w-[660px] lg:w-[500px] xl:w-[600px] xxl:w-[700px]  lg:-ml-10 -mt-20 sm:-mt-32 pb-10 lg:pb-0"
           >
             <div className="w-full h-full relative flex items-center justify-center lg:justify-normal">
-              <div className="flex flex-col justify-center xxl:pr-20 sm:pl-7 xl:pl-5">
+              <div className="flex flex-col justify-center xxl:pr-20 sm:pl-7 xl:pl-5 ">
                 <h2 className="hidden lg:block w-full lg:w-fit text-azulLR text-4xl sm:text-5xl xl:text-6xl font-[baloo-bold] text-center lg:text-start">
                   Descubre el Sistema de Aprendizaje LEGO
                 </h2>
-                <p className="text-xl xs:text-2xl xl:text-2xl py-2 text-center lg:text-start pb-10 xs:pb-0">
+                <p className="text-xl xs:text-2xl xl:text-2xl py-2 text-center lg:text-start pb-20 lg:pb-0">
                   Estimula la creatividad y el pensamiento crítico de tu hijo,
                   gracias a su enfoque lúdico e inclusivo con diseño práctico e
                   intuitivo.
