@@ -84,7 +84,7 @@ export const data = [
         },
         {
           id: "item4",
-          titulo: "Desarrollamos el pensamientoh de manera crítica.",
+          titulo: "Desarrollamos el pensamiento de manera crítica.",
 
           icon: "/img/valoresPreEscolar4.png",
         },
