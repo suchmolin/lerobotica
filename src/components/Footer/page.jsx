@@ -72,14 +72,17 @@ const Footer = () => {
         </div>
         <div className="w-full flex flex-col-reverse sm:flex-col lg:flex-row items-center lg:items-start justify-center py-10 text-xl">
           <div className="flex w-full sm:w-10/12 lg:w-6/12 xl:w-6/12 py-5 justify-center">
-            <div className="hidden sm:block w-[150px] -mt-10 mr-5 h-[200px] relative">
+            <a
+              href="/"
+              className="hidden sm:block w-[150px] -mt-10 mr-5 h-[200px] relative hover:scale-105 transition-all duration-300"
+            >
               <Image
                 src="/img/Logo-Lerobotica-RGB.png"
                 layout="fill"
                 objectFit="contain"
                 alt="logo de LeRobotica"
               />
-            </div>
+            </a>
             <div className="w-11/12 sm:w-9/12 px-4 mt-5 md:mt-0 flex flex-col justify-center md:justify-start md:text-start  text-center sm:text-start sm:pl-10 xl:pl-20 items-center sm:items-start">
               <p className="w-64 xs:w-80 sm:w-8/12 mb-4 py-1">
                 Mantente al día con nuestras novedades
