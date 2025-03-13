@@ -1,6 +1,6 @@
 "use client"
 import { OpenModalContext } from "@/context/openModal"
-import Image from "next/image"
+import Image from "next/legacy/image"
 import { useContext } from "react"
 
 export default function RobotsEscondidos({

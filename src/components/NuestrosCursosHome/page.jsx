@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/legacy/image"
 import CardCursos from "../CardCursos/page"
 import { data } from "@/data/etapas"
 import CardCursosBack from "../CardCursosBack/page"

@@ -2,7 +2,7 @@
 import { Slide } from "react-awesome-reveal"
 import FAQBox from "../FAQBox/page"
 import { data } from "@/data/faq"
-import Image from "next/image"
+import Image from "next/legacy/image"
 import RobotsEscondidos from "../RobotsEscondidos/page"
 
 export default function FAQ() {

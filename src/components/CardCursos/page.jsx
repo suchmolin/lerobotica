@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/legacy/image"
 
 export default function CardCursos({ data }) {
   const { icon, img } = data.cursoTarjeta

@@ -1,5 +1,5 @@
 import RequestMeetingButton from "../RequestMeetingButton/page"
-import Image from "next/image"
+import Image from "next/legacy/image"
 import Link from "next/link"
 import TeacherResourcesButton from "../TeacherResourcesButton/page"
 import { FaInstagram } from "react-icons/fa6"
@@ -81,6 +81,7 @@ const Footer = () => {
                 layout="fill"
                 objectFit="contain"
                 alt="logo de LeRobotica"
+                priority
               />
             </a>
             <div className="w-11/12 sm:w-9/12 px-4 mt-5 md:mt-0 flex flex-col justify-center md:justify-start md:text-start  text-center sm:text-start sm:pl-10 xl:pl-20 items-center sm:items-start">
@@ -149,10 +150,16 @@ const Footer = () => {
       </div>
       <div className="w-full h-32 sm:h-14  bg-azulLR text-white flex flex-col sm:flex-row justify-center sm:justify-between items-center px-10 py-5 sm:py-0 gap-4 ">
         <div className="flex gap-7 text-2xl">
-          <Link href="https://www.instagram.com/lerobotica/">
+          <Link
+            aria-label="instagram link"
+            href="https://www.instagram.com/lerobotica/"
+          >
             <FaInstagram />
           </Link>
-          <Link href="https://www.facebook.com/profile.php?id=100070314396454">
+          <Link
+            aria-label="facebook link"
+            href="https://www.facebook.com/profile.php?id=100070314396454"
+          >
             <FaFacebook />
           </Link>
         </div>

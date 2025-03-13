@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/legacy/image"
 import "./page.css"
 import RequestMeetingButton from "../RequestMeetingButton/page"
 import HelicopterMove from "../HelicopterMove/page"
@@ -26,7 +26,7 @@ export default function HeaderHome(props) {
         <div className="flex flex-col items-center">
           <div className="relative w-[280px] xs:w-[360px] sm:w-[450px] aspect-square ml-10 -mb-2">
             <Image
-              src="/img/ninoHeronueva.png"
+              src="/img/ninoHeronueva.webp"
               layout="fill"
               objectFit="contain"
               objectPosition="bottom"

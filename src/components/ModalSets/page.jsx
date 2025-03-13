@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/legacy/image"
 import { Slide } from "react-awesome-reveal"
 import { IoClose } from "react-icons/io5"
 

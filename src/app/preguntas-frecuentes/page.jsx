@@ -1,6 +1,6 @@
 import FAQBox from "@/components/FAQBox/page"
 import HeaderPreguntasFrecuentes from "@/components/HeaderPreguntasFrecuentes/page"
-import Image from "next/image"
+import Image from "next/legacy/image"
 import { data1, data2, data3 } from "@/data/faq"
 
 export default function PreguntasFrecuentes() {

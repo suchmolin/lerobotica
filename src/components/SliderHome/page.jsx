@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 const SliderHome = () => {
   return (
     <div className="overflow-hidden flex justify-center items-center gap-2 sm:gap-8">

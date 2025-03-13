@@ -45,11 +45,16 @@ export default function FormNewsLetter() {
       />
       <input type="hidden" value="LeRobotica" name="mailing_list" />
       <button
+        aria-label="Enviar"
         id="BtnEnviar2"
         type="submit"
         className="-ml-7 hover:scale-110 transition-all duration-300 disabled:opacity-50 disabled:cursor-wait"
       >
-        <img className="w-[19px] aspect-square" src="/img/sendIcon.png" />
+        <img
+          alt="boton enviar NL"
+          className="w-[19px] aspect-square"
+          src="/img/sendIcon.png"
+        />
       </button>
       {sendedfoot && <SendedMsg msg="¡Gracias por suscribirte!" />}
     </form>

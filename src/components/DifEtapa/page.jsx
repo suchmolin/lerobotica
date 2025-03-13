@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/legacy/image"
 import CardDifEtapa from "../CardDifEtapa/page"
 import CardDifEtapaBack from "../CardDifEtapaBack/page"
 

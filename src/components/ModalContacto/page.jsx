@@ -2,7 +2,7 @@
 import { IoClose } from "react-icons/io5"
 
 import FormContact from "../FormContact/page"
-import Image from "next/image"
+import Image from "next/legacy/image"
 import { useContext } from "react"
 import { OpenModalContext } from "@/context/openModal"
 
