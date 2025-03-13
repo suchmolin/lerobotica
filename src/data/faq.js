@@ -1,6 +1,6 @@
 export const data = [
   {
-    id: "1",
+    id: "faq1",
     pregunta: "¿Cómo inscribo a mi hijo en un curso?",
     respuesta: [
       {
@@ -9,7 +9,7 @@ export const data = [
     ],
   },
   {
-    id: "2",
+    id: "faq2",
     pregunta: "¿Cómo aprende mi hijo en LeRobotica?",
     respuesta: [
       {
@@ -19,7 +19,7 @@ export const data = [
     ],
   },
   {
-    id: "3",
+    id: "faq3",
     pregunta: "¿Cuál es su filosofía de enseñanza?",
     respuesta: [
       {
@@ -28,7 +28,7 @@ export const data = [
     ],
   },
   {
-    id: "4",
+    id: "faq4",
     pregunta: "¿Dónde están ubicados?",
     respuesta: [
       {
@@ -46,7 +46,7 @@ export const data = [
     ],
   },
   {
-    id: "5",
+    id: "faq5",
     pregunta: "Números de contacto",
     respuesta: [
       {

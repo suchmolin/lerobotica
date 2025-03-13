@@ -3,8 +3,6 @@ import { Slide } from "react-awesome-reveal"
 import { IoClose } from "react-icons/io5"
 
 export default function ModalSets({ set, setOpenModalSet }) {
-  console.log(set)
-
   return (
     <div
       className={`fixed top-0 left-0 bg-black/40 w-full h-full flex items-center justify-center z-50`}

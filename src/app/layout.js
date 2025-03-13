@@ -15,7 +15,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className="font-[baloo]">
-        <link rel="shortcut icon" href="/Robot-Lerobotica-RGB.ico" />
         <OpenModalProvider>
           <NavLang />
           <NavMenu />

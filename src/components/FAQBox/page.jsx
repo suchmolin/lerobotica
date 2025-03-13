@@ -7,7 +7,7 @@ export default function FAQBox({ data, fondo, texto }) {
       <div className="mx-auto">
         <div className="mx-auto grid max-w-xl divide-y divide-neutral-200">
           {data?.map((item, index) => (
-            <div key={item.id} className="py-5">
+            <div key={item.pregunta} className="py-5">
               <details className="group">
                 <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
                   <span
@@ -34,19 +34,17 @@ export default function FAQBox({ data, fondo, texto }) {
                   </span>
                 </summary>
                 {item.respuesta.map((res, i) => (
-                  <>
-                    <p
-                      key={i}
-                      className={`group-open:animate-fadeIn mt-3 ${texto || "text-neutral-600"}`}
-                    >
-                      {res.tit && (
-                        <span className="font-bold whitespace-nowrap">
-                          {res.tit}
-                        </span>
-                      )}{" "}
-                      {res.res}
-                    </p>
-                  </>
+                  <p
+                    key={res.res}
+                    className={`group-open:animate-fadeIn mt-3 ${texto || "text-neutral-600"}`}
+                  >
+                    {res.tit && (
+                      <span className="font-bold whitespace-nowrap">
+                        {res.tit}
+                      </span>
+                    )}{" "}
+                    {res.res}
+                  </p>
                 ))}
               </details>
             </div>

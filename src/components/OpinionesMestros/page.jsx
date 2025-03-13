@@ -6,9 +6,7 @@ import { FaPlay } from "react-icons/fa"
 
 export default function OpinionesMestros() {
   const [vidSelected, setVidSelected] = useState(data[0].id)
-  useEffect(() => {
-    console.log(vidSelected.id)
-  }, [vidSelected])
+
   return (
     <div className="relative w-full flex flex-col items-center justify-center pt-10 sm:pb-20 overflow-hidden">
       <div className="relative w-[100px] sm:w-[180px] aspect-square block lg:hidden">
@@ -26,15 +24,17 @@ export default function OpinionesMestros() {
         {data.map((item) => {
           const sel = vidSelected === item.id
           return sel ? (
-            <div className="w-full flex flex-col items-center">
+            <div key={item.id} className="w-full flex flex-col items-center">
               <div className="w-full px-12 sm:px-24 md:px-32 flex justify-between -mb-1">
-                {[...Array(2)].map(() => (
-                  <div className="w-5/12 h-[30px] sm:h-[45px] lg:h-[65px] bg-amarilloLR rounded-t-[5px] sm:rounded-t-[10px]"></div>
+                {[...Array(2)].map((e, i) => (
+                  <div
+                    key={`item${i}`}
+                    className="w-5/12 h-[30px] sm:h-[45px] lg:h-[65px] bg-amarilloLR rounded-t-[5px] sm:rounded-t-[10px]"
+                  ></div>
                 ))}
               </div>
               <div className="w-11/12 justify-center items-center rounded-t-xl sm:rounded-t-[10px] bg-amarilloLR p-3 sm:p-5">
                 <video
-                  key={item.id}
                   className={`rounded-lg sm:rounded-t-xl w-full`}
                   controls
                   src={item.src}

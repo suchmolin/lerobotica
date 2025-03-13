@@ -25,7 +25,6 @@ export const OpenModalProvider = ({ children }) => {
     } else {
       setOpenRobotsMsg(true)
     }
-    console.log(robotsCount)
   }
 
   return (

@@ -55,7 +55,7 @@ export default function NuestrosSetsMovil({ data }) {
                     </h2>
                     <ul className="list-disc pl-5 mb-5">
                       {item.descripcion.map((parrafo, i) => (
-                        <li key={i} className="text-xl">
+                        <li key={parrafo} className="text-xl">
                           {parrafo}
                         </li>
                       ))}
@@ -65,7 +65,7 @@ export default function NuestrosSetsMovil({ data }) {
                     </h2>
                     {item.habilidades.map((habilidad, i) => (
                       <div
-                        key={i}
+                        key={habilidad}
                         className="flex flex-col lg:flex-row gap-4 items-center mb-2"
                       >
                         <div className="w-[50px] aspect-square relative flex justify-center items-center p-2">

@@ -43,10 +43,13 @@ export default function NuestrosCursosHome() {
             Nuestros cursos
           </h2>
           <div className="w-full flex gap-10 justify-center flex-wrap">
-            {data.map((curso, i) => (
-              <div key={i} className="card w-[270px] xs:w-[330px]  h-[420px] ">
-                <CardCursos key={curso.id} data={curso} />
-                <CardCursosBack key={curso.id} data={curso} />
+            {data.map((curso) => (
+              <div
+                key={curso.id}
+                className="card w-[270px] xs:w-[330px]  h-[420px] "
+              >
+                <CardCursos data={curso} />
+                <CardCursosBack data={curso} />
               </div>
             ))}
           </div>
